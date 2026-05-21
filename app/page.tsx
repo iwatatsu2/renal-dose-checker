@@ -39,27 +39,27 @@ export default function Home() {
   }, [drugs, query, activeGroup]);
 
   return (
-    <div className="flex flex-col min-h-full">
+    <div className="flex flex-col min-h-full bg-gray-900 text-gray-100">
       {/* Header */}
-      <header className="bg-blue-800 text-white px-4 py-3 sticky top-0 z-10 shadow-md">
+      <header className="bg-gray-800 text-white px-4 py-3 sticky top-0 z-10 shadow-md border-b border-gray-700">
         <h1 className="text-lg font-bold">腎機能別 薬剤用量検索</h1>
-        <p className="text-blue-200 text-xs mt-0.5">
+        <p className="text-gray-400 text-xs mt-0.5">
           PMDA添付文書から腎機能別の用法用量をすばやく確認
         </p>
       </header>
 
       {/* Search */}
-      <div className="sticky top-[52px] z-10 bg-gray-50 px-4 pt-3 pb-2 shadow-sm">
+      <div className="sticky top-[52px] z-10 bg-gray-900 px-4 pt-3 pb-2 shadow-sm border-b border-gray-800">
         <div className="relative">
           <input
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder="薬剤名で検索（例：アムロジピン）"
-            className="w-full px-4 py-3 pl-10 rounded-lg border border-gray-300 bg-white text-base focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+            className="w-full px-4 py-3 pl-10 rounded-lg border border-gray-600 bg-gray-800 text-gray-100 text-base placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
           />
           <svg
-            className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400"
+            className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-500"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -74,7 +74,7 @@ export default function Home() {
           {query && (
             <button
               onClick={() => setQuery("")}
-              className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600"
+              className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500 hover:text-gray-300"
             >
               ✕
             </button>
@@ -89,8 +89,8 @@ export default function Home() {
               onClick={() => setActiveGroup(g)}
               className={`flex-shrink-0 px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
                 activeGroup === g
-                  ? "bg-blue-800 text-white"
-                  : "bg-white text-gray-600 border border-gray-300 hover:bg-gray-100"
+                  ? "bg-blue-600 text-white"
+                  : "bg-gray-800 text-gray-400 border border-gray-600 hover:bg-gray-700"
               }`}
             >
               {g}
@@ -111,12 +111,12 @@ export default function Home() {
                 href={drug.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-between px-3 py-2.5 bg-white rounded-lg border border-gray-200 hover:border-blue-300 hover:bg-blue-50 transition-colors active:bg-blue-100"
+                className="flex items-center justify-between px-3 py-2.5 bg-gray-800 rounded-lg border border-gray-700 hover:border-blue-500 hover:bg-gray-750 transition-colors active:bg-gray-700"
               >
-                <span className="text-sm leading-snug flex-1">
+                <span className="text-sm leading-snug flex-1 text-gray-200">
                   {drug.name}
                 </span>
-                <span className="text-xs text-blue-600 ml-2 flex-shrink-0">
+                <span className="text-xs text-blue-400 ml-2 flex-shrink-0">
                   添付文書 →
                 </span>
               </a>
@@ -124,7 +124,7 @@ export default function Home() {
           ))}
         </ul>
         {filtered.length === 0 && (
-          <div className="text-center py-12 text-gray-400">
+          <div className="text-center py-12 text-gray-500">
             <p className="text-lg">該当する薬剤が見つかりません</p>
             <p className="text-sm mt-1">検索条件を変更してください</p>
           </div>
@@ -132,25 +132,25 @@ export default function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-white border-t border-gray-200 px-4 py-4 mt-4">
-        <div className="space-y-3 text-xs text-gray-500">
+      <footer className="bg-gray-800 border-t border-gray-700 px-4 py-4 mt-4">
+        <div className="space-y-3 text-xs text-gray-400">
           <button
             onClick={() => setShowDisclaimer(!showDisclaimer)}
-            className="font-semibold text-gray-700 hover:text-blue-700 flex items-center gap-1"
+            className="font-semibold text-gray-300 hover:text-blue-400 flex items-center gap-1"
           >
             <span>{showDisclaimer ? "▼" : "▶"}</span>
             免責事項・データソース
           </button>
           {showDisclaimer && (
             <div className="space-y-3">
-              <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 space-y-2">
-                <p className="font-semibold text-gray-700">免責事項</p>
+              <div className="bg-yellow-900/30 border border-yellow-700/50 rounded-lg p-3 space-y-2">
+                <p className="font-semibold text-gray-200">免責事項</p>
                 <p>
                   本アプリは、医療従事者が腎機能に応じた薬剤投与量を迅速に参照するための補助ツールです。
                 </p>
                 <p>
                   薬剤名タップ時はPMDA（医薬品医療機器総合機構）の添付文書検索へ遷移します。
-                  <strong>
+                  <strong className="text-gray-200">
                     情報の正確性・完全性を保証するものではありません。
                   </strong>
                 </p>
@@ -159,15 +159,15 @@ export default function Home() {
                   本アプリの利用により生じたいかなる損害についても、開発者は責任を負いかねます。
                 </p>
               </div>
-              <div className="bg-gray-50 border border-gray-200 rounded-lg p-3 space-y-2">
-                <p className="font-semibold text-gray-700">データソース</p>
+              <div className="bg-gray-900 border border-gray-700 rounded-lg p-3 space-y-2">
+                <p className="font-semibold text-gray-200">データソース</p>
                 <p>
                   添付文書情報：
                   <a
                     href="https://www.pmda.go.jp/PmdaSearch/iyakuSearch/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-blue-600 underline"
+                    className="text-blue-400 underline"
                   >
                     PMDA 医薬品医療機器総合機構 添付文書等情報検索
                   </a>
@@ -183,7 +183,7 @@ export default function Home() {
             </div>
           )}
 
-          <p className="text-center text-gray-400 pt-2">
+          <p className="text-center text-gray-500 pt-2">
             最終データ更新日: 2025年5月
           </p>
         </div>

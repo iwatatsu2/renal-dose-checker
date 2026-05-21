@@ -1,65 +1,226 @@
-import Image from "next/image";
+"use client";
+
+import { useState, useMemo } from "react";
+import drugsData from "../data/drugs.json";
+
+type Drug = { name: string; url: string; group: string };
+
+const KANA_GROUPS = [
+  "全て",
+  "ア行",
+  "カ行",
+  "サ行",
+  "タ行",
+  "ナ行",
+  "ハ行",
+  "マ行",
+  "ヤ行",
+  "ラ行",
+  "ワ行",
+];
 
 export default function Home() {
+  const [query, setQuery] = useState("");
+  const [activeGroup, setActiveGroup] = useState("全て");
+  const [showDisclaimer, setShowDisclaimer] = useState(false);
+  const [showReferences, setShowReferences] = useState(false);
+
+  const drugs = drugsData as Drug[];
+
+  const filtered = useMemo(() => {
+    let result = drugs;
+    if (activeGroup !== "全て") {
+      result = result.filter((d) => d.group === activeGroup);
+    }
+    if (query.trim()) {
+      const q = query.trim().toLowerCase();
+      result = result.filter((d) => d.name.toLowerCase().includes(q));
+    }
+    return result;
+  }, [drugs, query, activeGroup]);
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
+    <div className="flex flex-col min-h-full">
+      {/* Header */}
+      <header className="bg-blue-800 text-white px-4 py-3 sticky top-0 z-10 shadow-md">
+        <h1 className="text-lg font-bold">腎機能別 薬剤用量検索</h1>
+        <p className="text-blue-200 text-xs mt-0.5">
+          CKD患者への投与量調節ガイド
+        </p>
+      </header>
+
+      {/* Search */}
+      <div className="sticky top-[52px] z-10 bg-gray-50 px-4 pt-3 pb-2 shadow-sm">
+        <div className="relative">
+          <input
+            type="text"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            placeholder="薬剤名で検索（例：アムロジピン）"
+            className="w-full px-4 py-3 pl-10 rounded-lg border border-gray-300 bg-white text-base focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+          />
+          <svg
+            className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+            />
+          </svg>
+          {query && (
+            <button
+              onClick={() => setQuery("")}
+              className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600"
             >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
+              ✕
+            </button>
+          )}
+        </div>
+
+        {/* 50音 Filter */}
+        <div className="flex gap-1 mt-2 overflow-x-auto pb-1 -mx-1 px-1">
+          {KANA_GROUPS.map((g) => (
+            <button
+              key={g}
+              onClick={() => setActiveGroup(g)}
+              className={`flex-shrink-0 px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
+                activeGroup === g
+                  ? "bg-blue-800 text-white"
+                  : "bg-white text-gray-600 border border-gray-300 hover:bg-gray-100"
+              }`}
             >
-              Learning
-            </a>{" "}
-            center.
+              {g}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      {/* Results */}
+      <main className="flex-1 px-4 py-2">
+        <p className="text-xs text-gray-500 mb-2">
+          {filtered.length} 件の薬剤
+        </p>
+        <ul className="space-y-1">
+          {filtered.map((drug, i) => (
+            <li key={`${drug.url}-${i}`}>
+              <a
+                href={drug.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block px-3 py-2.5 bg-white rounded-lg border border-gray-200 hover:border-blue-300 hover:bg-blue-50 transition-colors active:bg-blue-100"
+              >
+                <span className="text-sm leading-snug">{drug.name}</span>
+                <span className="text-xs text-blue-600 ml-1">PDF →</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+        {filtered.length === 0 && (
+          <div className="text-center py-12 text-gray-400">
+            <p className="text-lg">該当する薬剤が見つかりません</p>
+            <p className="text-sm mt-1">検索条件を変更してください</p>
+          </div>
+        )}
+      </main>
+
+      {/* Footer */}
+      <footer className="bg-white border-t border-gray-200 px-4 py-4 mt-4">
+        <div className="space-y-3 text-xs text-gray-500">
+          <button
+            onClick={() => setShowDisclaimer(!showDisclaimer)}
+            className="font-semibold text-gray-700 hover:text-blue-700 flex items-center gap-1"
+          >
+            <span>{showDisclaimer ? "▼" : "▶"}</span>
+            免責事項
+          </button>
+          {showDisclaimer && (
+            <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 space-y-2">
+              <p>
+                本アプリは、医療従事者が腎機能に応じた薬剤投与量を迅速に参照するための補助ツールです。
+              </p>
+              <p>
+                掲載情報は白鷺病院CKD薬物療法データベースのPDFを参照していますが、
+                <strong>情報の正確性・完全性を保証するものではありません。</strong>
+              </p>
+              <p>
+                実際の処方にあたっては、必ず最新の添付文書・ガイドライン・各施設の基準に基づいてご判断ください。
+                本アプリの利用により生じたいかなる損害についても、開発者は責任を負いかねます。
+              </p>
+            </div>
+          )}
+
+          <button
+            onClick={() => setShowReferences(!showReferences)}
+            className="font-semibold text-gray-700 hover:text-blue-700 flex items-center gap-1"
+          >
+            <span>{showReferences ? "▼" : "▶"}</span>
+            引用文献・データソース
+          </button>
+          {showReferences && (
+            <div className="bg-gray-50 border border-gray-200 rounded-lg p-3 space-y-2">
+              <p className="font-medium text-gray-700">データ出典：</p>
+              <p>
+                <a
+                  href="https://www.shirasagi-hp.or.jp/goda/fmly/pdf/index.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 underline"
+                >
+                  白鷺病院 CKD（慢性腎臓病）患者への薬剤使用情報データベース
+                </a>
+              </p>
+              <p className="font-medium text-gray-700 mt-2">
+                同データベースが参照する主要文献：
+              </p>
+              <ol className="list-decimal list-inside space-y-1 text-[11px] leading-relaxed">
+                <li>各薬剤添付文書・インタビューフォーム</li>
+                <li>
+                  Aronoff GR, et al: Drug Prescribing in Renal Failure, 5th ed.
+                  ACP, 2007
+                </li>
+                <li>
+                  Bennett WM: Guide to drug dosage in renal failure. Clin
+                  Pharmacokinet 15: 326-354, 1988
+                </li>
+                <li>
+                  Christopher W, et al: Prescribing drugs in kidney disease. In
+                  Brenner &amp; Rector&apos;s The Kidney, 8th ed, 2008
+                </li>
+                <li>
+                  Golper TA, et al: Drug dosage in dialysis patients. In
+                  Replacement of renal function by dialysis, 4th ed, 1995
+                </li>
+                <li>
+                  Larry K. Golightly, et al: Renal Pharmacotherapy. Springer,
+                  2013
+                </li>
+                <li>
+                  乾賢一 他編: 腎機能別薬剤使用マニュアル. じほう, 1999
+                </li>
+              </ol>
+              <p className="text-[11px]">
+                <a
+                  href="https://www.shirasagi-hp.or.jp/goda/fmly/references.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 underline"
+                >
+                  全引用文献一覧を見る →
+                </a>
+              </p>
+            </div>
+          )}
+
+          <p className="text-center text-gray-400 pt-2">
+            最終データ更新日: 2025年5月
           </p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
+      </footer>
     </div>
   );
 }

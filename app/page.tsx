@@ -3,7 +3,7 @@
 import { useState, useMemo } from "react";
 import drugsData from "../data/drugs.json";
 
-type Drug = { name: string; url: string; group: string };
+type Drug = { name: string; primaryName: string; url: string; group: string };
 
 const KANA_GROUPS = [
   "全て",
@@ -23,7 +23,6 @@ export default function Home() {
   const [query, setQuery] = useState("");
   const [activeGroup, setActiveGroup] = useState("全て");
   const [showDisclaimer, setShowDisclaimer] = useState(false);
-  const [showReferences, setShowReferences] = useState(false);
 
   const drugs = drugsData as Drug[];
 
@@ -45,7 +44,7 @@ export default function Home() {
       <header className="bg-blue-800 text-white px-4 py-3 sticky top-0 z-10 shadow-md">
         <h1 className="text-lg font-bold">腎機能別 薬剤用量検索</h1>
         <p className="text-blue-200 text-xs mt-0.5">
-          CKD患者への投与量調節ガイド
+          PMDA添付文書から腎機能別の用法用量をすばやく確認
         </p>
       </header>
 
@@ -107,15 +106,19 @@ export default function Home() {
         </p>
         <ul className="space-y-1">
           {filtered.map((drug, i) => (
-            <li key={`${drug.url}-${i}`}>
+            <li key={`${drug.primaryName}-${i}`}>
               <a
                 href={drug.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block px-3 py-2.5 bg-white rounded-lg border border-gray-200 hover:border-blue-300 hover:bg-blue-50 transition-colors active:bg-blue-100"
+                className="flex items-center justify-between px-3 py-2.5 bg-white rounded-lg border border-gray-200 hover:border-blue-300 hover:bg-blue-50 transition-colors active:bg-blue-100"
               >
-                <span className="text-sm leading-snug">{drug.name}</span>
-                <span className="text-xs text-blue-600 ml-1">PDF →</span>
+                <span className="text-sm leading-snug flex-1">
+                  {drug.name}
+                </span>
+                <span className="text-xs text-blue-600 ml-2 flex-shrink-0">
+                  添付文書 →
+                </span>
               </a>
             </li>
           ))}
@@ -136,83 +139,47 @@ export default function Home() {
             className="font-semibold text-gray-700 hover:text-blue-700 flex items-center gap-1"
           >
             <span>{showDisclaimer ? "▼" : "▶"}</span>
-            免責事項
+            免責事項・データソース
           </button>
           {showDisclaimer && (
-            <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 space-y-2">
-              <p>
-                本アプリは、医療従事者が腎機能に応じた薬剤投与量を迅速に参照するための補助ツールです。
-              </p>
-              <p>
-                掲載情報は白鷺病院CKD薬物療法データベースのPDFを参照していますが、
-                <strong>情報の正確性・完全性を保証するものではありません。</strong>
-              </p>
-              <p>
-                実際の処方にあたっては、必ず最新の添付文書・ガイドライン・各施設の基準に基づいてご判断ください。
-                本アプリの利用により生じたいかなる損害についても、開発者は責任を負いかねます。
-              </p>
-            </div>
-          )}
-
-          <button
-            onClick={() => setShowReferences(!showReferences)}
-            className="font-semibold text-gray-700 hover:text-blue-700 flex items-center gap-1"
-          >
-            <span>{showReferences ? "▼" : "▶"}</span>
-            引用文献・データソース
-          </button>
-          {showReferences && (
-            <div className="bg-gray-50 border border-gray-200 rounded-lg p-3 space-y-2">
-              <p className="font-medium text-gray-700">データ出典：</p>
-              <p>
-                <a
-                  href="https://www.shirasagi-hp.or.jp/goda/fmly/pdf/index.html"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-600 underline"
-                >
-                  白鷺病院 CKD（慢性腎臓病）患者への薬剤使用情報データベース
-                </a>
-              </p>
-              <p className="font-medium text-gray-700 mt-2">
-                同データベースが参照する主要文献：
-              </p>
-              <ol className="list-decimal list-inside space-y-1 text-[11px] leading-relaxed">
-                <li>各薬剤添付文書・インタビューフォーム</li>
-                <li>
-                  Aronoff GR, et al: Drug Prescribing in Renal Failure, 5th ed.
-                  ACP, 2007
-                </li>
-                <li>
-                  Bennett WM: Guide to drug dosage in renal failure. Clin
-                  Pharmacokinet 15: 326-354, 1988
-                </li>
-                <li>
-                  Christopher W, et al: Prescribing drugs in kidney disease. In
-                  Brenner &amp; Rector&apos;s The Kidney, 8th ed, 2008
-                </li>
-                <li>
-                  Golper TA, et al: Drug dosage in dialysis patients. In
-                  Replacement of renal function by dialysis, 4th ed, 1995
-                </li>
-                <li>
-                  Larry K. Golightly, et al: Renal Pharmacotherapy. Springer,
-                  2013
-                </li>
-                <li>
-                  乾賢一 他編: 腎機能別薬剤使用マニュアル. じほう, 1999
-                </li>
-              </ol>
-              <p className="text-[11px]">
-                <a
-                  href="https://www.shirasagi-hp.or.jp/goda/fmly/references.html"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-600 underline"
-                >
-                  全引用文献一覧を見る →
-                </a>
-              </p>
+            <div className="space-y-3">
+              <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 space-y-2">
+                <p className="font-semibold text-gray-700">免責事項</p>
+                <p>
+                  本アプリは、医療従事者が腎機能に応じた薬剤投与量を迅速に参照するための補助ツールです。
+                </p>
+                <p>
+                  薬剤名タップ時はPMDA（医薬品医療機器総合機構）の添付文書検索へ遷移します。
+                  <strong>
+                    情報の正確性・完全性を保証するものではありません。
+                  </strong>
+                </p>
+                <p>
+                  実際の処方にあたっては、必ず最新の添付文書・ガイドライン・各施設の基準に基づいてご判断ください。
+                  本アプリの利用により生じたいかなる損害についても、開発者は責任を負いかねます。
+                </p>
+              </div>
+              <div className="bg-gray-50 border border-gray-200 rounded-lg p-3 space-y-2">
+                <p className="font-semibold text-gray-700">データソース</p>
+                <p>
+                  添付文書情報：
+                  <a
+                    href="https://www.pmda.go.jp/PmdaSearch/iyakuSearch/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-600 underline"
+                  >
+                    PMDA 医薬品医療機器総合機構 添付文書等情報検索
+                  </a>
+                </p>
+                <p className="text-[11px] leading-relaxed">
+                  腎機能別投与量の主要参考文献：Aronoff GR, et al: Drug
+                  Prescribing in Renal Failure, 5th ed. ACP, 2007 / Bennett WM:
+                  Clin Pharmacokinet 15: 326-354, 1988 / 乾賢一 他編:
+                  腎機能別薬剤使用マニュアル, じほう, 1999 / Larry K. Golightly,
+                  et al: Renal Pharmacotherapy, Springer, 2013
+                </p>
+              </div>
             </div>
           )}
 

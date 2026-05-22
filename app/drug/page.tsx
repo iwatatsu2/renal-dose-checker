@@ -95,6 +95,32 @@ function DrugDetailContent() {
           detail={drug.ckd}
         />
 
+        {/* Renal Dosing Table */}
+        {drug.renalDosing && drug.renalDosing.length > 0 && (
+          <div className="bg-gray-800 rounded-lg border border-gray-700 overflow-hidden mt-4">
+            <div className="px-4 py-2 border-b border-gray-700">
+              <p className="text-xs font-bold text-gray-300">腎機能別 用量調節</p>
+            </div>
+            <div className="divide-y divide-gray-700">
+              {drug.renalDosing.map((tier: { range: string; dose: string; status: string }, i: number) => {
+                const tierColor = {
+                  contraindicated: "border-l-red-500 bg-red-900/20",
+                  reduce: "border-l-yellow-500 bg-yellow-900/20",
+                  caution: "border-l-orange-500 bg-orange-900/20",
+                  normal: "border-l-green-500 bg-green-900/20",
+                  unknown: "border-l-gray-500 bg-gray-900/20",
+                }[tier.status] || "border-l-gray-500 bg-gray-900/20";
+                return (
+                  <div key={i} className={`px-4 py-2.5 border-l-4 ${tierColor}`}>
+                    <p className="text-xs font-medium text-gray-400 mb-0.5">{tier.range}</p>
+                    <p className="text-sm text-gray-200 leading-relaxed">{tier.dose}</p>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        )}
+
         {/* Additional Info */}
         <div className="space-y-1 mt-4">
           {drug.normalDose && (

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function AboutPage() {
@@ -13,12 +14,19 @@ export default function AboutPage() {
 
       <main className="flex-1 px-4 py-6 space-y-6">
         {/* Profile */}
-        <div className="bg-gray-800 rounded-xl border border-gray-700 p-5">
+        <div className="bg-gray-800 rounded-xl border border-gray-700 p-5 flex flex-col items-center text-center">
+          <Image
+            src="/dr-iwatatsu.png"
+            alt="Dr. いわたつ"
+            width={120}
+            height={120}
+            className="rounded-full border-2 border-blue-500/50 mb-4"
+          />
           <h2 className="text-lg font-bold text-gray-100">Dr. いわたつ</h2>
           <p className="text-sm text-blue-400 mt-1">
             糖尿病・内分泌 専門医・指導医
           </p>
-          <p className="text-sm text-gray-400 mt-3 leading-relaxed">
+          <p className="text-sm text-gray-400 mt-3 leading-relaxed text-left">
             糖尿病・内分泌内科の専門医として臨床に従事しながら、医療現場で本当に使えるツールを自ら開発しています。
           </p>
         </div>
@@ -27,25 +35,25 @@ export default function AboutPage() {
         <div className="bg-gray-800 rounded-xl border border-gray-700 p-5 space-y-3">
           <h3 className="text-sm font-bold text-gray-300">開発アプリ</h3>
           <a
-            href="https://insulin-calculator-tau.vercel.app"
+            href="https://driwatatsu.readdy.co"
             target="_blank"
             rel="noopener noreferrer"
             className="block px-3 py-2 rounded-lg bg-gray-900 border border-gray-700 hover:border-blue-500 transition-colors"
           >
-            <p className="text-sm font-medium text-gray-200">InsuCalc</p>
+            <p className="text-sm font-medium text-gray-200">DM Compass</p>
             <p className="text-xs text-gray-400">
-              インスリン量計算ツール
+              病棟で使える糖尿病ツール（公式サイト）
             </p>
           </a>
           <a
-            href="https://t1life.vercel.app"
+            href="https://medapp-market.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="block px-3 py-2 rounded-lg bg-gray-900 border border-gray-700 hover:border-blue-500 transition-colors"
           >
-            <p className="text-sm font-medium text-gray-200">T1Life</p>
+            <p className="text-sm font-medium text-gray-200">医療アプリまとめ</p>
             <p className="text-xs text-gray-400">
-              1型糖尿病の生活サポートアプリ
+              開発した医療ツール一覧
             </p>
           </a>
         </div>
@@ -64,13 +72,22 @@ export default function AboutPage() {
               <span className="text-xs text-gray-400">@dr.iwatatsu</span>
             </a>
             <a
-              href="https://x.com/dr_iwatatsu"
+              href="https://x.com/KenKyu1019799"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 px-3 py-2 rounded-lg bg-gray-900 border border-gray-700 hover:border-blue-500 transition-colors"
             >
               <span className="text-sm text-gray-200">X (Twitter)</span>
-              <span className="text-xs text-gray-400">@dr_iwatatsu</span>
+              <span className="text-xs text-gray-400">@KenKyu1019799</span>
+            </a>
+            <a
+              href="https://slide.antaa.jp/profile/mtzDnleJ6DYJ"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-3 px-3 py-2 rounded-lg bg-gray-900 border border-gray-700 hover:border-blue-500 transition-colors"
+            >
+              <span className="text-sm text-gray-200">antaaスライド</span>
+              <span className="text-xs text-gray-400">医療スライド共有</span>
             </a>
             <a
               href="https://note.com/dr_iwatatsu"

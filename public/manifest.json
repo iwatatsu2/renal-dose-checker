@@ -1,6 +1,6 @@
 {
-  "name": "腎機能別 薬剤用量検索",
-  "short_name": "RenalDose",
+  "name": "KidneyRx | 腎機能別 薬剤用量検索",
+  "short_name": "KidneyRx",
   "description": "CKD患者への投与量調節ガイド",
   "start_url": "/",
   "display": "standalone",

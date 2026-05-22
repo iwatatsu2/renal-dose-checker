@@ -2,9 +2,9 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "腎機能別薬剤用量検索 | RenalDose",
+  title: "KidneyRx | 腎機能別 薬剤用量検索",
   description:
-    "腎機能に応じた薬剤の用法用量をすばやく検索できるツールです。CKD患者への投与量調節の参考にご利用ください。",
+    "腎機能に応じた薬剤の用法用量をすばやく検索。CKD・透析患者への投与量調節を一目で確認。",
   manifest: "/manifest.json",
   icons: {
     icon: [

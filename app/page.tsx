@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import drugsData from "../data/drugs-final.json";
 import DrugList from "./components/DrugList";
@@ -25,7 +26,16 @@ export default function Home() {
     <div className="flex flex-col min-h-full bg-gray-900 text-gray-100">
       {/* Header */}
       <header className="bg-gray-800 text-white px-4 py-3 sticky top-0 z-10 shadow-md border-b border-gray-700">
-        <h1 className="text-lg font-bold">腎機能別 薬剤用量検索</h1>
+        <div className="flex items-center gap-2">
+          <Image
+            src="/icon.svg"
+            alt="KidneyRx"
+            width={32}
+            height={32}
+            className="rounded-lg"
+          />
+          <h1 className="text-lg font-bold">KidneyRx</h1>
+        </div>
 
         {/* Route Tabs */}
         <div className="flex gap-1 mt-2">

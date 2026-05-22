@@ -28,7 +28,7 @@ export default function Home() {
       <header className="bg-gray-800 text-white px-4 py-3 sticky top-0 z-10 shadow-md border-b border-gray-700">
         <div className="flex items-center gap-2">
           <Image
-            src="/icon.svg"
+            src="/icon-192.png"
             alt="KidneyRx"
             width={32}
             height={32}

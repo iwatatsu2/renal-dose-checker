@@ -129,7 +129,7 @@
     "renalDosing": [
       {
         "range": "腎機能低下時",
-        "dose": "減量の必要なし（1,サンフォード感染症治療ガイド）PK への影響はなく減量の必要なし（Iwamoto M, et al: Antimicrob Agents Chemother 53: 1747-52…",
+        "dose": "減量の必要なし（1,サンフォード感染症治療ガイド）PK への影響はなく減量の必要なし（Iwamoto M, et al: Antimicrob Agents Chemother 53: 1747-52, 2009）",
         "status": "normal"
       },
       {
@@ -668,12 +668,12 @@
       {
         "range": "CCr 50〜90",
         "dose": "250~500mg/8~12hr 毎",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "CCr 10〜50",
         "dose": "250~500mg/12~24hr 毎",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "HD（透析）",
@@ -707,7 +707,7 @@
       },
       {
         "range": "HD（透析）",
-        "dose": "重度の腎機能障害のある患者では血中濃度が上昇するおそれがあるため慎重投与（1） アスピリン併用下で， 0.5mg/日から導入し2.5mg/日まで増量されたHD 症例 ［18 か月後にPlt14 万まで…",
+        "dose": "重度の腎機能障害のある患者では血中濃度が上昇するおそれがあるため慎重投与（1） アスピリン併用下で， 0.5mg/日から導入し2.5mg/日まで増量されたHD 症例 ［18 か月後にPlt14 万まで低下したが貧血があり入院後死亡］ （Me…",
         "status": "caution"
       }
     ]
@@ -913,12 +913,12 @@
       {
         "range": "CCr 10〜50",
         "dose": "75mg を 1 日 2 回",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "HD（透析）",
         "dose": "透析後に150mg，または隔日 150mg（1）過量投与により見当識障害， 痙攣などの精神神経症状や顆粒球減少症が腎不全では発症しやすい （U）",
-        "status": "unknown"
+        "status": "reduce"
       }
     ]
   },
@@ -971,8 +971,8 @@
     "genericName": "アジルサルタン Azilsartan",
     "renalDosing": [
       {
-        "range": "CCr <15",
-        "dose": "の患者には使用経験は少ないため",
+        "range": "eGFR <15",
+        "dose": "使用経験は少ないため",
         "status": "unknown"
       },
       {
@@ -1527,14 +1527,14 @@
         "status": "reduce"
       },
       {
-        "range": "CCr <10",
-        "dose": "50% に減量（5）",
-        "status": "reduce"
-      },
-      {
         "range": "CCr ≧50",
         "dose": "減量の必要なし",
         "status": "normal"
+      },
+      {
+        "range": "CCr <10",
+        "dose": "50% に減量（5）",
+        "status": "reduce"
       },
       {
         "range": "HD（透析）",
@@ -1764,7 +1764,7 @@
       {
         "range": "CCr 15〜80",
         "dose": "通常の開始量を下回る低用量（1 回 0.5mg1 日 3 回）からの開始を考慮（1）",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "CCr <15",
@@ -2400,7 +2400,7 @@
       },
       {
         "range": "HD（透析）",
-        "dose": "代謝物による毒性がなければ常用量（5） 推奨用量不明（Roberto P, et al: Intern Emerg Med 2020 PMID: 32986137） データなし（サンフォード感染症治療…",
+        "dose": "代謝物による毒性がなければ常用量（5） 推奨用量不明（Roberto P, et al: Intern Emerg Med 2020 PMID: 32986137） データなし（サンフォード感染症治療ガイド）",
         "status": "normal"
       }
     ]
@@ -2454,8 +2454,8 @@
     "genericName": "エベロリムス everolimus",
     "renalDosing": [
       {
-        "range": "腎機能低下時",
-        "dose": "Ccr 25～178mL/min の範囲では CL/F に有意な影響を及ぼさない（1）",
+        "range": "CCr 25〜178",
+        "dose": "の範囲では CL/F に有意な影響を及ぼさない（1）",
         "status": "unknown"
       },
       {
@@ -2636,7 +2636,7 @@
       },
       {
         "range": "HD（透析）",
-        "dose": "未変化体，活性代謝物（Jonsson A, et al: Eur J Clin Pharmacol 53: 429-35,1998）が腎不全患者では蓄積しやすい（Clin Pharmacokinet …",
+        "dose": "未変化体，活性代謝物（Jonsson A, et al: Eur J Clin Pharmacol 53: 429-35,1998）が腎不全患者では蓄積しやすい（Clin Pharmacokinet 31: 111-9,1996）ため使用を…",
         "status": "unknown"
       }
     ]
@@ -2786,7 +2786,7 @@
       },
       {
         "range": "HD（透析）",
-        "dose": "重篤な腎機能障害のある患者では低血糖を起こすおそれがあるため禁忌（1）活性代謝物にも血糖降下作用がある（Badian M, et al: Drug Metabl Drug Interact 13: 6…",
+        "dose": "重篤な腎機能障害のある患者では低血糖を起こすおそれがあるため禁忌（1）活性代謝物にも血糖降下作用がある（Badian M, et al: Drug Metabl Drug Interact 13: 69-85,1996 PMID: 8902…",
         "status": "contraindicated"
       }
     ]
@@ -2840,54 +2840,49 @@
     "genericName": "アミカシン硫酸塩（AMK） （U） Amikacin Sulfate",
     "renalDosing": [
       {
-        "range": "CCr 60〜79",
+        "range": "eGFR 60〜79",
         "dose": "15mg/kg 24hr 毎",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
-        "range": "CCr 40〜59",
+        "range": "eGFR 70〜79",
         "dose": "12mg/kg 24hr 毎",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
-        "range": "CCr 30〜39",
-        "dose": "15mg/kg 48hr 毎",
-        "status": "unknown"
-      },
-      {
-        "range": "CCr 20〜29",
-        "dose": "12mg/kg 48hr 毎",
-        "status": "unknown"
-      },
-      {
-        "range": "CCr 70〜79",
-        "dose": "12mg/kg 24hr 毎",
-        "status": "unknown"
-      },
-      {
-        "range": "CCr 50〜69",
+        "range": "eGFR 50〜69",
         "dose": "7.5mg/kg 24hr 毎",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
-        "range": "CCr 30〜49",
+        "range": "eGFR 40〜59",
+        "dose": "12mg/kg 24hr 毎",
+        "status": "reduce"
+      },
+      {
+        "range": "eGFR 30〜49",
         "dose": "4mg/kg 24hr 毎",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
-        "range": "CCr 20〜29",
-        "dose": "7.5mg/kg 48hr 毎",
-        "status": "unknown"
+        "range": "eGFR 30〜39",
+        "dose": "15mg/kg 48hr 毎",
+        "status": "reduce"
       },
       {
-        "range": "CCr 10〜19",
-        "dose": "4mg/kg 48hr 毎（抗菌薬 TDM ガイドライン 2016）",
-        "status": "unknown"
+        "range": "eGFR 20〜29",
+        "dose": "12mg/kg 48hr 毎",
+        "status": "reduce"
+      },
+      {
+        "range": "eGFR 10〜19",
+        "dose": "10mg/kg 48hr 毎［原則 5 日以内の使用］ ●低 MIC で中等症以下:",
+        "status": "reduce"
       },
       {
         "range": "HD（透析）",
         "dose": "5～7.5mg/kgHD 後を基本として TDM で調節［2 回目維持量投与予定された HD 前トラフ 10μg/mL 未満として調節］ （抗菌薬 TDM ガイ ドライン 2016）",
-        "status": "unknown"
+        "status": "reduce"
       }
     ]
   },
@@ -3092,7 +3087,7 @@
     "renalDosing": [
       {
         "range": "腎機能低下時",
-        "dose": "減量の必要なし（5）低蛋白，高カロリー食下でうまく活用すれば BUN が下がり血清総蛋白やアルブミンが増加し，透析導入まで の期間の延長が期待できる．しかしアルギニンが全く含まれていないため，本剤を唯…",
+        "dose": "減量の必要なし（5）低蛋白，高カロリー食下でうまく活用すれば BUN が下がり血清総蛋白やアルブミンが増加し，透析導入まで の期間の延長が期待できる．しかしアルギニンが全く含まれていないため，本剤を唯一の窒素源とした場合には代謝性アシドーシ…",
         "status": "normal"
       },
       {
@@ -3187,7 +3182,7 @@
       },
       {
         "range": "HD（透析）",
-        "dose": "減量の必要なし（1, 3, Kungys G, et al: Eur J Clin Pharmacol 59: 291-5, 2003，腎と透析 43:745-51,1997，透析会誌 31:45-5…",
+        "dose": "減量の必要なし（1, 3, Kungys G, et al: Eur J Clin Pharmacol 59: 291-5, 2003，腎と透析 43:745-51,1997，透析会誌 31:45-51,1998） ビソプロロールによる降圧…",
         "status": "normal"
       }
     ]
@@ -3302,12 +3297,12 @@
     "renalDosing": [
       {
         "range": "腎機能低下時",
-        "dose": "腎不全患者の未変化体の投与 24hr 後の Cmin は健常者に比し 4 倍以上高く、投与 7 日目の AUC は健常者に比し、2 倍足らずにな る（Int Clin Psychopharmacol …",
+        "dose": "腎不全患者の未変化体の投与 24hr 後の Cmin は健常者に比し 4 倍以上高く、投与 7 日目の AUC は健常者に比し、2 倍足らずにな る（Int Clin Psychopharmacol 5 Suppl 2: 95-104,19…",
         "status": "unknown"
       },
       {
         "range": "HD（透析）",
-        "dose": "腎不全患者の未変化体の投与24hr 後の Cmin は健常者に比し 4 倍以上高く，投与 7 日目の AUC は健常者に比し，2 倍足らずになる（Int Clin Psychopharmacol 5 …",
+        "dose": "腎不全患者の未変化体の投与24hr 後の Cmin は健常者に比し 4 倍以上高く，投与 7 日目の AUC は健常者に比し，2 倍足らずになる（Int Clin Psychopharmacol 5 Suppl 2: 95-104,1990…",
         "status": "unknown"
       }
     ]
@@ -3459,16 +3454,16 @@
       {
         "range": "CCr 30〜50",
         "dose": "2.5mg を 1 日 1 回［出血リスクが高い場合には 1.5mg］",
-        "status": "unknown"
-      },
-      {
-        "range": "CCr 20〜30",
-        "dose": "1.5mg を 1 日 1 回",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "CCr 30〜49",
         "dose": "1 日 1 回 7.5mg に減量（5）",
+        "status": "reduce"
+      },
+      {
+        "range": "CCr 20〜30",
+        "dose": "1.5mg を 1 日 1 回",
         "status": "reduce"
       },
       {
@@ -3570,7 +3565,7 @@
       {
         "range": "HD（透析）",
         "dose": "VB1 として 30～35mg/日の投与が望ましい（Kidney Int 43: 1319-28, 1993）",
-        "status": "unknown"
+        "status": "reduce"
       }
     ]
   },
@@ -3781,18 +3776,13 @@
     "genericName": "ロキサチジン酢酸エステル塩酸塩（U） Roxatidine Acetate Hydrochloride",
     "renalDosing": [
       {
-        "range": "CCr 10〜50",
-        "dose": "75mg を 1 日 1 回",
-        "status": "unknown"
-      },
-      {
-        "range": "CCr <90",
-        "dose": "75mg 投与間隔 18hr",
+        "range": "CCr <60",
+        "dose": "75mg 投与間隔 24hr",
         "status": "reduce"
       },
       {
-        "range": "CCr <60",
-        "dose": "75mg 投与間隔 24hr",
+        "range": "CCr 10〜50",
+        "dose": "75mg を 1 日 1 回",
         "status": "reduce"
       },
       {
@@ -3803,7 +3793,7 @@
       {
         "range": "HD（透析）",
         "dose": "週 3 回透析後に 75mg（1）過量投与により見当識障害、意識障害、痙攣などの精神神経症状や顆粒球減少症が腎不全では発症しやすい（5）",
-        "status": "unknown"
+        "status": "reduce"
       }
     ]
   },
@@ -3838,7 +3828,7 @@
       {
         "range": "HD（透析）",
         "dose": "抗アルドステロン作用を期待して投与する場合血清カリウム値により 25mg/日まで（5）",
-        "status": "unknown"
+        "status": "reduce"
       }
     ]
   },
@@ -3867,7 +3857,7 @@
       },
       {
         "range": "HD（透析）",
-        "dose": "常用量（5） 統計学的に有意なCL の低下，半減期の延長が認められるが，Vd の変化で説明されるかもしれず，使用に関する影響は小さい（Dahaba AA, et al: Can J Anaesth. …",
+        "dose": "常用量（5） 統計学的に有意なCL の低下，半減期の延長が認められるが，Vd の変化で説明されるかもしれず，使用に関する影響は小さい（Dahaba AA, et al: Can J Anaesth. 2002 PMID: 11927475）",
         "status": "normal"
       }
     ]
@@ -4041,8 +4031,8 @@
     "genericName": "ブリグチニブ Brigatinib",
     "renalDosing": [
       {
-        "range": "CCr <30",
-        "dose": "では50%に減量を提案（Gupta N",
+        "range": "eGFR <30",
+        "dose": "AUC1.92 倍のため減量考慮",
         "status": "reduce"
       },
       {
@@ -4258,7 +4248,7 @@
       },
       {
         "range": "HD（透析）",
-        "dose": "設定されていないが，CL/F と腎機能は関連しない（1）PK は通常と変化なく常用量にて適用できた症例（Park JE, et al: Thorac Cancer 2022 PMID: 3519159…",
+        "dose": "設定されていないが，CL/F と腎機能は関連しない（1）PK は通常と変化なく常用量にて適用できた症例（Park JE, et al: Thorac Cancer 2022 PMID: 35191596）",
         "status": "normal"
       }
     ]
@@ -4375,12 +4365,12 @@
       {
         "range": "CCr 10〜50",
         "dose": "1 回 2.5~5mg を 1 日 1~2 回",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "HD（透析）",
         "dose": "1 回 2.5mg を 1 日 1 回（5）",
-        "status": "unknown"
+        "status": "reduce"
       }
     ]
   },
@@ -4671,17 +4661,17 @@
       {
         "range": "CCr 50〜90",
         "dose": "37.5mg/kg を 12hr 毎",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "CCr 10〜50",
         "dose": "37.5mg/kg を 12~24hr 毎",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "HD（透析）",
         "dose": "週 3 回透析後に 25～50mg/kg（1）",
-        "status": "unknown"
+        "status": "reduce"
       }
     ]
   },
@@ -4913,24 +4903,24 @@
     "genericName": "リバーロキサバン Rivaroxaban",
     "renalDosing": [
       {
+        "range": "CCr ≧50",
+        "dose": "15mg 1日1回.",
+        "status": "reduce"
+      },
+      {
         "range": "CCr 30〜49",
-        "dose": "10mg 1日1回に減量．",
+        "dose": "10mg 1日1回に減量.",
         "status": "reduce"
       },
       {
         "range": "CCr 15〜29",
-        "dose": "慎重投与（10mg 1日1回）．",
+        "dose": "慎重投与（10mg 1日1回）.",
         "status": "caution"
       },
       {
         "range": "CCr <15",
         "dose": "禁忌",
         "status": "contraindicated"
-      },
-      {
-        "range": "CCr ≧50",
-        "dose": "15mg 1日1回．",
-        "status": "unknown"
       },
       {
         "range": "HD（透析）",
@@ -4960,7 +4950,7 @@
       {
         "range": "CCr 15〜60",
         "dose": "1 回 1.125~1.875mg/kg/日（JSNP）",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "CCr <10",
@@ -5000,7 +4990,7 @@
     "renalDosing": [
       {
         "range": "腎機能低下時",
-        "dose": "腎障害患者では腎機能正常者における AUC 比で 0.6～0.8 倍に低下するが蛋白結合率低下が原因であり，非結合型薬物の AUC は同 程度であり用量調節の必要なし（1，Bergman AJ, et…",
+        "dose": "腎障害患者では腎機能正常者における AUC 比で 0.6～0.8 倍に低下するが蛋白結合率低下が原因であり，非結合型薬物の AUC は同 程度であり用量調節の必要なし（1，Bergman AJ, et al: Clin Pharmacoki…",
         "status": "unknown"
       },
       {
@@ -5028,8 +5018,8 @@
     "genericName": "トピロキソスタット Topiroxostat",
     "renalDosing": [
       {
-        "range": "CCr <30",
-        "dose": "）:20mg/日から開始し慎重に増量．肝代謝型だが腎排泄も一部あり",
+        "range": "eGFR <30",
+        "dose": "）:20mg/日から開始し慎重に増量.肝代謝型だが腎排泄も一部あり",
         "status": "caution"
       },
       {
@@ -5087,13 +5077,13 @@
     "genericName": "ビルダグリプチン Vildagliptin",
     "renalDosing": [
       {
-        "range": "CCr <50",
+        "range": "eGFR <50",
         "dose": "50mg 1日1回に減量",
         "status": "reduce"
       },
       {
-        "range": "CCr ≧50",
-        "dose": "常用量（50mg 1日2回）．",
+        "range": "eGFR ≧50",
+        "dose": "常用量（50mg 1日2回）.",
         "status": "normal"
       },
       {
@@ -5122,29 +5112,29 @@
     "genericName": "ラミブジン（U） Lamivudine（3TC）",
     "renalDosing": [
       {
+        "range": "CCr ≧50",
+        "dose": "300mg/日を分 1 または分 2",
+        "status": "reduce"
+      },
+      {
         "range": "CCr 30〜49",
         "dose": "150mg を 1 日 1 回",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "CCr 15〜29",
         "dose": "初回 150mg",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "CCr 5〜14",
         "dose": "初回 150mg",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "CCr <5",
         "dose": "初回 50mg",
-        "status": "unknown"
-      },
-      {
-        "range": "CCr ≧50",
-        "dose": "300mg/日を分 1 または分 2",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "HD（透析）",
@@ -5231,7 +5221,7 @@
     "genericName": "アピキサバン Apixaban",
     "renalDosing": [
       {
-        "range": "CCr 15〜29",
+        "range": "eGFR 15〜29",
         "dose": "2.5mg 1日2回（慎重投与）",
         "status": "caution"
       },
@@ -5263,11 +5253,11 @@
       {
         "range": "CCr 10〜50",
         "dose": "1 回 40~80mg を 1 日 2 回",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "HD（透析）",
-        "dose": "明確な減量基準は設定されていないが，腎排泄性であることと易出血性を避けるため 1 回 40mg を1 日 2 回に減量（5）AM 透析なら HD 日 は 1 日 1 回 HD 後，PM 透析なら 1 …",
+        "dose": "明確な減量基準は設定されていないが，腎排泄性であることと易出血性を避けるため 1 回 40mg を1 日 2 回に減量（5）AM 透析なら HD 日 は 1 日 1 回 HD 後，PM 透析なら 1 日 2 回投与も選択可（5）",
         "status": "contraindicated"
       }
     ]
@@ -5291,8 +5281,8 @@
     "genericName": "セマグルチド（遺伝子組換え） Semaglutide",
     "renalDosing": [
       {
-        "range": "CCr <15",
-        "dose": "）では使用経験が限られており慎重投与．消化器系副作用による脱水・腎機能悪化に注意",
+        "range": "eGFR <15",
+        "dose": "）では使用経験が限られており慎重投与.消化器系副作用による脱水・腎機能悪化に注意",
         "status": "caution"
       },
       {
@@ -5350,7 +5340,7 @@
     "genericName": "オルメサルタン メドキソミル Olmesartan",
     "renalDosing": [
       {
-        "range": "CCr <30",
+        "range": "eGFR <30",
         "dose": "では少量から開始し腎機能・血清Kをモニタリング",
         "status": "unknown"
       },
@@ -5381,17 +5371,17 @@
       {
         "range": "CCr <50",
         "dose": "2.5mg 1日1回",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "CCr ≧50",
-        "dose": "常用量（5mg/日）．",
+        "dose": "常用量（5mg/日）.",
         "status": "normal"
       },
       {
         "range": "HD（透析）",
         "dose": "2.5mg 1日1回．血液透析により一部除去される",
-        "status": "unknown"
+        "status": "reduce"
       }
     ]
   },
@@ -5450,7 +5440,7 @@
       },
       {
         "range": "HD（透析）",
-        "dose": "PK に影響なく，通常用量が適用できる（Badros AZ, et al: Leukemia 27: 1707-14, 2013 PMID: 23364621） MM に対して常用量設定可（Quach…",
+        "dose": "PK に影響なく，通常用量が適用できる（Badros AZ, et al: Leukemia 27: 1707-14, 2013 PMID: 23364621） MM に対して常用量設定可（Quach H, et al: Cancer Ch…",
         "status": "normal"
       }
     ]
@@ -5480,7 +5470,7 @@
       },
       {
         "range": "HD（透析）",
-        "dose": "腎障害があっても薬物動態に変化がないため減量の必要なし（Tyrrell CJ, et al: Eur Urol 33: 39-53,1998） 血中濃度評価から用量調節の必要はない（Ito F, et…",
+        "dose": "腎障害があっても薬物動態に変化がないため減量の必要なし（Tyrrell CJ, et al: Eur Urol 33: 39-53,1998） 血中濃度評価から用量調節の必要はない（Ito F, et al: Urol Int 2012 P…",
         "status": "normal"
       }
     ]
@@ -5651,7 +5641,7 @@
       {
         "range": "HD（透析）",
         "dose": "主として腎から排泄されるため蓄積が起こる可能性あり、1 日 5mg でも腎不全患者には多すぎる可能性あり（Eur J Drug Metab",
-        "status": "unknown"
+        "status": "reduce"
       }
     ]
   },
@@ -5710,18 +5700,18 @@
         "status": "unknown"
       },
       {
-        "range": "CCr <10",
-        "dose": "0.5g を 72hr 毎（5）",
-        "status": "unknown"
-      },
-      {
         "range": "CCr ≧50",
         "dose": "1g を 24hr 毎",
         "status": "unknown"
       },
       {
+        "range": "CCr <10",
+        "dose": "0.5g を 72hr 毎（5）",
+        "status": "unknown"
+      },
+      {
         "range": "HD（透析）",
-        "dose": "■内服：減量の必要はない（経口ではほとんど吸収されない）が腸管の炎症が強いと吸収される．その場合，透析患者では排泄が遅延してい るため長期投与する場合には蓄積して聴覚障害を引き起こす可能性があるので要…",
+        "dose": "■内服：減量の必要はない（経口ではほとんど吸収されない）が腸管の炎症が強いと吸収される．その場合，透析患者では排泄が遅延してい るため長期投与する場合には蓄積して聴覚障害を引き起こす可能性があるので要注意（5） ■注射：1 回 0.5g を…",
         "status": "reduce"
       }
     ]
@@ -5861,7 +5851,7 @@
       },
       {
         "range": "HD（透析）",
-        "dose": "0.05%カプサイシン軟膏（基剤はヒルドイド）による下肢血流改善作用が報告されている（新井 薫, 他:日本透析医学会雑誌 43:S776,2010） 徳島裕子, 他: 日病薬誌 38: 289-292…",
+        "dose": "0.05%カプサイシン軟膏（基剤はヒルドイド）による下肢血流改善作用が報告されている（新井 薫, 他:日本透析医学会雑誌 43:S776,2010） 徳島裕子, 他: 日病薬誌 38: 289-292, 2002",
         "status": "unknown"
       }
     ]
@@ -5955,13 +5945,13 @@
     "genericName": "カボザンチニブ リンゴ酸塩 Cabozantinib Malate",
     "renalDosing": [
       {
-        "range": "腎機能低下時",
-        "dose": "体内動態からは減量の必要なし（5）eGFR30 未満：検討されていない（1）AUC が最大 30%高くなるため慎重に適用（Nguyen L, et al: J Clin Pharmacol 2016 …",
-        "status": "normal"
+        "range": "eGFR <30",
+        "dose": "検討されていない（1）AUC が最大 30%高くなるため慎重に適用（Nguyen L",
+        "status": "caution"
       },
       {
         "range": "HD（透析）",
-        "dose": "検討されていない（1）がおそらく減量の必要はない（5） 症例によっては高用量が必要かも知れない（Zimmermann S, et al: Ther Drug Monit 2021 PMID: 3400…",
+        "dose": "検討されていない（1）がおそらく減量の必要はない（5） 症例によっては高用量が必要かも知れない（Zimmermann S, et al: Ther Drug Monit 2021 PMID: 34001696）",
         "status": "reduce"
       }
     ]
@@ -5986,12 +5976,12 @@
     "renalDosing": [
       {
         "range": "腎機能低下時",
-        "dose": "減量の必要なし．便の腸管通過障害により結腸穿孔を引き起こすことがあるので，便秘しやすい患者にはソルビトールなどの適切な 下剤を最初から併用する．ただし硬便がすでにある場合には取り除いてからソルビトール…",
+        "dose": "減量の必要なし．便の腸管通過障害により結腸穿孔を引き起こすことがあるので，便秘しやすい患者にはソルビトールなどの適切な 下剤を最初から併用する．ただし硬便がすでにある場合には取り除いてからソルビトールを投与する（5）",
         "status": "normal"
       },
       {
         "range": "HD（透析）",
-        "dose": "減量の必要なし．ただし，便秘に注意し，下剤を適切に併用（5） 便の腸管通過障害により結腸穿孔を引き起こすことがあるので，便秘しやすい患者にはソルビトールなどの適切な下剤を最初から併用する．硬便がすでに…",
+        "dose": "減量の必要なし．ただし，便秘に注意し，下剤を適切に併用（5） 便の腸管通過障害により結腸穿孔を引き起こすことがあるので，便秘しやすい患者にはソルビトールなどの適切な下剤を最初から併用する．硬便がすでにある場合には 取り除いてからソルビトール…",
         "status": "normal"
       }
     ]
@@ -6381,7 +6371,7 @@
       },
       {
         "range": "HD（透析）",
-        "dose": "吸収されないため減量する必要はない（5）多量の水分と一緒に服用するため溢水傾向にならないように注意するだけでなく，透析患者では 腸管内圧上昇による虚血性大腸炎が起こりやすいので硬結便のある場合には取り…",
+        "dose": "吸収されないため減量する必要はない（5）多量の水分と一緒に服用するため溢水傾向にならないように注意するだけでなく，透析患者では 腸管内圧上昇による虚血性大腸炎が起こりやすいので硬結便のある場合には取り除いてから投与する（5）",
         "status": "reduce"
       }
     ]
@@ -6593,24 +6583,24 @@
     "genericName": "ファモチジン（U） Famotidine",
     "renalDosing": [
       {
-        "range": "CCr 31〜59",
-        "dose": "20mg/日",
-        "status": "unknown"
-      },
-      {
-        "range": "CCr <30",
-        "dose": "10mg/日もしくは 20mg を 2~3 日に 1 回（1）",
-        "status": "unknown"
-      },
-      {
         "range": "CCr ≧60",
         "dose": "減量の必要なし",
         "status": "normal"
       },
       {
+        "range": "CCr 31〜59",
+        "dose": "20mg/日",
+        "status": "reduce"
+      },
+      {
+        "range": "CCr <30",
+        "dose": "10mg/日もしくは 20mg を 2~3 日に 1 回（1）",
+        "status": "reduce"
+      },
+      {
         "range": "HD（透析）",
         "dose": "■内服：透析後 20mg，または 1 日 1 回 10mg（1）■注射：透析後 10mg または1 日 1 回5mg（1）",
-        "status": "unknown"
+        "status": "reduce"
       }
     ]
   },
@@ -6845,22 +6835,22 @@
       {
         "range": "CCr 30〜59",
         "dose": "初日1 回200mg1 日 2 回",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "CCr 15〜29",
         "dose": "初日 1 回 200mg1 日 1 回",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "CCr 5〜14",
         "dose": "初日 1 回 200mg1 日 1 回",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "HD（透析）",
         "dose": "初日：1 回 200mg1 日 1 回，維持量：1 回 200mg2 日に 1 回，HD 後に 200～400mg 追加（1）",
-        "status": "unknown"
+        "status": "reduce"
       }
     ]
   },
@@ -6883,14 +6873,19 @@
     "genericName": "ミガーラスタット塩酸塩 Migalastat Hydrochloride",
     "renalDosing": [
       {
-        "range": "腎機能低下時",
-        "dose": "重度の腎機能障害のある患者では検討されておらず，投与は推奨されない（1）Ccr 30～59： AUC が 1.8 倍，Ccr 15～29： AUC が 4.5 倍（1） 全身クリアランスは腎機能低下に…",
+        "range": "CCr 30〜59",
+        "dose": "AUC が 1.8 倍",
+        "status": "unknown"
+      },
+      {
+        "range": "CCr 15〜29",
+        "dose": "AUC が 4.5 倍（1） 全身クリアランスは腎機能低下により低下する（Johnson FK",
         "status": "unknown"
       },
       {
         "range": "HD（透析）",
         "dose": "検討されていない（1） 1 回 123mg を隔週（Johnson FK, et al: PLoS One 2024 PMID: 39636942）",
-        "status": "unknown"
+        "status": "reduce"
       }
     ]
   },
@@ -6942,14 +6937,19 @@
     "genericName": "ダプトマイシン Daptomycin",
     "renalDosing": [
       {
+        "range": "CCr <30",
+        "dose": "4~6mg/kg 48時間ごとに延長.CPK上昇に注意し定期的にモニタリング",
+        "status": "reduce"
+      },
+      {
         "range": "CCr ≧30",
-        "dose": "常用量（4~6mg/kg 24時間ごと）．",
+        "dose": "常用量（4~6mg/kg 24時間ごと）.",
         "status": "normal"
       },
       {
         "range": "HD（透析）",
         "dose": "4～6mg/kg 48時間ごと（透析日は透析後に投与）．血液透析で約15%除去される",
-        "status": "unknown"
+        "status": "reduce"
       }
     ]
   },
@@ -7001,19 +7001,19 @@
     "genericName": "グリクラジド Gliclazide",
     "renalDosing": [
       {
-        "range": "CCr 30〜60",
-        "dose": "低用量から開始し慎重投与．",
+        "range": "eGFR 30〜60",
+        "dose": "低用量から開始し慎重投与.",
         "status": "caution"
       },
       {
-        "range": "CCr <30",
-        "dose": "原則禁忌（低血糖遷延リスク）．活性代謝物の蓄積に注意",
-        "status": "contraindicated"
+        "range": "eGFR ≧60",
+        "dose": "常用量.",
+        "status": "normal"
       },
       {
-        "range": "CCr ≧60",
-        "dose": "常用量．",
-        "status": "normal"
+        "range": "eGFR <30",
+        "dose": "原則禁忌（低血糖遷延リスク）.活性代謝物の蓄積に注意",
+        "status": "contraindicated"
       },
       {
         "range": "HD（透析）",
@@ -7040,18 +7040,18 @@
     "genericName": "フィネレノン Finerenone",
     "renalDosing": [
       {
-        "range": "CCr 25〜60",
-        "dose": "10mg 1日1回から開始（血清K 4.8未満を確認）．",
-        "status": "unknown"
+        "range": "eGFR 25〜60",
+        "dose": "10mg 1日1回から開始（血清K 4.8未満を確認）.",
+        "status": "reduce"
       },
       {
-        "range": "CCr <25",
-        "dose": "推奨されない．血清K 4.8-5.0:投与開始しない．投与中K 5.5超で中止",
-        "status": "unknown"
+        "range": "eGFR ≧60",
+        "dose": "20mg 1日1回.",
+        "status": "reduce"
       },
       {
-        "range": "CCr ≧60",
-        "dose": "20mg 1日1回．",
+        "range": "eGFR <25",
+        "dose": "推奨されない.血清K 4.8-5.0:投与開始しない.投与中K 5.5超で中止",
         "status": "unknown"
       },
       {
@@ -7079,14 +7079,19 @@
     "genericName": "コルヒチン Colchicine",
     "renalDosing": [
       {
-        "range": "CCr 10〜30",
-        "dose": "0.5mg/日に減量し慎重投与．",
+        "range": "eGFR 10〜30",
+        "dose": "0.5mg/日に減量し慎重投与.",
         "status": "reduce"
       },
       {
-        "range": "CCr ≧30",
-        "dose": "常用量（0.5mg 1日1~2回）可能だが注意．",
+        "range": "eGFR ≧30",
+        "dose": "常用量（0.5mg 1日1~2回）可能だが注意.",
         "status": "normal"
+      },
+      {
+        "range": "eGFR <10",
+        "dose": "原則使用回避.P-gp・CYP3A4阻害薬との併用で毒性増強に特に注意",
+        "status": "caution"
       },
       {
         "range": "HD（透析）",
@@ -7146,22 +7151,22 @@
       {
         "range": "CCr 10〜50",
         "dose": "250mg を12~24hr おき",
-        "status": "unknown"
-      },
-      {
-        "range": "CCr <10",
-        "dose": "250mg を 24hr 毎（3）",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "CCr ≧50",
         "dose": "250mg を 12hr 毎",
-        "status": "unknown"
+        "status": "reduce"
+      },
+      {
+        "range": "CCr <10",
+        "dose": "250mg を 24hr 毎（3）",
+        "status": "reduce"
       },
       {
         "range": "HD（透析）",
         "dose": "250mg を24hr 毎（12）",
-        "status": "unknown"
+        "status": "reduce"
       }
     ]
   },
@@ -7239,9 +7244,9 @@
     "genericName": "アブロシチニブ Abrocitinib",
     "renalDosing": [
       {
-        "range": "CCr 30〜60",
+        "range": "eGFR 30〜60",
         "dose": "未満:50mg/日で最大 100mg",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "HD（透析）",
@@ -7569,9 +7574,14 @@
     "genericName": "ビガバトリン Vigabatrin（VGB）",
     "renalDosing": [
       {
-        "range": "腎機能低下時",
-        "dose": "腎機能障害患者では低用量で反応する可能性があるため，低用量からの投与開始，又は投与間隔の調節を考慮（1） 腎機能正常者に比べ，Ccr 40～79mL/min の患者の AUC は約 1.5 倍，Ccr…",
-        "status": "reduce"
+        "range": "CCr 40〜79",
+        "dose": "の患者の AUC は約 1.5 倍",
+        "status": "unknown"
+      },
+      {
+        "range": "CCr 10〜39",
+        "dose": "の患者の AUC は約 2.5 倍（1）",
+        "status": "unknown"
       },
       {
         "range": "HD（透析）",
@@ -7866,22 +7876,22 @@
       {
         "range": "CCr 50〜90",
         "dose": "250~500mg を 8hr 毎",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "CCr 10〜50",
         "dose": "250~500mg を 8~12hr 毎",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "CCr <10",
         "dose": "250~ 500mg を 24hr 毎（サンフォード感染症治療ガイド",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "HD（透析）",
         "dose": "通常 500mg/日［1 日 2 回］ただし，安全性は高いので必要に応じ増量も可（5）",
-        "status": "unknown"
+        "status": "reduce"
       }
     ]
   },
@@ -7940,8 +7950,8 @@
       },
       {
         "range": "HD（透析）",
-        "dose": "腎不全患者では蛋白結合率低下に伴う非腎クリアランスの上昇が認められるため（Conte JE Jr: Antimicrob Agents Chemother 31: 1585-1588,1987）ほとん…",
-        "status": "unknown"
+        "dose": "腎不全患者では蛋白結合率低下に伴う非腎クリアランスの上昇が認められるため（Conte JE Jr: Antimicrob Agents Chemother 31: 1585-1588,1987）ほとんど減量する必要はないと考えられる（5）",
+        "status": "reduce"
       }
     ]
   },
@@ -8057,12 +8067,12 @@
       {
         "range": "CCr 10〜50",
         "dose": "25~50mg を 1 日 1~2 回",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "HD（透析）",
         "dose": "25mg を 1 日おき投与から開始（上野和行, 他: Pharma Med 21: 165-71, 2003）",
-        "status": "unknown"
+        "status": "reduce"
       }
     ]
   },
@@ -8140,8 +8150,8 @@
     "genericName": "エベロリムス everolimus",
     "renalDosing": [
       {
-        "range": "腎機能低下時",
-        "dose": "腎移植例での Ccr 11～107mL/min の範囲では薬物動態に影響しない（1）併用するシクロスポリンの腎毒性を増強するおそれがあ るため注意［CyA を減量する］ （1）",
+        "range": "CCr 11〜107",
+        "dose": "の範囲では薬物動態に影響しない（1）併用するシクロスポリンの腎毒性を増強するおそれがあ るため注意［CyA を減量する］ （1）",
         "status": "normal"
       },
       {
@@ -8201,12 +8211,12 @@
     "renalDosing": [
       {
         "range": "腎機能低下時",
-        "dose": "減量の必要なし（1,12,抗 HIV 治療ガイドライン, サンフォード感染症治療ガイド, Izzedine H, et al: Nephron 89: 62-7, 2001 PMID: 1152823…",
+        "dose": "減量の必要なし（1,12,抗 HIV 治療ガイドライン, サンフォード感染症治療ガイド, Izzedine H, et al: Nephron 89: 62-7, 2001 PMID: 11528234）",
         "status": "normal"
       },
       {
         "range": "HD（透析）",
-        "dose": "減量の必要なし（12, HIV 感染患者透析医療ガイドライン 2010, サンフォード感染症治療ガイド, Izzedine H, et al: Nephron 89: 62-7, 2001 PMID:…",
+        "dose": "減量の必要なし（12, HIV 感染患者透析医療ガイドライン 2010, サンフォード感染症治療ガイド, Izzedine H, et al: Nephron 89: 62-7, 2001 PMID: 11528234）",
         "status": "normal"
       }
     ]
@@ -8232,17 +8242,17 @@
       {
         "range": "CCr 50〜79",
         "dose": "2.5mg1 日 1 回",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "CCr 30〜49",
         "dose": "2.5mg を 2 日に 1 回",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "CCr 10〜29",
         "dose": "2.5mg を週に 2 回［3~4 日に 1 回）",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "CCr <10",
@@ -8312,7 +8322,7 @@
       },
       {
         "range": "HD（透析）",
-        "dose": "600mg×2/日で開始し，血小板数のモニターの上，必要時 600mg/日に減量（5） 腎機能低下によっても AUC の増大，t1/2 の延長は大きくないため減量の必要はない（1）透析により 30%除…",
+        "dose": "600mg×2/日で開始し，血小板数のモニターの上，必要時 600mg/日に減量（5） 腎機能低下によっても AUC の増大，t1/2 の延長は大きくないため減量の必要はない（1）透析により 30%除去されるため透析日には透析後に投与する．…",
         "status": "reduce"
       }
     ]
@@ -8361,14 +8371,14 @@
     "genericName": "アロプリノール（U） Allopurinol",
     "renalDosing": [
       {
-        "range": "腎機能低下時",
-        "dose": "GFR 30mL/min/1.73m^2 以下では 50mg/日以下の投与が安全（日本腎臓学会: CKD 診療ガイド 2012）",
-        "status": "unknown"
+        "range": "CCr <30",
+        "dose": "では 50mg/日以下の投与が安全（日本腎臓学会: CKD 診療ガイド 2012）",
+        "status": "reduce"
       },
       {
         "range": "HD（透析）",
         "dose": "1 日 1 回 50mg または HD 後に 1 回 100mg×週 2～3 回（5）",
-        "status": "unknown"
+        "status": "reduce"
       }
     ]
   },
@@ -8568,27 +8578,17 @@
       {
         "range": "CCr 30〜50",
         "dose": "1 回 750mg を1 日 3 回",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "CCr 15〜29",
         "dose": "1 回375mg を 1 日 3 回",
-        "status": "unknown"
-      },
-      {
-        "range": "CCr 30〜50",
-        "dose": "1 回 1500mg を 1 日 3 回",
-        "status": "unknown"
-      },
-      {
-        "range": "CCr 15〜29",
-        "dose": "1 回 750mg を 1 日3 回",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "HD（透析）",
-        "dose": "■膀胱炎，腎盂腎炎，腹膜炎，腹腔内膿瘍，胆嚢炎，肝膿瘍：初回 750mg（0.5V） ，2 回目以降 1 回150mg（0.1V）を1 日 3 回8hr 毎（1） ■敗血症，肺炎：初回 2.25g，2…",
-        "status": "unknown"
+        "dose": "■膀胱炎，腎盂腎炎，腹膜炎，腹腔内膿瘍，胆嚢炎，肝膿瘍：初回 750mg（0.5V） ，2 回目以降 1 回150mg（0.1V）を1 日 3 回8hr 毎（1） ■敗血症，肺炎：初回 2.25g，2 回目以降 1 回 450mg を 1 …",
+        "status": "reduce"
       }
     ]
   },
@@ -8651,14 +8651,19 @@
     "genericName": "トレラグリプチンコハク酸塩 trelagliptin succinate",
     "renalDosing": [
       {
-        "range": "腎機能低下時",
-        "dose": "Ccr 30～49mL/min：50mg 週 1 回［AUC が 2 倍になるため］ ，Ccr 30mL/min 未満：25mg 週 1 回［AUC が 3 倍になるため］ （1）",
-        "status": "unknown"
+        "range": "CCr 30〜49",
+        "dose": "50mg 週 1 回［AUC が 2 倍になるため］",
+        "status": "reduce"
+      },
+      {
+        "range": "CCr <30",
+        "dose": "25mg 週 1 回［AUC が 3 倍になるため］ （1）",
+        "status": "reduce"
       },
       {
         "range": "HD（透析）",
         "dose": "25mg 週 1 回（1）",
-        "status": "unknown"
+        "status": "reduce"
       }
     ]
   },
@@ -8880,12 +8885,12 @@
     "genericName": "エンパグリフロジン Empagliflozin",
     "renalDosing": [
       {
-        "range": "CCr <45",
-        "dose": "では血糖降下作用が減弱するため新規開始は推奨しない．心不全:",
+        "range": "eGFR <45",
+        "dose": "では血糖降下作用が減弱するため新規開始は推奨しない.心不全:",
         "status": "unknown"
       },
       {
-        "range": "CCr ≧20",
+        "range": "eGFR ≧20",
         "dose": "で開始可能（EMPA-KIDNEY",
         "status": "unknown"
       },
@@ -8914,24 +8919,24 @@
     "genericName": "シタグリプチンリン酸塩水和物 Sitagliptin",
     "renalDosing": [
       {
-        "range": "CCr 30〜50",
-        "dose": "25mg 1日1回．",
-        "status": "unknown"
+        "range": "eGFR 30〜50",
+        "dose": "25mg 1日1回.",
+        "status": "reduce"
       },
       {
-        "range": "CCr <30",
-        "dose": "12.5mg 1日1回",
-        "status": "unknown"
-      },
-      {
-        "range": "CCr ≧50",
-        "dose": "常用量（50mg/日）．",
+        "range": "eGFR ≧50",
+        "dose": "常用量（50mg/日）.",
         "status": "normal"
+      },
+      {
+        "range": "eGFR <30",
+        "dose": "12.5mg 1日1回",
+        "status": "reduce"
       },
       {
         "range": "HD（透析）",
         "dose": "12.5mg 1日1回．血液透析により一部除去される",
-        "status": "unknown"
+        "status": "reduce"
       }
     ]
   },
@@ -8953,7 +8958,7 @@
     "genericName": "セレコキシブ Celecoxib",
     "renalDosing": [
       {
-        "range": "CCr <30",
+        "range": "eGFR <30",
         "dose": "では使用回避が望ましい",
         "status": "unknown"
       },
@@ -8983,18 +8988,18 @@
     "renalDosing": [
       {
         "range": "CCr 10〜30",
-        "dose": "5~10mg/日に減量（少量から開始）．",
+        "dose": "5~10mg/日に減量（少量から開始）.",
         "status": "reduce"
       },
       {
-        "range": "CCr <10",
-        "dose": "2.5~5mg/日．腎機能・血清Kを定期モニタリング",
-        "status": "unknown"
+        "range": "CCr ≧30",
+        "dose": "常用量（10~20mg/日）.",
+        "status": "normal"
       },
       {
-        "range": "CCr ≧30",
-        "dose": "常用量（10~20mg/日）．",
-        "status": "normal"
+        "range": "CCr <10",
+        "dose": "2.5~5mg/日.腎機能・血清Kを定期モニタリング",
+        "status": "reduce"
       },
       {
         "range": "HD（透析）",
@@ -9022,29 +9027,29 @@
     "genericName": "ラミブジン（U） Lamivudine（LAM）",
     "renalDosing": [
       {
+        "range": "CCr ≧50",
+        "dose": "100mg/日",
+        "status": "reduce"
+      },
+      {
         "range": "CCr 30〜49",
         "dose": "初回 100mg その後 50mg/日",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "CCr 15〜29",
         "dose": "初回 100mg その後 25mg/ 日",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "CCr 5〜14",
         "dose": "初回 35mg その後 15mg",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "CCr <5",
         "dose": "初回 35mg その後 10mg/日（1",
-        "status": "unknown"
-      },
-      {
-        "range": "CCr ≧50",
-        "dose": "100mg/日",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "HD（透析）",
@@ -9074,22 +9079,17 @@
       {
         "range": "CCr 10〜25",
         "dose": "800mg を 1 日 3 回",
-        "status": "unknown"
-      },
-      {
-        "range": "CCr 10〜25",
-        "dose": "200mg を 1 日 3 回",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "CCr <10",
-        "dose": "800mg を 1 日 2 回（1）■単純疱疹:",
-        "status": "unknown"
+        "dose": "800mg を 1 日 2 回（1）■単純疱疹:Ccr>25mL/min:200mg を 1 日 5 回",
+        "status": "reduce"
       },
       {
         "range": "HD（透析）",
-        "dose": "免疫能の低下した患者には原則点滴静注製剤が適応（1）帯状疱疹では体重 55kg 以上のとき 800mg 分 1，体重 40～55kg のとき 600mg 分 1，体重 40kg 未満のとき 400mg…",
-        "status": "unknown"
+        "dose": "免疫能の低下した患者には原則点滴静注製剤が適応（1）帯状疱疹では体重 55kg 以上のとき 800mg 分 1，体重 40～55kg のとき 600mg 分 1，体重 40kg 未満のとき 400mg 分 1［HD 日は HD 後投与］ （…",
+        "status": "reduce"
       }
     ]
   },
@@ -9202,29 +9202,29 @@
     "genericName": "シメチジン（U） Cimetidine",
     "renalDosing": [
       {
+        "range": "CCr ≧50",
+        "dose": "1 回200mg1 日4 回",
+        "status": "reduce"
+      },
+      {
         "range": "CCr 30〜49",
         "dose": "1 回 200mg1 日 3 回",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "CCr 5〜29",
         "dose": "1 回 200mg1 日 2 回",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "CCr <4",
         "dose": "1 回 200mg1 日1 回（1）",
-        "status": "unknown"
-      },
-      {
-        "range": "CCr ≧50",
-        "dose": "1 回200mg1 日4 回",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "HD（透析）",
         "dose": "1 回 200mg1 日 1 回［Ccr 4mL/min 以下］ （1）",
-        "status": "unknown"
+        "status": "reduce"
       }
     ]
   },
@@ -9283,7 +9283,7 @@
       },
       {
         "range": "HD（透析）",
-        "dose": "減量の必要なし（3,12,Janus N, et al: Ann Oncol 2010 PMID: 20118214） 175mg/m^2 が適用できた卵巣癌のHD 患者（Balat O, et al…",
+        "dose": "減量の必要なし（3,12,Janus N, et al: Ann Oncol 2010 PMID: 20118214） 175mg/m^2 が適用できた卵巣癌のHD 患者（Balat O, et al: Eur J Gynaecol Onc…",
         "status": "normal"
       }
     ]
@@ -9368,7 +9368,7 @@
     "renalDosing": [
       {
         "range": "腎機能低下時",
-        "dose": "排泄遅延により血中濃度が上昇することがあるため慎重投与（1）腎障害患者の AUC は，腎機能正常者に比べ 1.3～2.4 倍高い（1） 腎障害患者の AUC は健常人の 2.4 倍（Echizen H…",
+        "dose": "排泄遅延により血中濃度が上昇することがあるため慎重投与（1）腎障害患者の AUC は，腎機能正常者に比べ 1.3～2.4 倍高い（1） 腎障害患者の AUC は健常人の 2.4 倍（Echizen H: Clin Pharmacokinet…",
         "status": "caution"
       },
       {
@@ -9403,7 +9403,7 @@
       },
       {
         "range": "HD（透析）",
-        "dose": "腎外クリランスが 52％低下する（Matzke GR, et al: Antimicrob Agents Chemother 23: 369-373,1983 および Evans WE, ed: Ap…",
+        "dose": "腎外クリランスが 52％低下する（Matzke GR, et al: Antimicrob Agents Chemother 23: 369-373,1983 および Evans WE, ed: Applied Pharmacokineti…",
         "status": "unknown"
       }
     ]
@@ -9639,7 +9639,7 @@
       {
         "range": "CCr <10",
         "dose": "5mg/日（5）",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "CCr ≧10",
@@ -9762,8 +9762,13 @@
     "genericName": "アバコパン Avacopan",
     "renalDosing": [
       {
-        "range": "腎機能低下時",
-        "dose": "腎機能障害はPK に影響はない（1） 腎障害時にも ANCA 関連血管炎治療でのステロイド節約効果は認められたが，最適な併用レジメンの検討が必要（Gabilan C, et al: Rheumatol…",
+        "range": "eGFR <20",
+        "dose": "の ANCA 関連血管炎ではプレドニゾロンよりも腎機能改善度が大きい（Cortazar FB",
+        "status": "unknown"
+      },
+      {
+        "range": "eGFR <15",
+        "dose": "の ANCA 関連血管炎にステロイドおよびシクロホスファミドやリツキシマブと併用して適用し",
         "status": "unknown"
       },
       {
@@ -9914,12 +9919,12 @@
       {
         "range": "CCr >30",
         "dose": "1 回 75mg を 1 日 2 回 5 日間",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "HD（透析）",
-        "dose": "治療も予防も 75mg 服用後2 回の HD 実施まで有効血中濃度を得る（5） PPK 解析によると毎 HD 後に 30mg が予防，治療に最適（Kamal MA, et al: Antimicrob…",
-        "status": "unknown"
+        "dose": "治療も予防も 75mg 服用後2 回の HD 実施まで有効血中濃度を得る（5） PPK 解析によると毎 HD 後に 30mg が予防，治療に最適（Kamal MA, et al: Antimicrob Agents Chemother 20…",
+        "status": "reduce"
       }
     ]
   },
@@ -9944,7 +9949,7 @@
       {
         "range": "腎機能低下時",
         "dose": "低用量［1 回 5mg］から開始（1）",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "HD（透析）",
@@ -9974,12 +9979,12 @@
       {
         "range": "CCr 10〜50",
         "dose": "200mg 分 1",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "HD（透析）",
         "dose": "100mg1 日 1 回であるが，レボフロキサシン錠に準じてよい（5）",
-        "status": "unknown"
+        "status": "reduce"
       }
     ]
   },
@@ -10002,24 +10007,24 @@
     "genericName": "ミロガバリン ベシル酸塩 Mirogabalin Besylate",
     "renalDosing": [
       {
-        "range": "CCr 30〜59",
-        "dose": "1 回量 2.5mg から開始",
-        "status": "unknown"
-      },
-      {
-        "range": "CCr <30",
-        "dose": "1 回量2.5mg1 日 1 回から開始",
-        "status": "unknown"
-      },
-      {
         "range": "CCr ≧60",
         "dose": "常用量で使用できるが",
         "status": "normal"
       },
       {
+        "range": "CCr 30〜59",
+        "dose": "1 回量 2.5mg から開始",
+        "status": "reduce"
+      },
+      {
+        "range": "CCr <30",
+        "dose": "1 回量2.5mg1 日 1 回から開始",
+        "status": "reduce"
+      },
+      {
         "range": "HD（透析）",
-        "dose": "2.5mg1 日 1 回から開始，増量幅 1 回 2.5mg で有効用量は 1 回5mg で最大 7.5mg/日［いずれも 1 日1 回投与］ （1） ESRD 患者で AUC が 5.3 倍に上昇，…",
-        "status": "unknown"
+        "dose": "2.5mg1 日 1 回から開始，増量幅 1 回 2.5mg で有効用量は 1 回5mg で最大 7.5mg/日［いずれも 1 日1 回投与］ （1） ESRD 患者で AUC が 5.3 倍に上昇，初回 5mg の忍容性は低い（Kato …",
+        "status": "reduce"
       }
     ]
   },
@@ -10162,23 +10167,13 @@
     "genericName": "タラゾパリブ トシル酸塩 Talazoparib Tosilate",
     "renalDosing": [
       {
-        "range": "CCr <30",
+        "range": "eGFR <30",
         "dose": "投与を避け",
         "status": "unknown"
       },
       {
-        "range": "CCr ≧30",
+        "range": "eGFR ≧30",
         "dose": "60 未満:開始用量 0.35mg/日 ■乳癌:",
-        "status": "unknown"
-      },
-      {
-        "range": "CCr ≧30",
-        "dose": "60 未満:開始用量 0.75mg/日 血中濃度上昇のおそれがあり",
-        "status": "unknown"
-      },
-      {
-        "range": "CCr ≧30",
-        "dose": "60 未満:減量",
         "status": "reduce"
       },
       {
@@ -10294,12 +10289,12 @@
       {
         "range": "CCr 10〜50",
         "dose": "125~375mg/日",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "HD（透析）",
-        "dose": "眼圧効果目的に 125mg を週 2～3 回［血中濃度上昇による中枢神経症状の報告があるため TDM 実施］ （5） 血中濃度30μg/mLを超えないように週5回に増量して投与で眼圧コントロールが得ら…",
-        "status": "unknown"
+        "dose": "眼圧効果目的に 125mg を週 2～3 回［血中濃度上昇による中枢神経症状の報告があるため TDM 実施］ （5） 血中濃度30μg/mLを超えないように週5回に増量して投与で眼圧コントロールが得られた可能性のあるHD症例 125mg×週…",
+        "status": "reduce"
       }
     ]
   },
@@ -10538,7 +10533,7 @@
       },
       {
         "range": "HD（透析）",
-        "dose": "常用量（3,6,7,10）腎不全患者では生食 20mL に溶解し 30～60 分点滴も可（5） HD 前投与も可（Solli CN, et al: J Antimicrob Chemother 202…",
+        "dose": "常用量（3,6,7,10）腎不全患者では生食 20mL に溶解し 30～60 分点滴も可（5） HD 前投与も可（Solli CN, et al: J Antimicrob Chemother 2023 PMID: 36640129）",
         "status": "normal"
       }
     ]
@@ -10889,8 +10884,8 @@
     "genericName": "デュラグルチド（遺伝子組換え） Dulaglutide",
     "renalDosing": [
       {
-        "range": "CCr <15",
-        "dose": "）では使用経験が限られており慎重投与．消化器系副作用による脱水に注意",
+        "range": "eGFR <15",
+        "dose": "）では使用経験が限られており慎重投与.消化器系副作用による脱水に注意",
         "status": "caution"
       },
       {
@@ -11075,7 +11070,7 @@
       },
       {
         "range": "HD（透析）",
-        "dose": "禁忌（1）重篤な低血糖症例が 4 例報告され［内 3 例が死亡］ ，その 4 例中 3 例は透析患者であり 1 例は腎障害患者であったため，透析患者 には投与禁忌（1）活性を有する代謝物の蓄積が低血糖…",
+        "dose": "禁忌（1）重篤な低血糖症例が 4 例報告され［内 3 例が死亡］ ，その 4 例中 3 例は透析患者であり 1 例は腎障害患者であったため，透析患者 には投与禁忌（1）活性を有する代謝物の蓄積が低血糖の原因と思われる（Inoue T, et…",
         "status": "contraindicated"
       }
     ]
@@ -11111,7 +11106,7 @@
       {
         "range": "HD（透析）",
         "dose": "10～40mg を週 3 回 HD 後（17）",
-        "status": "unknown"
+        "status": "reduce"
       }
     ]
   },
@@ -11254,9 +11249,19 @@
     "genericName": "ヒドロモルフォン塩酸塩 Hydromorphone Hydrochloride",
     "renalDosing": [
       {
+        "range": "CCr 40〜60",
+        "dose": "で AUC2 倍",
+        "status": "unknown"
+      },
+      {
         "range": "CCr 30〜60",
         "dose": "50%に減量",
         "status": "reduce"
+      },
+      {
+        "range": "CCr <30",
+        "dose": "で AUC4 倍［即放性製剤のデータ］ （1）",
+        "status": "unknown"
       },
       {
         "range": "CCr <10",
@@ -11290,7 +11295,7 @@
     "renalDosing": [
       {
         "range": "腎機能低下時",
-        "dose": "低用量から投与を開始（1） 持続静注での全身CL は 50%に低下（Nakatani T, et al: J Palliat Med 2023 PMID: 36579915） 高用量，長期投与では中枢…",
+        "dose": "低用量から投与を開始（1） 持続静注での全身CL は 50%に低下（Nakatani T, et al: J Palliat Med 2023 PMID: 36579915） 高用量，長期投与では中枢症状に関連する可能性があり注意してモニタ…",
         "status": "reduce"
       },
       {
@@ -11319,8 +11324,13 @@
     "genericName": "ヒドロモルフォン塩酸塩 Hydromorphone Hydrochloride",
     "renalDosing": [
       {
-        "range": "腎機能低下時",
-        "dose": "排泄遅延のため低用量から開始（1） 腎機能正常者よりも Ccr 40～60mL/min で AUC2 倍，Ccr 30mL/min 未満で AUC4 倍［即放性製剤］ （1）高用量での消失半減期延長も…",
+        "range": "CCr 40〜60",
+        "dose": "で AUC2 倍",
+        "status": "unknown"
+      },
+      {
+        "range": "CCr <30",
+        "dose": "では消失遅延によりAUC が増大するため投与間隔を延長するなど慎重に適用 （Durnin C",
         "status": "reduce"
       },
       {
@@ -11409,23 +11419,23 @@
     "renalDosing": [
       {
         "range": "CCr 30〜60",
-        "dose": "12.5mg 1日1回．",
-        "status": "unknown"
+        "dose": "12.5mg 1日1回.",
+        "status": "reduce"
+      },
+      {
+        "range": "CCr ≧60",
+        "dose": "常用量（25mg/日）.",
+        "status": "normal"
       },
       {
         "range": "CCr <30",
         "dose": "6.25mg 1日1回",
-        "status": "unknown"
-      },
-      {
-        "range": "CCr ≧60",
-        "dose": "常用量（25mg/日）．",
-        "status": "normal"
+        "status": "reduce"
       },
       {
         "range": "HD（透析）",
         "dose": "6.25mg 1日1回．血液透析では一部除去される",
-        "status": "unknown"
+        "status": "reduce"
       }
     ]
   },
@@ -11484,7 +11494,7 @@
       },
       {
         "range": "HD（透析）",
-        "dose": "データはないが，少量から開始し通常用量まで適用可と思われる．ただし，長期投与ではこの限りではない（5） 銅欠乏による貧血に注意（1） 亜鉛補給に伴う銅欠乏による ESA 低反応性貧血の症例（Munie…",
+        "dose": "データはないが，少量から開始し通常用量まで適用可と思われる．ただし，長期投与ではこの限りではない（5） 銅欠乏による貧血に注意（1） 亜鉛補給に伴う銅欠乏による ESA 低反応性貧血の症例（Munie S, et al: Case Rep …",
         "status": "normal"
       }
     ]
@@ -11910,12 +11920,12 @@
       {
         "range": "CCr 10〜50",
         "dose": "初回 4mg/kg",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "HD（透析）",
         "dose": "Cmax の達成を優先し，初回 4mg/kg，以後透析後に 3～4mg/kg（5）",
-        "status": "unknown"
+        "status": "reduce"
       }
     ]
   },
@@ -11974,7 +11984,7 @@
       },
       {
         "range": "HD（透析）",
-        "dose": "Cmax は上昇するものの、他のパラメーターには変化ないため正常者と同じ（Kroboth PD, et al: Br J Clin Pharmacol 19: 839-842, 1985 PMID: …",
+        "dose": "Cmax は上昇するものの、他のパラメーターには変化ないため正常者と同じ（Kroboth PD, et al: Br J Clin Pharmacol 19: 839-842, 1985 PMID: 2862896）",
         "status": "unknown"
       }
     ]
@@ -12118,13 +12128,13 @@
     "genericName": "レジパスビルアセトン付加物／ソホスブビル Ledipasvir Acetonate／Sofosbuvir",
     "renalDosing": [
       {
-        "range": "CCr <30",
-        "dose": "でも忍容性は高い（Lawitz E",
-        "status": "unknown"
+        "range": "eGFR <30",
+        "dose": "］の患者には禁忌（1）ソホスブビルの活性体 AUC が増大するためである（1） ソホスブビルの full dose 適用は可能と思われる（Sise ME",
+        "status": "contraindicated"
       },
       {
         "range": "HD（透析）",
-        "dose": "禁忌（1）ソホスブビルの活性体 AUC が増大するためである（1） ソホスブビルの full dose 適用は可能と思われる（Sise ME, et al: Nephrol Dial Transpla…",
+        "dose": "禁忌（1）ソホスブビルの活性体 AUC が増大するためである（1） ソホスブビルの full dose 適用は可能と思われる（Sise ME, et al: Nephrol Dial Transplant 2022 PMID: 338483…",
         "status": "contraindicated"
       }
     ]
@@ -12300,7 +12310,7 @@
       {
         "range": "CCr 10〜50",
         "dose": "1 回 100~200mg を 1 日 2~3 回",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "CCr ≧50",
@@ -12310,7 +12320,7 @@
       {
         "range": "HD（透析）",
         "dose": "200～400mg を 1 日 1 回（5）",
-        "status": "unknown"
+        "status": "reduce"
       }
     ]
   },
@@ -12370,8 +12380,8 @@
       },
       {
         "range": "HD（透析）",
-        "dose": "使用は推奨されないが，使用する場合にはT として 5～10mg/kg を 24hr ごと（サンフォード感染症治療ガイド） T として 2.5～5mg/kg を 24hr 毎にiv［HD 日は HD 後…",
-        "status": "unknown"
+        "dose": "使用は推奨されないが，使用する場合にはT として 5～10mg/kg を 24hr ごと（サンフォード感染症治療ガイド） T として 2.5～5mg/kg を 24hr 毎にiv［HD 日は HD 後］ （17）PCP 予防には 1～2 錠…",
+        "status": "reduce"
       }
     ]
   },
@@ -12531,12 +12541,12 @@
       {
         "range": "CCr 10〜50",
         "dose": "100mg を 1 日 1 回",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "HD（透析）",
         "dose": "1 回 100mg を 48hr 毎，効果不十分の場合には1 回 100mg を 24hr 毎［HD 日はHD 後］ （5）",
-        "status": "unknown"
+        "status": "reduce"
       }
     ]
   },
@@ -12661,7 +12671,7 @@
       {
         "range": "HD（透析）",
         "dose": "0.5mg を7 日に 1 回（U）HD 例にはHD 後の空腹時投与（1）",
-        "status": "unknown"
+        "status": "reduce"
       }
     ]
   },
@@ -12684,39 +12694,34 @@
     "genericName": "バルガンシクロビル塩酸塩（U） Valganciclovir Hydrochloride",
     "renalDosing": [
       {
-        "range": "CCr 40〜59",
-        "dose": "450mg を 1 日2 回",
-        "status": "unknown"
-      },
-      {
-        "range": "CCr 25〜39",
-        "dose": "450mg を 1 日 1 回",
-        "status": "unknown"
-      },
-      {
-        "range": "CCr 10〜24",
-        "dose": "450mg を 1 日おき",
-        "status": "unknown"
-      },
-      {
-        "range": "CCr 10〜24",
-        "dose": "では 450mg を週 2 回投与もしくは DS を 125mg1 日 1 回］",
-        "status": "unknown"
-      },
-      {
-        "range": "CCr <10",
-        "dose": "DS 200mg を週 3 回",
-        "status": "unknown"
-      },
-      {
         "range": "CCr ≧60",
         "dose": "減量の必要なし",
         "status": "normal"
       },
       {
+        "range": "CCr 40〜59",
+        "dose": "450mg を 1 日2 回",
+        "status": "reduce"
+      },
+      {
+        "range": "CCr 25〜39",
+        "dose": "450mg を 1 日 1 回",
+        "status": "reduce"
+      },
+      {
+        "range": "CCr 10〜24",
+        "dose": "450mg を 1 日おき",
+        "status": "reduce"
+      },
+      {
+        "range": "CCr <10",
+        "dose": "DS 200mg を週 3 回",
+        "status": "reduce"
+      },
+      {
         "range": "HD（透析）",
         "dose": "450mg/回以下の設定になるので，ガンシクロビルの静脈内投与もしくはドライシロップ剤を選択（1）",
-        "status": "unknown"
+        "status": "reduce"
       }
     ]
   },
@@ -12861,17 +12866,12 @@
       {
         "range": "CCr 10〜50",
         "dose": "1 回1000mg を 12~24hr おき",
-        "status": "unknown"
-      },
-      {
-        "range": "CCr 10〜50",
-        "dose": "1 回 500mg を12hr おき",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "HD（透析）",
         "dose": "体重 60kg 以上の非高齢者にのみ選択し，1 回 500mg を週 3 回 HD 後（5）",
-        "status": "unknown"
+        "status": "reduce"
       }
     ]
   },
@@ -12956,12 +12956,12 @@
       {
         "range": "CCr 10〜50",
         "dose": "1 回 100~200mg を 12~24hr 毎",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "HD（透析）",
         "dose": "1 回 100～200mg を 24hr おきに（5）",
-        "status": "unknown"
+        "status": "reduce"
       }
     ]
   },
@@ -13009,39 +13009,39 @@
     "genericName": "バンコマイシン塩酸塩（VCM） （U） Vancomycin Hydrochloride",
     "renalDosing": [
       {
-        "range": "CCr 90〜120",
+        "range": "eGFR 90〜120",
         "dose": "LD 25mg/kg",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
-        "range": "CCr 80〜90",
+        "range": "eGFR 80〜90",
         "dose": "LD 15mg/kg",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
-        "range": "CCr 60〜80",
+        "range": "eGFR 60〜80",
         "dose": "LD なし",
         "status": "unknown"
       },
       {
-        "range": "CCr 50〜60",
+        "range": "eGFR 50〜60",
         "dose": "LD なし",
         "status": "unknown"
       },
       {
-        "range": "CCr 30〜50",
+        "range": "eGFR 30〜50",
         "dose": "LD なし",
         "status": "unknown"
       },
       {
-        "range": "CCr <30",
+        "range": "eGFR <30",
         "dose": "適応としない（抗菌薬 TDM ガイドライン 2016）",
         "status": "unknown"
       },
       {
         "range": "HD（透析）",
-        "dose": "LD 25mg/kg，MD 10mg/kg［HD 後］ ，HD 前濃度を 15～20mg/L に保てば，直近 24hr の AUC は 400～600mg･hr/L を達成すると見なす． また HD …",
-        "status": "unknown"
+        "dose": "LD 25mg/kg，MD 10mg/kg［HD 後］ ，HD 前濃度を 15～20mg/L に保てば，直近 24hr の AUC は 400～600mg･hr/L を達成すると見なす． また HD 中投与ではそれぞれ 1.5 倍量に設定（…",
+        "status": "reduce"
       }
     ]
   },
@@ -13119,19 +13119,19 @@
     "genericName": "ニルマトレルビル／リトナビル Nirmatrelvir （PF-07321332; NMV）／Ritnavir（RTV）",
     "renalDosing": [
       {
-        "range": "CCr <30",
+        "range": "eGFR <30",
         "dose": "データが得られていないため推奨しない（1） 腎機能障害例へのPK study からの減量提案（Toussi SS",
         "status": "reduce"
       },
       {
-        "range": "CCr ≧30",
-        "dose": "~60 未満:1 回量としてニルマトレビルを 1 錠（150mg）に減量［300 を使用］ （1）",
+        "range": "eGFR ≧30",
+        "dose": "~60 未満:1 回量としてニルマトレビルを 1 錠（150mg）に減量［300 を使用］ （1） eGFR<30:データが得られていないため推奨しない（1） 腎機能障害例へのPK study からの減量提案（Toussi SS",
         "status": "reduce"
       },
       {
         "range": "HD（透析）",
-        "dose": "データが得られていないため推奨しない（1） 腎機能低下時に RTV で代謝を阻害すると消失が延長しやすい可能性あり，その場合は NMV 150mg 単位では調整しにくい可能性があるが，NMV として常…",
-        "status": "reduce"
+        "dose": "データが得られていないため推奨しない（1） 腎機能低下時に RTV で代謝を阻害すると消失が延長しやすい可能性あり，その場合は NMV 150mg 単位では調整しにくい可能性があるが，NMV として常用量の1/4 量への減量が提案されている…",
+        "status": "normal"
       }
     ]
   },
@@ -13156,17 +13156,17 @@
       {
         "range": "CCr <30",
         "dose": "1 回 500mg を 1 日 2 回",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "CCr <20",
         "dose": "1 回 500mg を 1 日 1 回［それぞれ 2000mg/日の適応でも同じ］ （1）",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "HD（透析）",
-        "dose": "週 3 回透析後に 300～500mg 投与［週 2 回 HD の例でも週 3 回投与が選択できると思われる］ （5, 古久保 拓: 日化療会誌 56: 462-6, 2008） 体重 60kg 以上…",
-        "status": "unknown"
+        "dose": "週 3 回透析後に 300～500mg 投与［週 2 回 HD の例でも週 3 回投与が選択できると思われる］ （5, 古久保 拓: 日化療会誌 56: 462-6, 2008） 体重 60kg 以上なら 1 回 500mg（5）",
+        "status": "reduce"
       }
     ]
   },
@@ -13435,7 +13435,7 @@
       },
       {
         "range": "HD（透析）",
-        "dose": "通常用量と同じで文献上では日本の常用量以上を用いている（J Clin Pharmacol 37: 285-90,1997）という報告と投与時間を 2 倍に延長する （3）という報告があり，尿中排泄率デ…",
+        "dose": "通常用量と同じで文献上では日本の常用量以上を用いている（J Clin Pharmacol 37: 285-90,1997）という報告と投与時間を 2 倍に延長する （3）という報告があり，尿中排泄率データの報告によって異なる",
         "status": "normal"
       }
     ]
@@ -13490,12 +13490,12 @@
     "renalDosing": [
       {
         "range": "腎機能低下時",
-        "dose": "カルバートの式：投与量（mg/body）=AUC 目標値×（GFR＋25）によって算出する．目標 AUC は以前に他の抗がん剤が用いら れていず，本剤を初回投与するときには AUC 7mg/mL・mi…",
-        "status": "unknown"
+        "dose": "カルバートの式：投与量（mg/body）=AUC 目標値×（GFR＋25）によって算出する．目標 AUC は以前に他の抗がん剤が用いら れていず，本剤を初回投与するときには AUC 7mg/mL・min を目標に投与設計し，繰り返し投与の時…",
+        "status": "reduce"
       },
       {
         "range": "HD（透析）",
-        "dose": "Calvert 式：推奨投与量=AUC×（GFR＋25）を用いて計算（目標 AUC は別に参照）し，GFR は HD 後投与ならゼロに設定し，非 HD 日 に投与して 12～24hr 後に HD を行…",
+        "dose": "Calvert 式：推奨投与量=AUC×（GFR＋25）を用いて計算（目標 AUC は別に参照）し，GFR は HD 後投与ならゼロに設定し，非 HD 日 に投与して 12～24hr 後に HD を行う（Janus N, et al: An…",
         "status": "unknown"
       }
     ]
@@ -13644,8 +13644,8 @@
     "genericName": "パルナパリンナトリウム Parnaparin Sodium",
     "renalDosing": [
       {
-        "range": "腎機能低下時",
-        "dose": "低分子ヘパリン全般において，Ccr 30 未満では減量を考慮（Camporese G, et al: Vasc Health Risk Manag 2009 PMID: 19851520）",
+        "range": "CCr <30",
+        "dose": "では減量を考慮（Camporese G",
         "status": "reduce"
       },
       {
@@ -13704,7 +13704,12 @@
     "genericName": "ペマフィブラート Pemafibrate",
     "renalDosing": [
       {
-        "range": "CCr <30",
+        "range": "eGFR ≧40",
+        "dose": "の CKD G3 患者でも TG や non",
+        "status": "unknown"
+      },
+      {
+        "range": "eGFR <30",
         "dose": "低用量から投与を開始するか",
         "status": "caution"
       },
@@ -14003,8 +14008,8 @@
     "genericName": "リラグルチド（遺伝子組換え） Liraglutide",
     "renalDosing": [
       {
-        "range": "CCr <15",
-        "dose": "）では使用経験が限られており慎重投与．消化器系副作用による脱水に注意",
+        "range": "eGFR <15",
+        "dose": "）では使用経験が限られており慎重投与.消化器系副作用による脱水に注意",
         "status": "caution"
       },
       {
@@ -14064,7 +14069,7 @@
     "renalDosing": [
       {
         "range": "CCr <10",
-        "dose": "初回1.25mg~2.5mg/日から開始し2~3 週間後に 5mg に増量．QOL が 改善すれば 2.5mg/日に減量（松井 豊",
+        "dose": "初回1.25mg~2.5mg/日から開始し2~3 週間後に 5mg に増量.QOL が 改善すれば 2.5mg/日に減量（松井 豊",
         "status": "reduce"
       },
       {
@@ -14074,7 +14079,7 @@
       },
       {
         "range": "HD（透析）",
-        "dose": "初回1.25mg～2.5mg/日から開始し，2～3 週間後に 5mg に増量．運動耐用能の改善により 2.5mg/日に減量（松井 豊, 他: Pharma Medica 15: 159-70,1997…",
+        "dose": "初回1.25mg～2.5mg/日から開始し，2～3 週間後に 5mg に増量．運動耐用能の改善により 2.5mg/日に減量（松井 豊, 他: Pharma Medica 15: 159-70,1997）",
         "status": "reduce"
       }
     ]
@@ -14127,8 +14132,8 @@
     "genericName": "フェブキソスタット Febuxostat",
     "renalDosing": [
       {
-        "range": "CCr <30",
-        "dose": "）:10mg/日から開始し慎重に増量．肝代謝が主（腎排泄は約50%だが活性代謝物含む）",
+        "range": "eGFR <30",
+        "dose": "）:10mg/日から開始し慎重に増量.肝代謝が主（腎排泄は約50%だが活性代謝物含む）",
         "status": "reduce"
       },
       {
@@ -14156,8 +14161,18 @@
     "genericName": "ダパグリフロジンプロピレングリコール水和物 Dapagliflozin",
     "renalDosing": [
       {
-        "range": "CCr <25",
-        "dose": "では新規開始は推奨しない．用量調節不要",
+        "range": "eGFR <45",
+        "dose": "では血糖降下作用が減弱するため新規開始は推奨しない.CKD・心不全:",
+        "status": "unknown"
+      },
+      {
+        "range": "eGFR <25",
+        "dose": "では新規開始は推奨しない.用量調節不要",
+        "status": "unknown"
+      },
+      {
+        "range": "eGFR ≧25",
+        "dose": "で開始可能（DAPA-CKD試験）.",
         "status": "unknown"
       },
       {
@@ -14223,18 +14238,18 @@
     "renalDosing": [
       {
         "range": "CCr 30〜50",
-        "dose": "110mg 1日2回に減量．",
+        "dose": "110mg 1日2回に減量.",
+        "status": "reduce"
+      },
+      {
+        "range": "CCr ≧50",
+        "dose": "150mg 1日2回（70歳以上は110mg 1日2回も考慮）.",
         "status": "reduce"
       },
       {
         "range": "CCr <30",
         "dose": "禁忌",
         "status": "contraindicated"
-      },
-      {
-        "range": "CCr ≧50",
-        "dose": "150mg 1日2回（70歳以上は110mg 1日2回も考慮）．",
-        "status": "unknown"
       },
       {
         "range": "HD（透析）",
@@ -14291,8 +14306,13 @@
     "genericName": "レムデシビル Remdesivir",
     "renalDosing": [
       {
-        "range": "CCr ≧30",
-        "dose": "常用量．",
+        "range": "eGFR <30",
+        "dose": "添加剤SBECDの蓄積リスクがあり推奨されない.やむを得ず使用する場合はeGFRをモニタリング",
+        "status": "unknown"
+      },
+      {
+        "range": "eGFR ≧30",
+        "dose": "常用量.",
         "status": "normal"
       },
       {
@@ -14413,8 +14433,8 @@
     "genericName": "ジクロフェナクナトリウム Diclofenac",
     "renalDosing": [
       {
-        "range": "CCr <30",
-        "dose": "では使用回避が望ましい．外用（湿布・ゲル）は全身影響が少ない",
+        "range": "eGFR <30",
+        "dose": "では使用回避が望ましい.外用（湿布・ゲル）は全身影響が少ない",
         "status": "unknown"
       },
       {
@@ -14713,8 +14733,8 @@
     "genericName": "ガドペンテト酸メグルミン meglumine gadopentetate",
     "renalDosing": [
       {
-        "range": "腎機能低下時",
-        "dose": "eGFR 30ml/min/1.73m^2 未満（透析症例を含む）の場合には，ガドリニウム造影剤使用後の NSF 発症の危険性が高いとされてお り，非造影 MRI 検査，単純 CT，超音波検査などの検…",
+        "range": "eGFR <30",
+        "dose": "（透析症例を含む）の場合には",
         "status": "unknown"
       },
       {
@@ -14744,13 +14764,13 @@
     "renalDosing": [
       {
         "range": "腎機能低下時",
-        "dose": "25mg もしくは 50mg/日から開始（1）ナイーブ例の投与初期の Hb 濃度上昇は小さい（1） 腎障害は未変化体の PK に大きな影響を与えないと思われる（Lentini S, et al: Ba…",
-        "status": "unknown"
+        "dose": "25mg もしくは 50mg/日から開始（1）ナイーブ例の投与初期の Hb 濃度上昇は小さい（1） 腎障害は未変化体の PK に大きな影響を与えないと思われる（Lentini S, et al: Basic Clin Pharmacol T…",
+        "status": "reduce"
       },
       {
         "range": "HD（透析）",
         "dose": "75mg/日から開始（1）",
-        "status": "unknown"
+        "status": "reduce"
       }
     ]
   },
@@ -14925,12 +14945,12 @@
       {
         "range": "CCr <30",
         "dose": "12.5mg/週（1）",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "HD（透析）",
         "dose": "12.5mg/週（1）",
-        "status": "unknown"
+        "status": "reduce"
       }
     ]
   },
@@ -15191,17 +15211,17 @@
     "genericName": "エサキセレノン Esaxerenone",
     "renalDosing": [
       {
-        "range": "CCr 30〜60",
-        "dose": "）では高K血症に注意し血清Kを定期モニタリング．K 5.0mEq/L超では投与しない",
+        "range": "eGFR 30〜60",
+        "dose": "）では高K血症に注意し血清Kを定期モニタリング.K 5.0mEq/L超では投与しない",
         "status": "contraindicated"
       },
       {
-        "range": "CCr <30",
-        "dose": "禁忌．中等度腎機能障害",
+        "range": "eGFR <30",
+        "dose": "禁忌.中等度腎機能障害",
         "status": "contraindicated"
       },
       {
-        "range": "CCr ≧30",
+        "range": "eGFR ≧30",
         "dose": "常用量（2.5mg 1日1回",
         "status": "normal"
       },
@@ -15290,18 +15310,18 @@
     "genericName": "メトホルミン塩酸塩 Metformin Hydrochloride",
     "renalDosing": [
       {
-        "range": "CCr 30〜45",
-        "dose": "750mg/日を上限として慎重投与．",
-        "status": "caution"
-      },
-      {
-        "range": "CCr 45〜60",
+        "range": "eGFR 45〜60",
         "dose": "リスクとベネフィットを評価し慎重に投与",
         "status": "caution"
       },
       {
-        "range": "CCr <30",
-        "dose": "禁忌．",
+        "range": "eGFR 30〜45",
+        "dose": "750mg/日を上限として慎重投与.",
+        "status": "caution"
+      },
+      {
+        "range": "eGFR <30",
+        "dose": "禁忌.",
         "status": "contraindicated"
       },
       {
@@ -15565,13 +15585,13 @@
     "genericName": "モルヌピラビル Molnupiravir［EIDD-1931］",
     "renalDosing": [
       {
-        "range": "腎機能低下時",
-        "dose": "常用量（減量不要）",
+        "range": "eGFR <30",
+        "dose": "での PK データはない（1） PK からは常用量が適用可能と思われる（5） 腎障害例ではパキロビッドに比べ COVID-19 による死亡や入院の抑制効果は劣っていた（Chu WM",
         "status": "normal"
       },
       {
         "range": "HD（透析）",
-        "dose": "透析例での PK 試験は未実施（1）PK からは常用量が適用可能と思われるが効果は限定的（5） 1 日 2 回投与のうち，HD 日の 1 回は HD 後となるように設定する（5） 救急受診頻度が減少し…",
+        "dose": "透析例での PK 試験は未実施（1）PK からは常用量が適用可能と思われるが効果は限定的（5） 1 日 2 回投与のうち，HD 日の 1 回は HD 後となるように設定する（5） 救急受診頻度が減少し，早期開始にてウイルス消失が早まる（Ch…",
         "status": "normal"
       }
     ]
@@ -15842,12 +15862,12 @@
       {
         "range": "CCr <50",
         "dose": "開始量 20mg",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "CCr <30",
-        "dose": "維持量 20~60mg ■双極性障害:",
-        "status": "unknown"
+        "dose": "維持量 20~60mg ■双極性障害:Ccr<50:開始量 10mg",
+        "status": "reduce"
       },
       {
         "range": "HD（透析）",
@@ -15877,12 +15897,12 @@
       {
         "range": "CCr 10〜50",
         "dose": "150mg を 12~24hr 毎",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "HD（透析）",
-        "dose": "■内服：1 日 75mg 寝る前（1）過量投与により見当識障害、意識障害、痙攣などの精神神経症状や顆粒球減少症が腎不全では発症しやすい （5）■注射：50mg を 24hr 毎［HD 日は HD 後］…",
-        "status": "unknown"
+        "dose": "■内服：1 日 75mg 寝る前（1）過量投与により見当識障害、意識障害、痙攣などの精神神経症状や顆粒球減少症が腎不全では発症しやすい （5）■注射：50mg を 24hr 毎［HD 日は HD 後］ （17）",
+        "status": "reduce"
       }
     ]
   },
@@ -15907,12 +15927,12 @@
       {
         "range": "CCr 10〜50",
         "dose": "0.05~0.1mg を 24hr~48hr 毎",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "HD（透析）",
         "dose": "1 回 0.05mg を週 3～4 回服用（5）",
-        "status": "unknown"
+        "status": "reduce"
       }
     ]
   },
@@ -15990,24 +16010,24 @@
     "genericName": "ペラミビル水和物 Peramivir Hydrate",
     "renalDosing": [
       {
+        "range": "CCr ≧50",
+        "dose": "1 日 1 回 300mg[重症化リスク例600mg]",
+        "status": "reduce"
+      },
+      {
         "range": "CCr 30〜49",
         "dose": "1 日 1 回 100mg[重症化リスク例 200mg]",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "CCr 10〜29",
         "dose": "1 日 1 回 50mg[重症化リスク例100mg]",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
         "range": "CCr <10",
-        "dose": "設定なし．慎重に投与量調節（1）",
+        "dose": "設定なし.慎重に投与量調節（1）",
         "status": "caution"
-      },
-      {
-        "range": "CCr ≧50",
-        "dose": "1 日 1 回 300mg[重症化リスク例600mg]",
-        "status": "unknown"
       },
       {
         "range": "HD（透析）",
@@ -16330,8 +16350,8 @@
     "genericName": "デノスマブ(遺伝子組換え) Denosumab［Genetical Recombination］",
     "renalDosing": [
       {
-        "range": "腎機能低下時",
-        "dose": "重篤な腎障害患者には慎重投与（1）Ccr 30mL/min 未満の患者は臨床試験から除外（1）重度の腎機能障害患者では低 Ca 血症を起 こすおそれが高いため慎重投与（1）",
+        "range": "CCr <30",
+        "dose": "の患者は臨床試験から除外（1）重度の腎機能障害患者では低 Ca 血症を起 こすおそれが高いため慎重投与（1）",
         "status": "caution"
       },
       {
@@ -16360,23 +16380,23 @@
     "renalDosing": [
       {
         "range": "CCr 30〜50",
-        "dose": "または 体重60kg以下 または P-gp阻害薬併用時:30mg 1日1回．",
-        "status": "unknown"
+        "dose": "または 体重60kg以下 または P-gp阻害薬併用時:30mg 1日1回.",
+        "status": "reduce"
+      },
+      {
+        "range": "CCr ≧50",
+        "dose": "・体重60kg超:60mg 1日1回.",
+        "status": "reduce"
       },
       {
         "range": "CCr 15〜29",
-        "dose": "慎重投与（30mg 1日1回）．",
+        "dose": "慎重投与（30mg 1日1回）.",
         "status": "caution"
       },
       {
         "range": "CCr <15",
         "dose": "禁忌",
         "status": "contraindicated"
-      },
-      {
-        "range": "CCr ≧50",
-        "dose": "・体重60kg超:60mg 1日1回．",
-        "status": "unknown"
       },
       {
         "range": "HD（透析）",
@@ -16410,7 +16430,7 @@
       },
       {
         "range": "HD（透析）",
-        "dose": "常用量（11, J Clin Pharmacol 1997 PMID: 9549635, Lins RL, et al: Nephrol Dial Transplant 2003 PMID: 1268…",
+        "dose": "常用量（11, J Clin Pharmacol 1997 PMID: 9549635, Lins RL, et al: Nephrol Dial Transplant 2003 PMID: 12686673）",
         "status": "normal"
       }
     ]
@@ -16464,18 +16484,18 @@
     "renalDosing": [
       {
         "range": "CCr 10〜30",
-        "dose": "2.5~5mg/日に減量．",
+        "dose": "2.5~5mg/日に減量.",
         "status": "reduce"
       },
       {
-        "range": "CCr <10",
-        "dose": "2.5mg/日から開始．腎機能・血清Kを定期モニタリング",
-        "status": "unknown"
+        "range": "CCr ≧30",
+        "dose": "常用量（5~10mg/日）.",
+        "status": "normal"
       },
       {
-        "range": "CCr ≧30",
-        "dose": "常用量（5~10mg/日）．",
-        "status": "normal"
+        "range": "CCr <10",
+        "dose": "2.5mg/日から開始.腎機能・血清Kを定期モニタリング",
+        "status": "reduce"
       },
       {
         "range": "HD（透析）",
@@ -16532,8 +16552,13 @@
     "genericName": "ロキソプロフェンナトリウム水和物 Loxoprofen",
     "renalDosing": [
       {
-        "range": "CCr ≧30",
-        "dose": "短期間であれば使用可能（ただし腎血流低下に注意）．",
+        "range": "eGFR <30",
+        "dose": "原則使用回避.全てのCKDステージで腎機能悪化リスクあり",
+        "status": "unknown"
+      },
+      {
+        "range": "eGFR ≧30",
+        "dose": "短期間であれば使用可能（ただし腎血流低下に注意）.",
         "status": "caution"
       },
       {
@@ -16691,7 +16716,7 @@
       {
         "range": "HD（透析）",
         "dose": "120mg/日以下から開始して血圧，脈拍により必要量を決定（1）",
-        "status": "unknown"
+        "status": "reduce"
       }
     ]
   },
@@ -17086,14 +17111,14 @@
         "status": "reduce"
       },
       {
-        "range": "CCr <10",
-        "dose": "50%に減量（3",
-        "status": "reduce"
-      },
-      {
         "range": "CCr ≧50",
         "dose": "減量の必要なし",
         "status": "normal"
+      },
+      {
+        "range": "CCr <10",
+        "dose": "50%に減量（3",
+        "status": "reduce"
       },
       {
         "range": "HD（透析）",
@@ -17392,7 +17417,7 @@
     "renalDosing": [
       {
         "range": "腎機能低下時",
-        "dose": "腎疾患患者は接種要注意者（1） 破傷風ワクチンの抗体獲得率は腎機能正常者 100%，保存期 CKD55%，血液透析 69%，腎移植後 85%（ただし移植例は抗体価が低い可能性） （Girndt M, …",
+        "dose": "腎疾患患者は接種要注意者（1） 破傷風ワクチンの抗体獲得率は腎機能正常者 100%，保存期 CKD55%，血液透析 69%，腎移植後 85%（ただし移植例は抗体価が低い可能性） （Girndt M, et al: Am J Kidney D…",
         "status": "caution"
       },
       {
@@ -17451,24 +17476,24 @@
     "genericName": "テイコプラニン［TEIC］ Teicoplanin",
     "renalDosing": [
       {
-        "range": "CCr 40〜60",
+        "range": "eGFR 40〜60",
         "dose": "3.3mg/kg を 1 日1 回",
-        "status": "unknown"
+        "status": "reduce"
       },
       {
-        "range": "CCr 10〜40",
+        "range": "eGFR 10〜40",
         "dose": "LD の後",
         "status": "unknown"
       },
       {
-        "range": "CCr <10",
+        "range": "eGFR <10",
         "dose": "初日 2 回",
         "status": "unknown"
       },
       {
         "range": "HD（透析）",
-        "dose": "負荷量16mg/kg（1 回もしくは 2 回に分けて）次いで 8mg/kg/day を 2 回，維持量は 6～8mg/kg を週 2～3 回 HD 後に投与［維持量は400mg を週 2～3 回となる…",
-        "status": "unknown"
+        "dose": "負荷量16mg/kg（1 回もしくは 2 回に分けて）次いで 8mg/kg/day を 2 回，維持量は 6～8mg/kg を週 2～3 回 HD 後に投与［維持量は400mg を週 2～3 回となることが多い］ （5）週 2 回投与ではト…",
+        "status": "reduce"
       }
     ]
   },
@@ -17661,7 +17686,7 @@
     "genericName": "酸化マグネシウム（U） Magnesium Oxide",
     "renalDosing": [
       {
-        "range": "CCr <30",
+        "range": "eGFR <30",
         "dose": "で高Mg に関与するかもしれない（齊藤 昇: 日本老年医学会雑誌 48: 263-270",
         "status": "unknown"
       },

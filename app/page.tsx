@@ -113,9 +113,16 @@ export default function Home() {
             </div>
           )}
 
-          <p className="text-center text-gray-500 pt-2">
-            最終データ更新日: 2025年5月
-          </p>
+          <div className="flex items-center justify-center gap-3 pt-2">
+            <Link
+              href="/about"
+              className="text-blue-400 hover:text-blue-300"
+            >
+              製作者情報
+            </Link>
+            <span className="text-gray-600">|</span>
+            <span className="text-gray-500">最終更新: 2025年5月</span>
+          </div>
         </div>
       </footer>
     </div>

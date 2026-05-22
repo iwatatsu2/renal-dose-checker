@@ -20,7 +20,7 @@ export default function AboutPage() {
             alt="Dr. いわたつ"
             width={120}
             height={120}
-            className="rounded-full border-2 border-blue-500/50 mb-4"
+            className="rounded-full mb-4"
           />
           <h2 className="text-lg font-bold text-gray-100">Dr. いわたつ</h2>
           <p className="text-sm text-blue-400 mt-1">

@@ -1,0 +1,467 @@
+[
+  {
+    "name": "メトグルコ錠，メトホルミン塩酸塩錠 ［内］",
+    "routes": ["oral"],
+    "group": "マ行",
+    "status": {
+      "dialysis": "contraindicated",
+      "ckd": "reduce"
+    },
+    "dialysis": "禁忌．乳酸アシドーシスのリスクが高い．透析患者には使用しない",
+    "ckd": "eGFR 30-45：750mg/日を上限として慎重投与．eGFR 30未満：禁忌．eGFR 45-60：リスクとベネフィットを評価し慎重に投与",
+    "normalDose": "500mg/日より開始，維持量750～1500mg/日（最大2250mg/日）",
+    "usage": "1日2～3回 食後",
+    "features": "ビグアナイド系．肝での糖新生抑制が主作用．腎機能低下時は乳酸アシドーシスのリスクが増大する",
+    "genericName": "メトホルミン塩酸塩 Metformin Hydrochloride"
+  },
+  {
+    "name": "フォシーガ錠 ［内］",
+    "routes": ["oral"],
+    "group": "ハ行",
+    "status": {
+      "dialysis": "contraindicated",
+      "ckd": "caution"
+    },
+    "dialysis": "透析患者には使用しない（効果が期待できない）",
+    "ckd": "糖尿病：eGFR 45未満では血糖降下作用が減弱するため新規開始は推奨しない．CKD・心不全：eGFR 25以上で開始可能（DAPA-CKD試験）．eGFR 25未満では新規開始は推奨しない．用量調節不要",
+    "normalDose": "5mg 1日1回（最大10mg）",
+    "usage": "1日1回",
+    "features": "SGLT2阻害薬．尿糖排泄促進による血糖降下．CKD・心不全への腎保護・心保護効果あり（eGFR 25以上で開始可）",
+    "genericName": "ダパグリフロジンプロピレングリコール水和物 Dapagliflozin"
+  },
+  {
+    "name": "ジャディアンス錠 ［内］",
+    "routes": ["oral"],
+    "group": "サ行",
+    "status": {
+      "dialysis": "contraindicated",
+      "ckd": "caution"
+    },
+    "dialysis": "透析患者には使用しない（効果が期待できない）",
+    "ckd": "糖尿病：eGFR 45未満では血糖降下作用が減弱するため新規開始は推奨しない．心不全：eGFR 20以上で開始可能（EMPA-KIDNEY, EMPEROR試験）．用量調節不要",
+    "normalDose": "10mg 1日1回（最大25mg）",
+    "usage": "1日1回 朝食前または朝食後",
+    "features": "SGLT2阻害薬．心血管イベント抑制効果（EMPA-REG OUTCOME試験）．CKD進行抑制効果あり",
+    "genericName": "エンパグリフロジン Empagliflozin"
+  },
+  {
+    "name": "ジャヌビア錠，グラクティブ錠 ［内］",
+    "routes": ["oral"],
+    "group": "サ行",
+    "status": {
+      "dialysis": "reduce",
+      "ckd": "reduce"
+    },
+    "dialysis": "12.5mg 1日1回．血液透析により一部除去される",
+    "ckd": "eGFR 50以上：常用量（50mg/日）．eGFR 30-50：25mg 1日1回．eGFR 30未満：12.5mg 1日1回",
+    "normalDose": "50mg 1日1回（最大100mg）",
+    "usage": "1日1回",
+    "features": "DPP-4阻害薬．腎排泄型のため腎機能に応じた減量が必要．低血糖リスクが低い",
+    "genericName": "シタグリプチンリン酸塩水和物 Sitagliptin"
+  },
+  {
+    "name": "エクア錠 ［内］",
+    "routes": ["oral"],
+    "group": "ア行",
+    "status": {
+      "dialysis": "reduce",
+      "ckd": "reduce"
+    },
+    "dialysis": "50mg 1日1回に減量．血液透析では除去されにくい",
+    "ckd": "eGFR 50以上：常用量（50mg 1日2回）．eGFR 50未満：50mg 1日1回に減量",
+    "normalDose": "50mg 1日2回",
+    "usage": "1日2回 朝夕",
+    "features": "DPP-4阻害薬．腎排泄型．中等度以上の腎機能障害で減量が必要",
+    "genericName": "ビルダグリプチン Vildagliptin"
+  },
+  {
+    "name": "ネシーナ錠 ［内］",
+    "routes": ["oral"],
+    "group": "ナ行",
+    "status": {
+      "dialysis": "reduce",
+      "ckd": "reduce"
+    },
+    "dialysis": "6.25mg 1日1回．血液透析では一部除去される",
+    "ckd": "Ccr 60以上：常用量（25mg/日）．Ccr 30-60：12.5mg 1日1回．Ccr 30未満：6.25mg 1日1回",
+    "normalDose": "25mg 1日1回",
+    "usage": "1日1回",
+    "features": "DPP-4阻害薬．腎排泄型．3段階の腎機能別減量設定あり",
+    "genericName": "アログリプチン安息香酸塩 Alogliptin"
+  },
+  {
+    "name": "トラゼンタ錠 ［内］",
+    "routes": ["oral"],
+    "group": "タ行",
+    "status": {
+      "dialysis": "normal",
+      "ckd": "normal"
+    },
+    "dialysis": "常用量（5mg 1日1回）．透析での除去は限定的",
+    "ckd": "全てのCKDステージで用量調節不要．胆汁排泄型のため腎機能の影響を受けない",
+    "normalDose": "5mg 1日1回",
+    "usage": "1日1回",
+    "features": "DPP-4阻害薬．唯一の胆汁排泄型DPP-4阻害薬．腎機能に関わらず用量調節不要",
+    "genericName": "リナグリプチン Linagliptin"
+  },
+  {
+    "name": "テネリア錠 ［内］",
+    "routes": ["oral"],
+    "group": "タ行",
+    "status": {
+      "dialysis": "normal",
+      "ckd": "normal"
+    },
+    "dialysis": "常用量（20mg 1日1回）．透析での除去は限定的",
+    "ckd": "全てのCKDステージで用量調節不要．腎排泄の寄与は小さく，主に肝代謝・胆汁排泄",
+    "normalDose": "20mg 1日1回（最大40mg）",
+    "usage": "1日1回",
+    "features": "DPP-4阻害薬．腎機能に応じた用量調節不要．国内開発品",
+    "genericName": "テネリグリプチン臭化水素酸塩水和物 Teneligliptin"
+  },
+  {
+    "name": "オングリザ錠 ［内］",
+    "routes": ["oral"],
+    "group": "ア行",
+    "status": {
+      "dialysis": "reduce",
+      "ckd": "reduce"
+    },
+    "dialysis": "2.5mg 1日1回．血液透析により一部除去される",
+    "ckd": "Ccr 50以上：常用量（5mg/日）．Ccr 50未満：2.5mg 1日1回",
+    "normalDose": "5mg 1日1回",
+    "usage": "1日1回",
+    "features": "DPP-4阻害薬．腎排泄型．中等度以上の腎機能障害で半量に減量",
+    "genericName": "サキサグリプチン水和物 Saxagliptin"
+  },
+  {
+    "name": "ビクトーザ皮下注 ［注］",
+    "routes": ["injection"],
+    "group": "ハ行",
+    "status": {
+      "dialysis": "caution",
+      "ckd": "caution"
+    },
+    "dialysis": "慎重投与．透析患者への使用経験は限られている．消化器症状に注意",
+    "ckd": "用量調節不要．ただし重度腎機能障害（eGFR 15未満）では使用経験が限られており慎重投与．消化器系副作用による脱水に注意",
+    "normalDose": "0.3mgより開始，1週間以上の間隔で0.3mgずつ増量，0.9mg 1日1回（最大0.9mg）",
+    "usage": "1日1回 皮下注射",
+    "features": "GLP-1受容体作動薬．毎日投与製剤．血糖依存性にインスリン分泌促進．体重減少効果あり",
+    "genericName": "リラグルチド（遺伝子組換え） Liraglutide"
+  },
+  {
+    "name": "オゼンピック皮下注，リベルサス錠 ［注・内］",
+    "routes": ["injection", "oral"],
+    "group": "ア行",
+    "status": {
+      "dialysis": "caution",
+      "ckd": "caution"
+    },
+    "dialysis": "慎重投与．透析患者での使用経験は限られている．消化器症状による脱水に注意",
+    "ckd": "用量調節不要．重度腎機能障害（eGFR 15未満）では使用経験が限られており慎重投与．消化器系副作用による脱水・腎機能悪化に注意",
+    "normalDose": "■皮下注：0.25mgより開始，4週後に0.5mg，さらに4週以上後に1.0mg（最大1.0mg）1週1回 ■経口（リベルサス）：3mgより開始，4週後に7mg，さらに4週以上後に14mg 1日1回",
+    "usage": "■皮下注：週1回 ■経口：1日1回 起床時空腹時（水120mL以下で服用，服用後30分は飲食不可）",
+    "features": "GLP-1受容体作動薬．週1回製剤（皮下注）と毎日経口製剤（リベルサス）あり．心血管イベント抑制効果（SUSTAIN-6試験）",
+    "genericName": "セマグルチド（遺伝子組換え） Semaglutide"
+  },
+  {
+    "name": "トルリシティ皮下注アテオス ［注］",
+    "routes": ["injection"],
+    "group": "タ行",
+    "status": {
+      "dialysis": "caution",
+      "ckd": "caution"
+    },
+    "dialysis": "慎重投与．透析患者での使用経験は限られている．消化器症状に注意",
+    "ckd": "用量調節不要．重度腎機能障害（eGFR 15未満）では使用経験が限られており慎重投与．消化器系副作用による脱水に注意",
+    "normalDose": "0.75mg 週1回",
+    "usage": "週1回 皮下注射",
+    "features": "GLP-1受容体作動薬．週1回製剤．オートインジェクター（アテオス）で使いやすい",
+    "genericName": "デュラグルチド（遺伝子組換え） Dulaglutide"
+  },
+  {
+    "name": "グリミクロン錠，グリクラジド錠 ［内］",
+    "routes": ["oral"],
+    "group": "カ行",
+    "status": {
+      "dialysis": "contraindicated",
+      "ckd": "reduce"
+    },
+    "dialysis": "禁忌．低血糖遷延のリスクが極めて高い",
+    "ckd": "eGFR 60以上：常用量．eGFR 30-60：低用量から開始し慎重投与．eGFR 30未満：原則禁忌（低血糖遷延リスク）．活性代謝物の蓄積に注意",
+    "normalDose": "40mg/日より開始（最大160mg/日）",
+    "usage": "1日1～2回 朝または朝夕 食前または食後",
+    "features": "SU薬．膵β細胞からのインスリン分泌促進．腎機能低下時は活性代謝物蓄積により低血糖遷延リスクが高い",
+    "genericName": "グリクラジド Gliclazide"
+  },
+  {
+    "name": "イグザレルト錠・OD錠・細粒 ［内］",
+    "routes": ["oral"],
+    "group": "ア行",
+    "status": {
+      "dialysis": "contraindicated",
+      "ckd": "reduce"
+    },
+    "dialysis": "禁忌．腎不全（Ccr 15未満）の患者には禁忌",
+    "ckd": "Ccr 50以上：15mg 1日1回．Ccr 30-49：10mg 1日1回に減量．Ccr 15-29：慎重投与（10mg 1日1回）．Ccr 15未満：禁忌",
+    "normalDose": "■非弁膜症性心房細動：15mg 1日1回（Ccr 30-49は10mg） ■DVT/PE：30mg/日（15mg×2）を3週間，その後15mg 1日1回",
+    "usage": "1日1回 食後",
+    "features": "直接Xa因子阻害薬（DOAC）．食後投与で吸収率向上．1日1回投与．腎排泄は約1/3",
+    "genericName": "リバーロキサバン Rivaroxaban"
+  },
+  {
+    "name": "エリキュース錠 ［内］",
+    "routes": ["oral"],
+    "group": "ア行",
+    "status": {
+      "dialysis": "caution",
+      "ckd": "reduce"
+    },
+    "dialysis": "慎重投与．透析患者での使用データは限られるが，出血リスクを考慮し2.5mg 1日2回で使用する報告あり",
+    "ckd": "通常5mg 1日2回．以下の2つ以上に該当する場合2.5mg 1日2回に減量：①80歳以上 ②体重60kg以下 ③血清Cr 1.5mg/dL以上．eGFR 15-29：2.5mg 1日2回（慎重投与）",
+    "normalDose": "■非弁膜症性心房細動：5mg 1日2回（減量基準該当時は2.5mg 1日2回）",
+    "usage": "1日2回",
+    "features": "直接Xa因子阻害薬（DOAC）．腎排泄は約27%でDOAC中最も腎依存度が低い．高齢・低体重・腎機能低下の3因子で減量",
+    "genericName": "アピキサバン Apixaban"
+  },
+  {
+    "name": "リクシアナ錠・OD錠 ［内］",
+    "routes": ["oral"],
+    "group": "ラ行",
+    "status": {
+      "dialysis": "contraindicated",
+      "ckd": "reduce"
+    },
+    "dialysis": "禁忌．高度の腎機能障害（Ccr 15未満）には禁忌",
+    "ckd": "Ccr 50以上・体重60kg超：60mg 1日1回．Ccr 30-50 または 体重60kg以下 または P-gp阻害薬併用時：30mg 1日1回．Ccr 15-29：慎重投与（30mg 1日1回）．Ccr 15未満：禁忌",
+    "normalDose": "■非弁膜症性心房細動：60mg 1日1回（減量因子該当時30mg） ■DVT/PE：60mg 1日1回（減量因子該当時30mg）",
+    "usage": "1日1回",
+    "features": "直接Xa因子阻害薬（DOAC）．腎排泄約50%．体重・腎機能・併用薬で減量基準明確",
+    "genericName": "エドキサバントシル酸塩水和物 Edoxaban"
+  },
+  {
+    "name": "プラザキサカプセル ［内］",
+    "routes": ["oral"],
+    "group": "ハ行",
+    "status": {
+      "dialysis": "contraindicated",
+      "ckd": "reduce"
+    },
+    "dialysis": "禁忌．腎排泄率が高く（約80%），透析患者には禁忌",
+    "ckd": "Ccr 50以上：150mg 1日2回（70歳以上は110mg 1日2回も考慮）．Ccr 30-50：110mg 1日2回に減量．Ccr 30未満：禁忌",
+    "normalDose": "■非弁膜症性心房細動：150mg 1日2回（減量時110mg 1日2回）",
+    "usage": "1日2回",
+    "features": "直接トロンビン阻害薬（DOAC）．腎排泄率約80%でDOAC中最も腎依存度が高い．中和薬イダルシズマブ（プリズバインド）あり",
+    "genericName": "ダビガトランエテキシラートメタンスルホン酸塩 Dabigatran"
+  },
+  {
+    "name": "ロキソニン錠・細粒，ロキソプロフェンNa錠 ［内］",
+    "routes": ["oral"],
+    "group": "ラ行",
+    "status": {
+      "dialysis": "caution",
+      "ckd": "caution"
+    },
+    "dialysis": "慎重投与．残存腎機能の低下・消化管出血リスクに注意．やむを得ず使用する場合は短期間にとどめる",
+    "ckd": "eGFR 30以上：短期間であれば使用可能（ただし腎血流低下に注意）．eGFR 30未満：原則使用回避．全てのCKDステージで腎機能悪化リスクあり，NSAIDs腎症に注意",
+    "normalDose": "60mg 1回1錠，1日3回",
+    "usage": "1日3回 食後（頓用の場合は1回60～120mg）",
+    "features": "プロドラッグ型NSAIDs．COX非選択的阻害．腎プロスタグランジン産生抑制により腎血流低下・GFR低下を来しうる",
+    "genericName": "ロキソプロフェンナトリウム水和物 Loxoprofen"
+  },
+  {
+    "name": "セレコックス錠 ［内］",
+    "routes": ["oral"],
+    "group": "サ行",
+    "status": {
+      "dialysis": "caution",
+      "ckd": "caution"
+    },
+    "dialysis": "慎重投与．残存腎機能への影響に注意．透析患者でもNSAIDsの腎への影響は存在する",
+    "ckd": "重度の腎機能障害のある患者は慎重投与．COX-2選択的であっても腎プロスタグランジン抑制による腎血流低下リスクは同等にあり．eGFR 30未満では使用回避が望ましい",
+    "normalDose": "100～200mg 1日2回",
+    "usage": "1日2回 食後",
+    "features": "COX-2選択的阻害薬．消化管障害は従来型NSAIDsより少ないが腎への影響はCOX非選択的NSAIDsと同等",
+    "genericName": "セレコキシブ Celecoxib"
+  },
+  {
+    "name": "ボルタレン錠・SR・坐剤，ジクロフェナクNa錠 ［内・外］",
+    "routes": ["oral", "external"],
+    "group": "ハ行",
+    "status": {
+      "dialysis": "caution",
+      "ckd": "caution"
+    },
+    "dialysis": "慎重投与．消化管出血・残存腎機能低下に注意．やむを得ない場合は短期間にとどめる",
+    "ckd": "重度の腎機能障害のある患者は慎重投与．全てのCKDステージで腎機能悪化リスクあり．eGFR 30未満では使用回避が望ましい．外用（湿布・ゲル）は全身影響が少ない",
+    "normalDose": "■経口：75～100mg/日 ■坐剤：25～50mg/回",
+    "usage": "■経口：1日3回 食後 ■坐剤：1日1～2回",
+    "features": "強力なCOX非選択的NSAIDs．鎮痛・抗炎症効果が強い．腎プロスタグランジン抑制による腎機能悪化リスクあり",
+    "genericName": "ジクロフェナクナトリウム Diclofenac"
+  },
+  {
+    "name": "キュビシン静注用 ［注］",
+    "routes": ["injection"],
+    "group": "カ行",
+    "status": {
+      "dialysis": "reduce",
+      "ckd": "reduce"
+    },
+    "dialysis": "4～6mg/kg 48時間ごと（透析日は透析後に投与）．血液透析で約15%除去される",
+    "ckd": "Ccr 30以上：常用量（4～6mg/kg 24時間ごと）．Ccr 30未満：4～6mg/kg 48時間ごとに延長．CPK上昇に注意し定期的にモニタリング",
+    "normalDose": "4～6mg/kg 1日1回",
+    "usage": "24時間ごと 30分かけて点滴静注（または2分かけて緩徐に静注）",
+    "features": "環状リポペプチド系抗菌薬．MRSA含むグラム陽性菌に有効．腎排泄型．CPK上昇に注意．肺サーファクタントで不活化されるため肺炎には無効",
+    "genericName": "ダプトマイシン Daptomycin"
+  },
+  {
+    "name": "オルメテックOD錠，オルメサルタンOD錠 ［内］",
+    "routes": ["oral"],
+    "group": "ア行",
+    "status": {
+      "dialysis": "normal",
+      "ckd": "caution"
+    },
+    "dialysis": "常用量．血液透析では除去されない．透析中の血圧低下に注意",
+    "ckd": "用量調節不要．ただしCKD患者ではRAS系抑制により一過性のeGFR低下・高K血症に注意．eGFR 30未満では少量から開始し腎機能・血清Kをモニタリング",
+    "normalDose": "10～20mg 1日1回（最大40mg）",
+    "usage": "1日1回",
+    "features": "ARB．強力なAT1受容体拮抗作用．腎保護作用あり．両側腎動脈狭窄には禁忌",
+    "genericName": "オルメサルタン メドキソミル Olmesartan"
+  },
+  {
+    "name": "ミカルディス錠 ［内］",
+    "routes": ["oral"],
+    "group": "マ行",
+    "status": {
+      "dialysis": "normal",
+      "ckd": "caution"
+    },
+    "dialysis": "常用量．胆汁排泄型のため腎機能の影響を受けない．透析中の血圧低下に注意",
+    "ckd": "用量調節不要．胆汁排泄型（腎排泄1%未満）のため腎機能による薬物動態変化なし．ただしRAS系抑制による一過性eGFR低下・高K血症に注意",
+    "normalDose": "20～40mg 1日1回（最大80mg）",
+    "usage": "1日1回",
+    "features": "ARB．胆汁排泄型で腎機能に影響されない．長時間作用型．PPARγ活性化作用あり",
+    "genericName": "テルミサルタン Telmisartan"
+  },
+  {
+    "name": "レニベース錠，エナラプリルマレイン酸塩錠 ［内］",
+    "routes": ["oral"],
+    "group": "ラ行",
+    "status": {
+      "dialysis": "reduce",
+      "ckd": "reduce"
+    },
+    "dialysis": "2.5mg/日から開始し慎重投与．血液透析で除去される．透析後の補充投与を考慮",
+    "ckd": "Ccr 30以上：常用量（5～10mg/日）．Ccr 10-30：2.5～5mg/日に減量．Ccr 10未満：2.5mg/日から開始．腎機能・血清Kを定期モニタリング",
+    "normalDose": "5～10mg 1日1回",
+    "usage": "1日1回",
+    "features": "ACE阻害薬．プロドラッグ（活性体エナラプリラート）．腎保護作用あり．空咳の副作用（約10-20%）．血管性浮腫に注意",
+    "genericName": "エナラプリルマレイン酸塩 Enalapril"
+  },
+  {
+    "name": "ゼストリル錠・ロンゲス錠，リシノプリル錠 ［内］",
+    "routes": ["oral"],
+    "group": "サ行",
+    "status": {
+      "dialysis": "reduce",
+      "ckd": "reduce"
+    },
+    "dialysis": "2.5mg/日から開始し慎重投与．血液透析で除去される",
+    "ckd": "Ccr 30以上：常用量（10～20mg/日）．Ccr 10-30：5～10mg/日に減量（少量から開始）．Ccr 10未満：2.5～5mg/日．腎機能・血清Kを定期モニタリング",
+    "normalDose": "10～20mg 1日1回",
+    "usage": "1日1回",
+    "features": "ACE阻害薬．活性体がそのまま吸収される（プロドラッグではない）．腎排泄型．肝機能障害患者でも使いやすい",
+    "genericName": "リシノプリル水和物 Lisinopril"
+  },
+  {
+    "name": "ミネブロ錠 ［内］",
+    "routes": ["oral"],
+    "group": "マ行",
+    "status": {
+      "dialysis": "contraindicated",
+      "ckd": "caution"
+    },
+    "dialysis": "禁忌．高カリウム血症のリスクが高い",
+    "ckd": "eGFR 30以上：常用量（2.5mg 1日1回，最大5mg）．eGFR 30未満：禁忌．中等度腎機能障害（eGFR 30-60）では高K血症に注意し血清Kを定期モニタリング．K 5.0mEq/L超では投与しない",
+    "normalDose": "2.5mg 1日1回（最大5mg）",
+    "usage": "1日1回",
+    "features": "非ステロイド型選択的ミネラルコルチコイド受容体拮抗薬（MRA）．スピロノラクトンより性ホルモン関連副作用が少ない．高K血症に注意",
+    "genericName": "エサキセレノン Esaxerenone"
+  },
+  {
+    "name": "ケレンディア錠 ［内］",
+    "routes": ["oral"],
+    "group": "カ行",
+    "status": {
+      "dialysis": "contraindicated",
+      "ckd": "reduce"
+    },
+    "dialysis": "禁忌．透析患者への投与は推奨されない",
+    "ckd": "eGFR 60以上：20mg 1日1回．eGFR 25-60：10mg 1日1回から開始（血清K 4.8未満を確認）．eGFR 25未満：推奨されない．血清K 4.8-5.0：投与開始しない．投与中K 5.5超で中止",
+    "normalDose": "10～20mg 1日1回",
+    "usage": "1日1回",
+    "features": "非ステロイド型選択的MRA．2型糖尿病を合併するCKDに対する腎・心保護薬（FIDELIO-DKD, FIGARO-DKD試験）．高K血症管理が重要",
+    "genericName": "フィネレノン Finerenone"
+  },
+  {
+    "name": "コルヒチン錠 ［内］",
+    "routes": ["oral"],
+    "group": "カ行",
+    "status": {
+      "dialysis": "reduce",
+      "ckd": "reduce"
+    },
+    "dialysis": "減量して慎重投与．0.5mg/日以下．血液透析では除去されない．重篤な副作用（骨髄抑制・筋障害）のリスクが増大",
+    "ckd": "eGFR 30以上：常用量（0.5mg 1日1～2回）可能だが注意．eGFR 10-30：0.5mg/日に減量し慎重投与．eGFR 10未満：原則使用回避．P-gp・CYP3A4阻害薬との併用で毒性増強に特に注意",
+    "normalDose": "■痛風発作：0.5mg 1回（発作予感時）．以前の1時間ごと反復投与は推奨されない ■痛風発作予防：0.5mg 1日1回 ■家族性地中海熱：1日0.5～1.5mg",
+    "usage": "1日1～2回",
+    "features": "微小管重合阻害により好中球遊走を抑制．痛風発作の予防・治療．狭い治療域で過量投与は致死的．CYP3A4・P-gp阻害薬との併用に注意",
+    "genericName": "コルヒチン Colchicine"
+  },
+  {
+    "name": "フェブリク錠 ［内］",
+    "routes": ["oral"],
+    "group": "ハ行",
+    "status": {
+      "dialysis": "caution",
+      "ckd": "caution"
+    },
+    "dialysis": "慎重投与．10mg/日から開始し慎重に増量．透析患者での使用経験は限られるが使用可能",
+    "ckd": "軽度～中等度腎機能障害：用量調節不要．重度腎機能障害（eGFR 30未満）：10mg/日から開始し慎重に増量．肝代謝が主（腎排泄は約50%だが活性代謝物含む）",
+    "normalDose": "10mg/日から開始，2週間以降20mg/日，6週間以降40mg/日（最大60mg/日）",
+    "usage": "1日1回",
+    "features": "選択的キサンチンオキシダーゼ阻害薬．アロプリノールと異なり主に肝代謝．腎機能低下時も比較的使いやすい．心血管リスクの報告あり（CARES試験）",
+    "genericName": "フェブキソスタット Febuxostat"
+  },
+  {
+    "name": "ウリアデック錠・トピロリック錠 ［内］",
+    "routes": ["oral"],
+    "group": "ア行",
+    "status": {
+      "dialysis": "caution",
+      "ckd": "caution"
+    },
+    "dialysis": "慎重投与．透析患者での使用データは限られる．低用量から開始",
+    "ckd": "軽度～中等度腎機能障害：用量調節不要．重度腎機能障害（eGFR 30未満）：20mg/日から開始し慎重に増量．肝代謝型だが腎排泄も一部あり",
+    "normalDose": "20mg/日から開始，以後徐々に増量（維持量60mg/日，最大80mg/日）",
+    "usage": "1日2回 朝夕",
+    "features": "選択的キサンチンオキシダーゼ阻害薬．国内開発品．肝代謝型で腎機能低下時も使いやすい．フェブキソスタットと同系統",
+    "genericName": "トピロキソスタット Topiroxostat"
+  },
+  {
+    "name": "ベクルリー点滴静注用 ［注］",
+    "routes": ["injection"],
+    "group": "ハ行",
+    "status": {
+      "dialysis": "caution",
+      "ckd": "caution"
+    },
+    "dialysis": "推奨されない．添加剤スルホブチルエーテルβ-シクロデキストリン（SBECD）が腎排泄型で蓄積する．やむを得ず使用する場合はリスク・ベネフィットを考慮",
+    "ckd": "eGFR 30以上：常用量．eGFR 30未満：添加剤SBECDの蓄積リスクがあり推奨されない．やむを得ず使用する場合はeGFRをモニタリング",
+    "normalDose": "初日200mg，2日目以降100mg 1日1回（5日間，最大10日間）",
+    "usage": "1日1回 30～120分かけて点滴静注",
+    "features": "RNAポリメラーゼ阻害薬．COVID-19治療薬．添加剤SBECDが腎機能低下時に蓄積するため重度腎障害では注意",
+    "genericName": "レムデシビル Remdesivir"
+  }
+]

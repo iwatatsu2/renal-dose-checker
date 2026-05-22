@@ -1,18 +1,72 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1e3a5f"/>
-      <stop offset="100%" style="stop-color:#0f172a"/>
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
     </linearGradient>
-    <linearGradient id="kidney" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#60a5fa"/>
-      <stop offset="100%" style="stop-color:#3b82f6"/>
+    <linearGradient id="kidneyFill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
     </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#93c5fd" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#3b82f6" flood-opacity="0.35"/>
+    </filter>
   </defs>
+
   <!-- Background -->
   <rect width="512" height="512" rx="96" fill="url(#bg)"/>
-  <!-- Kidney shape -->
-  <path d="M256 120c-60 0-108 36-108 100 0 40 20 68 40 88-20 20-40 48-40 84 0 64 48 100 108 100s108-36 108-100c0-36-20-64-40-84 20-20 40-48 40-88 0-64-48-100-108-100zm0 40c36 0 68 20 68 60 0 28-16 48-36 64l-8 6-24 18 24 18 8 6c20 16 36 36 36 64 0 40-32 60-68 60s-68-20-68-60c0-28 16-48 36-64l8-6 24-18-24-18-8-6c-20-16-36-36-36-64 0-40 32-60 68-60z" fill="url(#kidney)" opacity="0.9"/>
-  <!-- Rx symbol -->
-  <text x="256" y="310" text-anchor="middle" font-family="Georgia, serif" font-size="120" font-weight="bold" fill="#e2e8f0" opacity="0.85">Rx</text>
+
+  <!-- Subtle radial glow behind kidney -->
+  <circle cx="256" cy="250" r="160" fill="url(#glow)"/>
+
+  <!-- Kidney silhouette - anatomically inspired bean shape -->
+  <g filter="url(#shadow)" transform="translate(256,250)">
+    <path d="
+      M-8,-130
+      C 50,-130  95,-105  105,-60
+      C 115,-15  90,15    65,40
+      C 50,55   40,65    40,85
+      C 40,105  50,115   65,130
+      C 90,155  115,185  105,230
+      C 95,275  50,300   -8,300
+      C-65,300 -110,275 -120,230
+      C-130,185 -105,155 -80,130
+      C-65,115 -55,105  -55,85
+      C-55,65  -65,55   -80,40
+      C-105,15 -130,-15 -120,-60
+      C-110,-105 -65,-130 -8,-130
+      Z
+    " fill="url(#kidneyFill)" opacity="0.92"/>
+
+    <!-- Inner hilum (concave notch detail) -->
+    <path d="
+      M-55,85
+      C-55,55  -40,35  -20,25
+      C 0,15   0,15    0,25
+      C 0,15   0,15    20,25
+      C 40,35  55,55   55,85
+      C 55,115  40,135  20,145
+      C 0,155   0,155   0,145
+      C 0,155   0,155  -20,145
+      C-40,135 -55,115 -55,85
+      Z
+    " fill="#0f172a" opacity="0.5"/>
+  </g>
+
+  <!-- Medical cross in the center of the kidney -->
+  <g transform="translate(256,250)" opacity="0.9">
+    <rect x="-8" y="-22" width="16" height="44" rx="3" fill="#e2e8f0"/>
+    <rect x="-22" y="-8" width="44" height="16" rx="3" fill="#e2e8f0"/>
+  </g>
+
+  <!-- Small capsule pill at bottom-right of kidney -->
+  <g transform="translate(310,340) rotate(-30)" opacity="0.85">
+    <rect x="-7" y="-18" width="14" height="36" rx="7" fill="none" stroke="#e2e8f0" stroke-width="2.5"/>
+    <line x1="-7" y1="0" x2="7" y2="0" stroke="#e2e8f0" stroke-width="2"/>
+    <rect x="-7" y="0" width="14" height="18" rx="0 0 7 7" fill="#e2e8f0" opacity="0.5"/>
+  </g>
 </svg>

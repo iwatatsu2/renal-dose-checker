@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a5f"/>
+      <stop offset="100%" style="stop-color:#0f172a"/>
+    </linearGradient>
+    <linearGradient id="kidney" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#60a5fa"/>
+      <stop offset="100%" style="stop-color:#3b82f6"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+  <!-- Kidney shape -->
+  <path d="M256 120c-60 0-108 36-108 100 0 40 20 68 40 88-20 20-40 48-40 84 0 64 48 100 108 100s108-36 108-100c0-36-20-64-40-84 20-20 40-48 40-88 0-64-48-100-108-100zm0 40c36 0 68 20 68 60 0 28-16 48-36 64l-8 6-24 18 24 18 8 6c20 16 36 36 36 64 0 40-32 60-68 60s-68-20-68-60c0-28 16-48 36-64l8-6 24-18-24-18-8-6c-20-16-36-36-36-64 0-40 32-60 68-60z" fill="url(#kidney)" opacity="0.9"/>
+  <!-- Rx symbol -->
+  <text x="256" y="310" text-anchor="middle" font-family="Georgia, serif" font-size="120" font-weight="bold" fill="#e2e8f0" opacity="0.85">Rx</text>
+</svg>

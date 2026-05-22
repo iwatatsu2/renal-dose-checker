@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "腎機能別薬剤用量検索 | RenalDose",
   description:
     "腎機能に応じた薬剤の用法用量をすばやく検索できるツールです。CKD患者への投与量調節の参考にご利用ください。",
+  manifest: "/manifest.json",
+  icons: {
+    icon: [
+      { url: "/favicon-32.png", sizes: "32x32", type: "image/png" },
+      { url: "/icon-192.png", sizes: "192x192", type: "image/png" },
+    ],
+    apple: "/apple-touch-icon.png",
+  },
 };
 
 export const viewport: Viewport = {

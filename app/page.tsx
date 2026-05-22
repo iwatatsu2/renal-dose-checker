@@ -1,9 +1,10 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import drugsData from "../data/drugs.json";
+import Link from "next/link";
+import drugsData from "../data/drugs-enriched.json";
 
-type Drug = { name: string; primaryName: string; url: string; group: string };
+type Drug = { name: string; primaryName: string; url: string; group: string; detail?: Record<string, string> | null };
 
 const KANA_GROUPS = [
   "全て",
@@ -105,23 +106,35 @@ export default function Home() {
           {filtered.length} 件の薬剤
         </p>
         <ul className="space-y-1">
-          {filtered.map((drug, i) => (
-            <li key={`${drug.primaryName}-${i}`}>
-              <a
-                href={drug.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-between px-3 py-2.5 bg-gray-800 rounded-lg border border-gray-700 hover:border-blue-500 hover:bg-gray-750 transition-colors active:bg-gray-700"
-              >
-                <span className="text-sm leading-snug flex-1 text-gray-200">
-                  {drug.name}
-                </span>
-                <span className="text-xs text-blue-400 ml-2 flex-shrink-0">
-                  添付文書 →
-                </span>
-              </a>
-            </li>
-          ))}
+          {filtered.map((drug) => {
+            const idx = drugs.indexOf(drug);
+            const hasCkd = drug.detail?.ckd;
+            const hasDialysis = drug.detail?.dialysis;
+            return (
+              <li key={`${drug.primaryName}-${idx}`}>
+                <Link
+                  href={`/drug?id=${idx}`}
+                  className="flex items-center justify-between px-3 py-2.5 bg-gray-800 rounded-lg border border-gray-700 hover:border-blue-500 hover:bg-gray-750 transition-colors active:bg-gray-700"
+                >
+                  <span className="text-sm leading-snug flex-1 text-gray-200">
+                    {drug.name}
+                  </span>
+                  <span className="flex gap-1 ml-2 flex-shrink-0">
+                    {hasDialysis && (
+                      <span className="text-[10px] px-1.5 py-0.5 rounded bg-blue-900/50 text-blue-300">
+                        HD
+                      </span>
+                    )}
+                    {hasCkd && (
+                      <span className="text-[10px] px-1.5 py-0.5 rounded bg-green-900/50 text-green-300">
+                        CKD
+                      </span>
+                    )}
+                  </span>
+                </Link>
+              </li>
+            );
+          })}
         </ul>
         {filtered.length === 0 && (
           <div className="text-center py-12 text-gray-500">

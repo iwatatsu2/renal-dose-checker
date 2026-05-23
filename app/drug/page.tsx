@@ -82,19 +82,7 @@ function DrugDetailContent() {
         )}
       </header>
 
-      {/* Status Cards */}
       <main className="flex-1 px-4 py-3 space-y-3">
-        <StatusCard
-          title="透析患者（HD）"
-          status={drug.status.dialysis}
-          detail={drug.dialysis}
-        />
-        <StatusCard
-          title="保存期CKD患者"
-          status={drug.status.ckd}
-          detail={drug.ckd}
-        />
-
         {/* Antibiotic Link Banner */}
         {drug.isAntibiotic && (
           <a

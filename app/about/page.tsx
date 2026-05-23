@@ -15,13 +15,16 @@ export default function AboutPage() {
       <main className="flex-1 px-4 py-6 space-y-6">
         {/* Profile */}
         <div className="bg-gray-800 rounded-xl border border-gray-700 p-5 flex flex-col items-center text-center">
-          <Image
-            src="/dr-iwatatsu.png"
-            alt="Dr. いわたつ"
-            width={120}
-            height={120}
-            className="rounded-full mb-4"
-          />
+          <div className="w-[120px] h-[120px] rounded-full overflow-hidden mb-4">
+            <Image
+              src="/dr-iwatatsu.png"
+              alt="Dr. いわたつ"
+              width={240}
+              height={240}
+              className="w-full object-cover object-top"
+              style={{ height: '200%' }}
+            />
+          </div>
           <h2 className="text-lg font-bold text-gray-100">Dr. いわたつ</h2>
           <p className="text-sm text-blue-400 mt-1">
             糖尿病・内分泌 専門医・指導医

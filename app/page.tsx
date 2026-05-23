@@ -132,7 +132,7 @@ export default function Home() {
           )}
 
           <div className="flex items-center justify-center pt-2">
-            <span className="text-gray-500">最終更新: 2025年5月</span>
+            <span className="text-gray-500">最終更新: 2026年5月</span>
           </div>
         </div>
       </footer>

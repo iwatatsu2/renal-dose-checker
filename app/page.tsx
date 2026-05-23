@@ -38,7 +38,9 @@ export default function Home() {
             <h1 className="text-lg font-bold">KidneyRx</h1>
           </div>
           <Link href="/about" className="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-gray-700/50 hover:bg-gray-700 transition-colors">
-            <Image src="/dr-iwatatsu.png" alt="" width={20} height={20} className="rounded-full" />
+            <div className="w-5 h-5 rounded-full overflow-hidden">
+              <Image src="/dr-iwatatsu.png" alt="" width={40} height={40} className="w-full object-cover object-top" style={{ height: '200%' }} />
+            </div>
             <span className="text-xs text-gray-300">Dr. いわたつ</span>
           </Link>
         </div>

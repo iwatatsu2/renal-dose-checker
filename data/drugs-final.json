@@ -1933,8 +1933,8 @@
       },
       {
         "range": "CCr <30",
-        "dose": "20mg 1日1回に減量（臨床試験からは除外されており慎重投与）",
-        "status": "reduce"
+        "dose": "禁忌（重度腎障害）",
+        "status": "contraindicated"
       }
     ]
   },
@@ -3462,14 +3462,9 @@
     "genericName": "フォンダパリヌクスナトリウム（U） fondaparinux sodium）",
     "renalDosing": [
       {
-        "range": "CCr 30〜50（VTE予防）",
-        "dose": "2.5mg 1日1回（出血リスク高い場合1.5mg）",
-        "status": "reduce"
-      },
-      {
-        "range": "CCr 20〜30（VTE予防）",
-        "dose": "1.5mg 1日1回",
-        "status": "reduce"
+        "range": "CCr ≧30（VTE予防）",
+        "dose": "2.5mg 1日1回",
+        "status": "normal"
       },
       {
         "range": "CCr 30〜49（DVT/PE治療）",
@@ -3477,7 +3472,7 @@
         "status": "reduce"
       },
       {
-        "range": "CCr <20",
+        "range": "CCr <30",
         "dose": "禁忌",
         "status": "contraindicated"
       },

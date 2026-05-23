@@ -95,6 +95,19 @@ function DrugDetailContent() {
           detail={drug.ckd}
         />
 
+        {/* Antibiotic Link Banner */}
+        {drug.isAntibiotic && (
+          <a
+            href="https://infecti-ref.vercel.app/infection/cap"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block rounded-lg border border-blue-700/50 bg-blue-900/30 px-4 py-3 mt-1"
+          >
+            <p className="text-sm font-medium text-blue-300">抗菌薬の詳細は感染症リファレンスへ →</p>
+            <p className="text-xs text-blue-400/70 mt-0.5">用量・スペクトラム・適応症の詳細を確認できます</p>
+          </a>
+        )}
+
         {/* Renal Dosing Table */}
         {drug.renalDosing && drug.renalDosing.length > 0 && (
           <div className="bg-gray-800 rounded-lg border border-gray-700 overflow-hidden mt-4">

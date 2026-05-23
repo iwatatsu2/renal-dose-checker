@@ -27,7 +27,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "AZ含嗽用配合細粒「NP」 ［外］",
@@ -52,7 +53,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アイオピジンUD点眼液 ［外］",
@@ -77,7 +79,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アイクルシグ錠 ［内］",
@@ -107,7 +110,8 @@
         "dose": "常用量（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アイセントレス錠 ［内］",
@@ -137,7 +141,8 @@
         "dose": "減量の必要なし（1,サンフォード感染症治療ガイド）HD 前投与は避ける（1）",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アイソボリン点滴静注用 ［注］",
@@ -167,7 +172,8 @@
         "dose": "設定されていないが，腎障害のある患者では副作用が強く表れるおそれがあり慎重投与（1）",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アイトロール錠，一硝酸イソソルビド錠 ［内］",
@@ -197,7 +203,8 @@
         "dose": "減量の必要なし（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アイピーディーカプセル ［内］",
@@ -227,7 +234,8 @@
         "dose": "設定されていない（1）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アイファガン点眼液 ［外］",
@@ -257,7 +265,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アイモビーグ皮下注 ［注］",
@@ -287,7 +296,8 @@
         "dose": "常用量（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アウィクリ注 フレックスタッチ ［注］",
@@ -317,7 +327,8 @@
         "dose": "常用量だが，投与タイミングについては検討の余地があり，現状では 1 日 1 回持効型を優先（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アカルボース錠 ［内］",
@@ -352,7 +363,8 @@
         "dose": "不明（3）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アガルシダーゼベータBS点滴静注，ファブラザイム点滴静注用 ［注］",
@@ -382,7 +394,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アキネトン錠 ［内］，アキネトン注射液 ［注］",
@@ -413,7 +426,8 @@
         "dose": "常用量（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アクアチムクリーム・ローション [外]",
@@ -443,7 +457,8 @@
         "dose": "減量の必要なし（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アクチバシン注，グルトパ注 ［注］",
@@ -473,7 +488,8 @@
         "dose": "減量の必要はないと思われる（3,5,12）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アクテムラ皮下注シリンジ・点滴静注用 ［注］",
@@ -503,7 +519,8 @@
         "dose": "設定されていない（1）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アクトシン軟膏 ［外］，アクトシン注射用 ［注］",
@@ -529,7 +546,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アクトス錠 ［内］",
@@ -564,7 +582,8 @@
         "dose": "重篤な腎障害患者には禁忌（1）",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アクプラ静注用 ［注］",
@@ -594,7 +613,8 @@
         "dose": "設定されていない（1）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アクラシノン注射用 ［注］",
@@ -619,7 +639,8 @@
         "dose": "腎障害患者には慎重投与［副作用が強くあらわれるおそれ］ （1）",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アクリノール消毒液「NP」 ［外］＜全て製造中止＞",
@@ -644,7 +665,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アクロマイシンＶカプセル ［内］，アクロマイシン軟膏 ［外］",
@@ -680,7 +702,8 @@
         "dose": "消失遅延のため要注意（U）HD，PD とも 250～500mg/24 時間毎（サンフォード感染症治療ガイド）",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": true
   },
   {
     "name": "アグリリンカプセル ［内］",
@@ -710,7 +733,8 @@
         "dose": "重度の腎機能障害のある患者では血中濃度が上昇するおそれがあるため慎重投与（1） アスピリン併用下で， 0.5mg/日から導入し2.5mg/日まで増量されたHD 症例 ［18 か月後にPlt14 万まで低下したが貧血があり入院後死亡］ （Me…",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アコアラン静注用 ［注］",
@@ -740,7 +764,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アコファイド錠 ［内］",
@@ -770,7 +795,8 @@
         "dose": "常用量（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アコレート錠 ［内］＜製造中止＞",
@@ -800,7 +826,8 @@
         "dose": "減量の必要なし（1,3）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アサコール錠 ［内］",
@@ -830,7 +857,8 @@
         "dose": "重篤な腎障害患者では禁忌（1）",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アザクタム注射用 ［注］",
@@ -860,7 +888,8 @@
         "dose": "1.0g を 1 日 1 回［HD 日はHD 後］ （5）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": true
   },
   {
     "name": "アザルフィジンEN 錠 [内]",
@@ -890,7 +919,8 @@
         "dose": "少量から開始（5）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アシノン錠 ［内］",
@@ -930,7 +960,8 @@
         "dose": "透析後に150mg，または隔日150mg",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アジョビ皮下注 ［注］",
@@ -960,7 +991,8 @@
         "dose": "常用量（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アジルバ錠，アジルサルタンOD錠 ［内］",
@@ -990,7 +1022,8 @@
         "dose": "減量の必要はないが AUC の増加が認められており，低用量から開始（1）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アジレクト錠 ［内］",
@@ -1020,7 +1053,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アスタットクリーム・液・軟膏 ［外］",
@@ -1050,7 +1084,8 @@
         "dose": "常用量（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アストミン錠 ［内］",
@@ -1075,7 +1110,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アスパラ-CA錠 ［内］",
@@ -1105,7 +1141,8 @@
         "dose": "減量の必要なし．血清 Ca 濃度をみながら投与する（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アスパラカリウム錠・散 ［内］",
@@ -1135,7 +1172,8 @@
         "dose": "高 K 血症に注意［重篤な腎障害患者に禁忌］ （1）",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アスパラギン酸カリウム注10mEqキット「テルモ」 ［注］",
@@ -1165,7 +1203,8 @@
         "dose": "血中 K 濃度をみながら投与する（5）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アスベリンシロップ ・錠 ・散 ・ドライシロップ ［内］",
@@ -1195,7 +1234,8 @@
         "dose": "透析患者の投与方法に言及した文献なし（5）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アスペノンカプセル ［内］",
@@ -1225,7 +1265,8 @@
         "dose": "減量の必要なし（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アズノールST錠口腔用 ［外］",
@@ -1255,7 +1296,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アズノールうがい液4% ［外］",
@@ -1285,7 +1327,8 @@
         "dose": "常用量（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アズノール軟膏 ［外］",
@@ -1315,7 +1358,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アズマネックスツイストヘラー ［外］",
@@ -1345,7 +1389,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アズレン点眼液 [外]",
@@ -1375,7 +1420,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アセサイド6%消毒液 ［外］",
@@ -1400,7 +1446,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アセノベル徐放錠 ［内］",
@@ -1425,7 +1472,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アセレンド注 ［注］",
@@ -1450,7 +1498,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アゼプチン錠 ［内］",
@@ -1480,7 +1529,8 @@
         "dose": "常用量（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アゾルガ配合懸濁性点眼液 ［外］",
@@ -1510,7 +1560,8 @@
         "dose": "重篤な腎障害のある患者は禁忌（1）",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アタラックス-P注射液［注］，Pドライシロップ，Pカプセル［内］",
@@ -1551,7 +1602,8 @@
         "dose": "活性代謝物は 60%尿中排泄され，半減期は軽度～中等度腎障害で著明に延長するため，半量に減量するか投与間隔を 3 倍以上に開ける必要 性あり（5）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アダプチノール錠 ［内］",
@@ -1581,7 +1633,8 @@
         "dose": "透析患者の投与方法に言及した文献なし（5）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アダラートCR錠，ニフェジピンCR錠，ニフェジピンL錠，セパミットR細粒2%［内］",
@@ -1611,7 +1664,8 @@
         "dose": "減量の必要なし（3,4,6）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アテディオ配合錠 ［内］",
@@ -1636,7 +1690,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アテレック錠，シルニジピン錠 ［内］",
@@ -1666,7 +1721,8 @@
         "dose": "減量の必要なし（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アディノベイト静注用 ［注］",
@@ -1691,7 +1747,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アデカット錠 ［内］",
@@ -1721,7 +1778,8 @@
         "dose": "減量して開始し，慎重投与（1）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アデホスLコーワ注 [注]",
@@ -1751,7 +1809,8 @@
         "dose": "常用量（12）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アデムパス錠 ［内］",
@@ -1786,7 +1845,8 @@
         "dose": "使用経験がなく禁忌",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アデール点滴静注用 ［注］",
@@ -1816,7 +1876,8 @@
         "dose": "減量の必要なし（5）腎機能障害のある患者では心室性頻拍，心房細動等の発現率が高くなるため慎重投与（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アトロピン硫酸塩注 ［注］",
@@ -1846,7 +1907,8 @@
         "dose": "透析患者の投与方法に言及した文献はないが，尿中排泄率が高いため反復投与時には 1/2 に減量を考慮（5）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アトロベントエロゾル ［外］",
@@ -1876,7 +1938,8 @@
         "dose": "減量の必要なし（3,12）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アドエアディスカス吸入用・エアゾール ［外］",
@@ -1906,7 +1969,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アドシルカ錠 ［内］",
@@ -1936,7 +2000,8 @@
         "dose": "禁忌（重度腎障害）",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アドセトリス点滴静注用 ［注］",
@@ -1966,7 +2031,8 @@
         "dose": "設定されていない（1）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アドソルビン原末 ［内］",
@@ -1996,7 +2062,8 @@
         "dose": "禁忌［長期投与によりアルミニウム脳症・骨症が現れることがある］ （1）",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アドナ錠 ・散 ［内］，アドナ注（静注用） ［注］",
@@ -2027,7 +2094,8 @@
         "dose": "尿中未変化体排泄率が高いため減量適用も可能と思われるが，常用量を用いても問題がない（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アドバフェロン皮下注［注］【製造中止】",
@@ -2057,7 +2125,8 @@
         "dose": "薬物動態に関する文献がほとんどなく不明（5）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アドビオール錠 ［内］",
@@ -2087,7 +2156,8 @@
         "dose": "慎重投与（1）",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アドフィードパップ40mg ［外］",
@@ -2112,7 +2182,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アドリアシン注用 ［注］",
@@ -2147,7 +2218,8 @@
         "dose": "腎機能正常者の 3/4 投与量で、投与間隔は腎機能正常者に同じ（4,10）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アナエブリ皮下注200mgペン ［注］",
@@ -2172,7 +2244,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アナフラニール錠 ［内］・点滴静注液［注］",
@@ -2203,7 +2276,8 @@
         "dose": "少量から開始し，効果をモニターしつつ増量（3）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アナペイン注 ［注］",
@@ -2233,7 +2307,8 @@
         "dose": "総クリアランスに対する腎クリアランスの割合が非常に小さいため，減量の必要はないと考えられる（5）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アネキセート注射液 ［注］",
@@ -2263,7 +2338,8 @@
         "dose": "減量の必要なし（3,11）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アネレム静注用 ［注］",
@@ -2293,7 +2369,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アノーロエリプタ吸入用 ［外］",
@@ -2323,7 +2400,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アバスチン点滴静注用 ［注］",
@@ -2353,7 +2431,8 @@
         "dose": "設定されていない（1）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アバプロ錠・イルベタン錠，イルベサルタン錠 ［内］",
@@ -2383,7 +2462,8 @@
         "dose": "減量の必要はないが，少量から開始（1）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アビガン錠 ［内］",
@@ -2413,7 +2493,8 @@
         "dose": "代謝物による毒性がなければ常用量（5） 推奨用量不明（Roberto P, et al: Intern Emerg Med 2020 PMID: 32986137） データなし（サンフォード感染症治療ガイド）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アピドラ注ソロスター ［注］",
@@ -2443,7 +2524,8 @@
         "dose": "血糖値に応じ投与（1）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アフィニトール錠 ［内］",
@@ -2473,7 +2555,8 @@
         "dose": "HD は PK に影響しない（Thiery-Vuillemin A, et al: Ann Oncol 23: 2992-3, 2012 PMID: 23071263）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アブストラル舌下錠 ［内］",
@@ -2503,7 +2586,8 @@
         "dose": "代謝・排泄が遅延し，副作用があらわれやすくなるおそれがあるため慎重投与（1）であるが減量の必要なし（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アブラキサン点滴静注用 ［注］",
@@ -2533,7 +2617,8 @@
         "dose": "慎重投与（1）",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アブリスボ筋注用 ［注］",
@@ -2558,7 +2643,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アプルウェイ錠・デベルザ錠 ［内］",
@@ -2588,7 +2674,8 @@
         "dose": "効果が期待できないので投与しない（1）",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アプレゾリン錠，散 ［内］・注射用 ［注］",
@@ -2619,7 +2706,8 @@
         "dose": "慎重投与（5）",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アベマイド錠 ［内］",
@@ -2649,7 +2737,8 @@
         "dose": "未変化体，活性代謝物（Jonsson A, et al: Eur J Clin Pharmacol 53: 429-35,1998）が腎不全患者では蓄積しやすい（Clin Pharmacokinet 31: 111-9,1996）ため使用を…",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アベロックス錠 ［内］",
@@ -2679,7 +2768,8 @@
         "dose": "減量の必要なし（1,サンフォード感染症治療ガイド）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": true
   },
   {
     "name": "アボネックス筋注用 ［注］",
@@ -2709,7 +2799,8 @@
         "dose": "特に設定されていない（1）がおそらく減量の必要はない（5）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アボルブカプセル，デュタステリド錠 ［内］",
@@ -2739,7 +2830,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アポカイン皮下注 ［注］",
@@ -2769,7 +2861,8 @@
         "dose": "慎重投与（1）",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アマリール錠 ［内］",
@@ -2799,7 +2892,8 @@
         "dose": "重篤な腎機能障害のある患者では低血糖を起こすおそれがあるため禁忌（1）活性代謝物にも血糖降下作用がある（Badian M, et al: Drug Metabl Drug Interact 13: 69-85,1996 PMID: 8902…",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アマージ錠 ［内］",
@@ -2829,7 +2923,8 @@
         "dose": "重度の腎障害患者には禁忌（1）",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アミカシン硫酸塩注射液 ［注］",
@@ -2894,7 +2989,8 @@
         "dose": "5～7.5mg/kgHD 後を基本として TDM で調節［2 回目維持量投与予定された HD 前トラフ 10μg/mL 未満として調節］ （抗菌薬 TDM ガイ ドライン 2016）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": true
   },
   {
     "name": "アミカリック輸液 ［注］",
@@ -2924,7 +3020,8 @@
         "dose": "高窒素血症が誘発するおそれがあるため重篤な腎障害のある患者には禁忌（1）高 K を伴う腎不全患者には禁忌。高リン血症にも注意する（1）",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アミサリン注 ［注］，アミサリン錠 ［内］",
@@ -2960,7 +3057,8 @@
         "dose": "腎不全では未変化体の半減期が延長し活性代謝物 NAPA が蓄積する（Kidney Int 12: 422-9, 1977）GFR＜10mL/min では避ける（3）",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アミティーザカプセル ［内］",
@@ -2990,7 +3088,8 @@
         "dose": "重度の腎障害患者では 24μg/日から開始するなど慎重投与（1）",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アミニック輸液 ［注］",
@@ -3020,7 +3119,8 @@
         "dose": "窒素負荷により症状を悪化させるおそれがあるため，重篤な腎障害のある患者には禁忌（1）",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アミノレバン点滴静注 ［注］",
@@ -3050,7 +3150,8 @@
         "dose": "水分負荷，窒素バランスに注意して投与可［HD 時に投与してよい］ （5）",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アミノ安息香酸エチル軟膏 ［外］",
@@ -3075,7 +3176,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アミユー配合顆粒 ［内］",
@@ -3105,7 +3207,8 @@
         "dose": "減量の必要なし（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アムノレイク 錠 ［内］",
@@ -3135,7 +3238,8 @@
         "dose": "設定されていない（1）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アムビゾーム点滴静注用 ［注］",
@@ -3165,7 +3269,8 @@
         "dose": "常用量（サンフォード感染症治療ガイド，古久保 拓, 他:日化療会誌 60: 342-346, 2012）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アムロジンOD錠， アムロジピンOD錠，ノルバスク錠 ［内］",
@@ -3195,7 +3300,8 @@
         "dose": "減量の必要なし（1, 3, Kungys G, et al: Eur J Clin Pharmacol 59: 291-5, 2003，腎と透析 43:745-51,1997，透析会誌 31:45-51,1998） ビソプロロールによる降圧…",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アムヴトラ皮下注25mgシリンジ ［注］",
@@ -3225,7 +3331,8 @@
         "dose": "常用量［腎機能は PK に影響しない］ （1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アメナリーフ錠 ［内］",
@@ -3255,7 +3362,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アメパロモ カプセル ［内］",
@@ -3285,7 +3393,8 @@
         "dose": "常用量（5） データなし（サンフォード感染症治療ガイド）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": true
   },
   {
     "name": "アモバン錠 ［内］",
@@ -3315,7 +3424,8 @@
         "dose": "腎不全患者の未変化体の投与24hr 後の Cmin は健常者に比し 4 倍以上高く，投与 7 日目の AUC は健常者に比し，2 倍足らずになる（Int Clin Psychopharmacol 5 Suppl 2: 95-104,1990…",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アラセナ-A軟膏 ［外］，アラセナ-A点滴静注用 ［注］",
@@ -3351,7 +3461,8 @@
         "dose": "注射：75%に減量し HD 後投与（3,12）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アラノンジー静注用 ［注］",
@@ -3381,7 +3492,8 @@
         "dose": "設定されていない（1）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アラバ錠 ［内］",
@@ -3411,7 +3523,8 @@
         "dose": "常用量［慎重投与］ （1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アラミスト点鼻液 ［外］",
@@ -3441,7 +3554,8 @@
         "dose": "常用量（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アリクストラ皮下注 ［注］",
@@ -3481,7 +3595,8 @@
         "dose": "禁忌",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アリセプトD錠・内服ゼリー，ドネペジル塩酸塩OD錠 ［内］",
@@ -3511,7 +3626,8 @@
         "dose": "腎不全における薬物動態に変化は小さいため常用量でよいと思われる（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アリドネパッチ ［外］",
@@ -3541,7 +3657,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アリナミンF糖衣錠 ［内］，アリナミンF注射液 ［注］",
@@ -3572,7 +3689,8 @@
         "dose": "VB1 として 30～35mg/日の投与が望ましい（Kidney Int 43: 1319-28, 1993）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アリミデックス錠 ［内］",
@@ -3602,7 +3720,8 @@
         "dose": "減量の必要なし（Langenegger T,et al : Breast Cancer Res Treat 100: 177-81, 2006）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アリムタ注射用 ［注］",
@@ -3632,7 +3751,8 @@
         "dose": "禁忌（1）",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アルギU点滴静注 ［注］，アルギU配合顆粒 ［内］",
@@ -3663,7 +3783,8 @@
         "dose": "常用量（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アルケラン錠 ［内］・静注用 ［注］",
@@ -3699,7 +3820,8 @@
         "dose": "腎機能正常者の投与量の50～75%，投与間隔は腎機能正常者に同じ（4,10）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アルサルミン細粒 ［内］",
@@ -3729,7 +3851,8 @@
         "dose": "禁忌［長期投与によりアルミニウム脳症，アルミニウム骨症，貧血などがあらわれることがある］ （1）",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アルジオキサ錠・顆粒 ［内］",
@@ -3759,7 +3882,8 @@
         "dose": "Al を含有するため禁忌（1）",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アルタットカプセル［内］・静注用 ［注］",
@@ -3800,7 +3924,8 @@
         "dose": "週 3 回透析後に 75mg（1）過量投与により見当識障害、意識障害、痙攣などの精神神経症状や顆粒球減少症が腎不全では発症しやすい（5）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アルダクトンＡ錠 ・細粒 ［内］",
@@ -3835,7 +3960,8 @@
         "dose": "抗アルドステロン作用を期待して投与する場合血清カリウム値により 25mg/日まで（5）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アルチバ静注用，レミフェンタニル静注用 [注]",
@@ -3865,7 +3991,8 @@
         "dose": "常用量（5） 統計学的に有意なCL の低下，半減期の延長が認められるが，Vd の変化で説明されるかもしれず，使用に関する影響は小さい（Dahaba AA, et al: Can J Anaesth. 2002 PMID: 11927475）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アルツディスポ関節注 ［注］",
@@ -3895,7 +4022,8 @@
         "dose": "減量の必要なし（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アルドメット錠 ［内］",
@@ -3925,7 +4053,8 @@
         "dose": "半量に減量（6）腎不全では活性代謝物が蓄積する",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アルファロールカプセル・散，アルファカルシドールカプセル，ワンアルファ錠 ［内］",
@@ -3955,7 +4084,8 @@
         "dose": "血清 Ca，IP をモニターして投与（5）通常0.25～0.5μg/日で投与（5）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アルメタ軟膏 ［外］",
@@ -3985,7 +4115,8 @@
         "dose": "常用量（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アルロイドG内用液5% ・G顆粒溶解用［内］",
@@ -4015,7 +4146,8 @@
         "dose": "常用量（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アルンブリグ錠 ［内］",
@@ -4045,7 +4177,8 @@
         "dose": "AUC 1.9 倍のため，50%に減量考慮（5）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アレギサール錠 ［内］",
@@ -4075,7 +4208,8 @@
         "dose": "透析患者の投与方法に言及した文献なし（5）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アレグラ錠，フェキソフェナジン塩酸塩錠 [内]",
@@ -4110,7 +4244,8 @@
         "dose": "60mg 1日1回",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アレサガテープ ［外］，レミカット錠 ［内］",
@@ -4141,7 +4276,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アレジオンLX点眼液 ［外］",
@@ -4171,7 +4307,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アレジオン眼瞼クリーム ［外］",
@@ -4201,7 +4338,8 @@
         "dose": "常用量（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アレジオン錠，エピナスチン塩酸塩錠 ［内］",
@@ -4231,7 +4369,8 @@
         "dose": "減量の必要なし．ただし，尿中未変化体排泄率が高い可能性があり 10mg/日から開始（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アレセンサカプセル ［内］",
@@ -4261,7 +4400,8 @@
         "dose": "設定されていないが，CL/F と腎機能は関連しない（1）PK は通常と変化なく常用量にて適用できた症例（Park JE, et al: Thorac Cancer 2022 PMID: 35191596）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アレックスビー筋注用 ［注］",
@@ -4291,7 +4431,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アレビアチン錠・散， ヒダントール錠 ［内］ アレビアチン注射液 ［注］",
@@ -4322,7 +4463,8 @@
         "dose": "減量の必要なし（3,4,6,10,12,17）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アレベール吸入用溶解液 ［外］",
@@ -4352,7 +4494,8 @@
         "dose": "減量の必要なし（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アレロック錠 ［内］",
@@ -4382,7 +4525,8 @@
         "dose": "1 回 2.5mg を 1 日 1 回（5）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アロカ、ロノックカプセル［内］＜製造中止＞",
@@ -4412,7 +4556,8 @@
         "dose": "減量する必要なし（5）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アロカリス点滴静注 ［注］",
@@ -4442,7 +4587,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アロキシ静注 ［注］",
@@ -4472,7 +4618,8 @@
         "dose": "Risk-benefit を考慮する必要があるが減量の必要なし（U）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アロチノロール塩酸塩錠 ［内]",
@@ -4502,7 +4649,8 @@
         "dose": "体内動態の変化は少なく減量の必要なし（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アロフト錠 ［内］",
@@ -4532,7 +4680,8 @@
         "dose": "腎障害患者は慎重投与には設定されていない（1）",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アロマシン錠 ［内］",
@@ -4562,7 +4711,8 @@
         "dose": "重度の腎障害のある患者には慎重投与［安全性未確立］ （1）",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アロンアルファＡ｢三共｣［医療用具］［外］",
@@ -4587,7 +4737,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アローゼン顆粒 ［内］",
@@ -4617,7 +4768,8 @@
         "dose": "大部分は糞便中に排泄されるため減量の必要はない（5）ただし透析患者では腸管内圧上昇による虚血性大腸炎が起こりやすいので、直腸内 に硬便のある場合には取り除いてから投与するのが望ましい（5）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アンカロン錠・アミオダロン塩酸塩速崩錠「TE」 ［内］・アミオダロン塩酸塩静注「TE」 ［注］",
@@ -4648,7 +4800,8 @@
         "dose": "薬物動態は腎不全患者でも変化しないため，減量の必要なし（3, J Clin Pharmacol 36: 122-30,1996）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アンコチル錠 ［内］",
@@ -4683,7 +4836,8 @@
         "dose": "週 3 回透析後に 25～50mg/kg（1）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": true
   },
   {
     "name": "アンスロビンP注射用 ， 献血ノンスロン注射用 ［注］",
@@ -4713,7 +4867,8 @@
         "dose": "減量の必要なし（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アンテベート軟膏・クリーム・ローション ［外］",
@@ -4743,7 +4898,8 @@
         "dose": "減量の必要なし（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アンプラーグ錠，サルポグレラート錠　[内]",
@@ -4773,7 +4929,8 @@
         "dose": "減量の必要なし（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アーチスト錠，カルベジロール錠 ［内］",
@@ -4803,7 +4960,8 @@
         "dose": "減量の必要なし（1,3,5）HD 中の血圧低下がある場合には，HD 前には服用しない（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アーテン錠・散1% [内]",
@@ -4833,7 +4991,8 @@
         "dose": "データがなく不明だがおそらく常用量でよい（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アービタックス注射液 ［注］",
@@ -4863,7 +5022,8 @@
         "dose": "腎機能は体内動態に影響しない（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "アーリーダ錠 ［内］",
@@ -4893,7 +5053,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "イグザレルト錠・OD錠・細粒 ［内］",
@@ -4937,7 +5098,8 @@
         "dose": "禁忌",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "イムラン錠， アザニン錠［内］",
@@ -4977,7 +5139,8 @@
         "dose": "腎不全患者では常用量の下限に設定することが望ましい（1） 多くの報告の尿中未変化体排泄率が低く活性代謝物の6-MP の半減期も透析患者で延長しないため，大幅な減量は必要ないと思われる（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "イメンドカプセル ［内］，プロイメンド点滴静注用 ［注］",
@@ -5008,7 +5171,8 @@
         "dose": "減量の必要なし（Bergman AJ, et al: Clin Pharmacokinet 44: 637-47, 2005）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ウリアデック錠・トピロリック錠 ［内］",
@@ -5037,7 +5201,8 @@
         "dose": "慎重投与．透析患者での使用データは限られる．低用量から開始",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ウレパールクリーム ・ローション（10%），アセチロール軟膏（20%），ケラチナミンコーワクリーム ［外］",
@@ -5067,7 +5232,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "エクア錠 ［内］",
@@ -5101,7 +5267,8 @@
         "dose": "50mg 1日1回",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "エピビル錠",
@@ -5151,7 +5318,8 @@
         "dose": "設定されていない（1）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": true
   },
   {
     "name": "エプジコム配合錠 ［内］",
@@ -5181,7 +5349,8 @@
         "dose": "他剤を選択（1,12）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": true
   },
   {
     "name": "エボザックカプセル，サリグレンカプセル [内]",
@@ -5211,7 +5380,8 @@
         "dose": "慎重投与（1）",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "エリキュース錠 ［内］",
@@ -5255,7 +5425,8 @@
         "dose": "使用経験が極めて限られる",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "オザグレルNa静注液，カタクロット注射液 ［注］",
@@ -5285,7 +5456,8 @@
         "dose": "明確な減量基準は設定されていないが，腎排泄性であることと易出血性を避けるため 1 回 40mg を1 日 2 回に減量（5）AM 透析なら HD 日 は 1 日 1 回 HD 後，PM 透析なら 1 日 2 回投与も選択可（5）",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "オゼンピック皮下注，リベルサス錠 ［注・内］",
@@ -5315,7 +5487,8 @@
         "dose": "慎重投与．透析患者での使用経験は限られている．消化器症状による脱水に注意",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "オノアクト点滴静注用，コアベータ静注用",
@@ -5345,7 +5518,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "オルメテックOD錠，オルメサルタンOD錠 ［内］",
@@ -5374,7 +5548,8 @@
         "dose": "常用量．血液透析では除去されない．透析中の血圧低下に注意",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "オングリザ錠 ［内］",
@@ -5408,7 +5583,8 @@
         "dose": "2.5mg 1日1回．血液透析により一部除去される",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "カイトリル注射液 ［注］",
@@ -5438,7 +5614,8 @@
         "dose": "減量の必要なし（3）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "カイプロリス点滴静注用 ［注］",
@@ -5468,7 +5645,8 @@
         "dose": "PK に影響なく，通常用量が適用できる（Badros AZ, et al: Leukemia 27: 1707-14, 2013 PMID: 23364621） MM に対して常用量設定可（Quach H, et al: Cancer Ch…",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "カソデックスOD錠，ビカルタミドOD錠 ［内］",
@@ -5498,7 +5676,8 @@
         "dose": "腎障害があっても薬物動態に変化がないため減量の必要なし（Tyrrell CJ, et al: Eur Urol 33: 39-53,1998） 血中濃度評価から用量調節の必要はない（Ito F, et al: Urol Int 2012 P…",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "カタプレス錠 ［内］",
@@ -5528,7 +5707,8 @@
         "dose": "尿中排泄率が 50%程度であるため 1/2 に減量する（5）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "カチーフ N 錠 ［内］",
@@ -5558,7 +5738,8 @@
         "dose": "減量の必要なし（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "カデックス軟膏・外用散・軟膏分包 ［外］",
@@ -5583,7 +5764,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "カデュエット配合錠 ［内］",
@@ -5608,7 +5790,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "カドサイラ点滴静注用 ［注］",
@@ -5638,7 +5821,8 @@
         "dose": "腎機能はCL/F に影響しない（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "カドラール錠［内］＜製造中止＞",
@@ -5668,7 +5852,8 @@
         "dose": "主として腎から排泄されるため蓄積が起こる可能性あり、1 日 5mg でも腎不全患者には多すぎる可能性あり（Eur J Drug Metab",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "カナグル錠・OD錠 ［内］",
@@ -5698,7 +5883,8 @@
         "dose": "効果が期待できないので投与しない（1）",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "カナマイシンカプセル ［内］，カナマイシン硫酸塩注射液 ［注］",
@@ -5739,7 +5925,8 @@
         "dose": "■内服：減量の必要はない（経口ではほとんど吸収されない）が腸管の炎症が強いと吸収される．その場合，透析患者では排泄が遅延してい るため長期投与する場合には蓄積して聴覚障害を引き起こす可能性があるので要注意（5） ■注射：1 回 0.5g を…",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": true
   },
   {
     "name": "カヌマ点滴静注液 ［注］",
@@ -5769,7 +5956,8 @@
         "dose": "減量の必要なし（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "カバサール錠 ［内］",
@@ -5799,7 +5987,8 @@
         "dose": "常用量（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "カビゲイル注射液 ［注］",
@@ -5824,7 +6013,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "カブリビ注射用 ［注］",
@@ -5849,7 +6039,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "カプサイシン軟膏＜院内製剤＞ ［外］",
@@ -5879,7 +6070,8 @@
         "dose": "0.05%カプサイシン軟膏（基剤はヒルドイド）による下肢血流改善作用が報告されている（新井 薫, 他:日本透析医学会雑誌 43:S776,2010） 徳島裕子, 他: 日病薬誌 38: 289-292, 2002",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "カプトリル錠 ・Rカプセル［内］",
@@ -5909,7 +6101,8 @@
         "dose": "非腎クリアランスは腎機能の悪化とともに低下するため 1/2 以下に減量する（Duchin KL, et al: Kidney Int 25: 942-947,1984）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "カプレルサ錠 ［内］",
@@ -5949,7 +6142,8 @@
         "dose": "減量を考慮（1）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "カボメティクス錠 ［内］",
@@ -5979,7 +6173,8 @@
         "dose": "検討されていない（1）がおそらく減量の必要はない（5） 症例によっては高用量が必要かも知れない（Zimmermann S, et al: Ther Drug Monit 2021 PMID: 34001696）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "カリメート散・ドライシロップ・経口液，ポリスチレンスルホン酸Ca経口ゼリー［内］",
@@ -6009,7 +6204,8 @@
         "dose": "減量の必要なし．ただし，便秘に注意し，下剤を適切に併用（5） 便の腸管通過障害により結腸穿孔を引き起こすことがあるので，便秘しやすい患者にはソルビトールなどの適切な下剤を最初から併用する．硬便がすでにある場合には 取り除いてからソルビトール…",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "カルグート錠 ［内］",
@@ -6039,7 +6235,8 @@
         "dose": "常用量（透析会誌 23:669,1990）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "カルケンスカプセル ［内］",
@@ -6069,7 +6266,8 @@
         "dose": "常用量（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "カルスロット錠 ［内］",
@@ -6099,7 +6297,8 @@
         "dose": "減量の必要なし（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "カルセド注射用 ［注］",
@@ -6129,7 +6328,8 @@
         "dose": "PK に変化なく減量の必要なし（Ohsawa M, et al: Gan To Kagaku Ryoho 36: 1311-4, 2009）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "カルタンOD錠，沈降炭酸カルシウム錠「三和］，沈降炭酸カルシウム ［内］",
@@ -6159,7 +6359,8 @@
         "dose": "1～3g［分 1～3 食直前または食直後］ （5）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "カルチコール注射液 ［注］",
@@ -6189,7 +6390,8 @@
         "dose": "高 Ca 血症の可能性があるため禁忌になっているが，血中 Ca 濃度をみながら投与可能（5）",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "カルデナリンOD錠 ［内］",
@@ -6219,7 +6421,8 @@
         "dose": "減量の必要なし（3,10）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "カルトスタット　[医療用具]",
@@ -6244,7 +6447,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "カルナクリン錠 ［内］",
@@ -6274,7 +6478,8 @@
         "dose": "透析患者の投与方法に言及した文献はないが，減量の必要はないと思われる（5）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "カルバン錠 ［内］",
@@ -6304,7 +6509,8 @@
         "dose": "減量の必要はないと思われるが少量から開始（5）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "カルブロック錠，アゼルニジピン錠 ［内］",
@@ -6334,7 +6540,8 @@
         "dose": "減量の必要なし（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "カルベニン点滴用 ［注］",
@@ -6374,7 +6581,8 @@
         "dose": "0.25〜0.5g/日",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": true
   },
   {
     "name": "カルメロースナトリウム ［内］",
@@ -6404,7 +6612,8 @@
         "dose": "吸収されないため減量する必要はない（5）多量の水分と一緒に服用するため溢水傾向にならないように注意するだけでなく，透析患者では 腸管内圧上昇による虚血性大腸炎が起こりやすいので硬結便のある場合には取り除いてから投与する（5）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "カレトラ配合錠 ［内］",
@@ -6434,7 +6643,8 @@
         "dose": "減量の必要なし（3,12）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "カログラ錠 ［内］",
@@ -6464,7 +6674,8 @@
         "dose": "設定されていないがPK からは常用量適用可と思われる（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "カロナール錠 ［内］，アルピニー坐剤，アンヒバ坐剤［外］，アセリオ静注液 ［注］",
@@ -6501,7 +6712,8 @@
         "dose": "長期投与時以外は常用量（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "カンサイダス点滴静注用 ［注］",
@@ -6531,7 +6743,8 @@
         "dose": "常用量（12,サンフォード感染症治療ガイド）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "カーボスター透析剤・L ［注］",
@@ -6561,7 +6774,8 @@
         "dose": "過度のアルカローシスのリスク，クエン酸の影響でイオン化 Ca が低く PTH が上昇する可能性，クエン酸 Ca の体内流入による Ca 負荷［異 所性石灰化］の可能性などを考慮（5）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ガスコン錠・ドロップ・散［内］",
@@ -6591,7 +6805,8 @@
         "dose": "透析患者の投与方法に言及した文献はないが，吸収されないため減量する必要はない（5）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ガスターD錠，ファモチジンOD錠 ［内］，ガスター注射液 ［注］",
@@ -6632,7 +6847,8 @@
         "dose": "1回20mg 透析後1回 又は 1回10mg 1日1回",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ガストログラフィン経口・注腸用 ［内］",
@@ -6662,7 +6878,8 @@
         "dose": "吸収されずほとんどが糞便中から排泄されるため減量の必要はないと思われる（5）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ガスモチン錠 ・散 ［内］",
@@ -6692,7 +6909,8 @@
         "dose": "データがないものの，常用量適用可と思われる（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ガスロンN･OD錠 ［内］",
@@ -6722,7 +6940,8 @@
         "dose": "減量する必要はないと思われるが透析患者の投与方法に言及した文献なし（5）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ガチフロ錠［内］＜製造中止＞",
@@ -6752,7 +6971,8 @@
         "dose": "1 回 100mg を 1 日 1 回（5）腎不全患者には低血糖に注意（玉山俊行: 日化療会誌 52: 521-529,2004）",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": true
   },
   {
     "name": "ガドビスト静注シリンジ ［注］",
@@ -6782,7 +7002,8 @@
         "dose": "重篤な腎障害のある患者では排泄遅延と腎機能悪化のため原則禁忌（1）NSF のリスクから他の検査法で代替が望ましい（1）",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ガナトン錠 ［内］",
@@ -6812,7 +7033,8 @@
         "dose": "減量の必要なし（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ガニレスト皮下注シリンジ ［注］",
@@ -6842,7 +7064,8 @@
         "dose": "慎重投与（1）",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ガバペン錠 ［内］",
@@ -6887,7 +7110,8 @@
         "dose": "透析後に200〜300mg追加投与",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ガラフォルドカプセル ［内］",
@@ -6922,7 +7146,8 @@
         "dose": "検討されていない（1） 1 回 123mg を隔週（Johnson FK, et al: PLoS One 2024 PMID: 39636942）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ガーダシル水性懸濁筋注シリンジ ［注］",
@@ -6952,7 +7177,8 @@
         "dose": "通常量（1）腎臓疾患は接種要注意者（1）",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "キュビシン静注用 ［注］",
@@ -6986,7 +7212,8 @@
         "dose": "4～6mg/kg 48時間ごと（透析日は透析後に投与）．血液透析で約15%除去される",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": true
   },
   {
     "name": "グラセプターカプセル",
@@ -7016,7 +7243,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "グリミクロン錠，グリクラジド錠 ［内］",
@@ -7050,7 +7278,8 @@
         "dose": "禁忌",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ケレンディア錠 ［内］",
@@ -7089,7 +7318,8 @@
         "dose": "使用経験なし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "コルヒチン錠 ［内］",
@@ -7123,7 +7353,8 @@
         "dose": "慎重投与",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "サアミオン錠・散 ［内］",
@@ -7153,7 +7384,8 @@
         "dose": "常用量（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "サイクロセリンカプセル明治 ［内］",
@@ -7193,7 +7425,8 @@
         "dose": "250mg を24hr 毎（12）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "サイデックスプラス28 3.5%液　[外]",
@@ -7218,7 +7451,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "サイトテック錠 ［内］",
@@ -7248,7 +7482,8 @@
         "dose": "尿中未変化体排泄率が低く減量の必要はないと思われるが，腎不全患者ではクリアランスが低下し腹部膨満感や下痢が起こりやすい可能性が あり，そのような患者では減量を考慮（5）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "サイバインコ錠 ［内］",
@@ -7288,7 +7523,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "サイビスクディスポ関節注［注］",
@@ -7318,7 +7554,8 @@
         "dose": "減量の必要なし（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "サイプレジン点眼液 ［外］",
@@ -7348,7 +7585,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "サイラムザ点滴静注液 ［注］",
@@ -7378,7 +7616,8 @@
         "dose": "設定されていない（1）がおそらく減量の必要はない（5）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "サイレース錠，サイレース静注 ［注］",
@@ -7408,7 +7647,8 @@
         "dose": "常用量（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "サインバルタカプセル ［内］",
@@ -7438,7 +7678,8 @@
         "dose": "高度腎障害患者には禁忌（1）",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "サチュロ錠 ［内］",
@@ -7468,7 +7709,8 @@
         "dose": "データはないが，減量の必要はないと思われる（5）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "サデルガ カプセル ［内］",
@@ -7498,7 +7740,8 @@
         "dose": "特に設定されていないが，腎障害患者には慎重投与［使用経験が少ない］ （1）",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "サノレックス錠 ［内］",
@@ -7528,7 +7771,8 @@
         "dose": "重症の腎障害患者では排泄が遅延するため禁忌（1）となっているが減量の必要はない（5）",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "サビーン点滴静注用 ［注］",
@@ -7558,7 +7802,8 @@
         "dose": "設定されていない（1）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "サブラッド血液ろ過用補充液BSG［注］",
@@ -7588,7 +7833,8 @@
         "dose": "通常用量",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "サブリル散分包 ［内］",
@@ -7623,7 +7869,8 @@
         "dose": "設定されていないが CKD 用量に準じる（1）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "サムスカOD錠 ［内］",
@@ -7653,7 +7900,8 @@
         "dose": "無尿の患者には無効（1）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "サムタス点滴静注用 ［注］",
@@ -7683,7 +7931,8 @@
         "dose": "通常は適用されない（1）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "サムチレール内用懸濁液 ［内］",
@@ -7713,7 +7962,8 @@
         "dose": "使用経験が少ないの慎重投与（1）",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "サラジェン錠 ［内］",
@@ -7743,7 +7993,8 @@
         "dose": "減量の必要なし（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "サラゾピリン錠 ［内］",
@@ -7773,7 +8024,8 @@
         "dose": "ほとんど吸収されず局所で作用するため減量の必要はないと思われるが腎不全患者では 5-ASA は蓄積する可能性がある（5）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "サリベートエアゾール ［外］",
@@ -7803,7 +8055,8 @@
         "dose": "減量の必要なし（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "サリンヘス輸液・ヘスパンダー輸液 ［注］",
@@ -7833,7 +8086,8 @@
         "dose": "慎重に適用（5）",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "サルペリン点眼用 ［外］",
@@ -7858,7 +8112,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": true
   },
   {
     "name": "サレドカプセル ［内］",
@@ -7888,7 +8143,8 @@
         "dose": "減量の必要なし（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "サワシリンカプセル・細粒［内］",
@@ -7928,7 +8184,8 @@
         "dose": "通常 500mg/日［1 日 2 回］ただし，安全性は高いので必要に応じ増量も可（5）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": true
   },
   {
     "name": "サンコバ点眼液 ［外］",
@@ -7958,7 +8215,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "サンセファール静注用［注］、セパトレン静注用［注］",
@@ -7988,7 +8246,8 @@
         "dose": "腎不全患者では蛋白結合率低下に伴う非腎クリアランスの上昇が認められるため（Conte JE Jr: Antimicrob Agents Chemother 31: 1585-1588,1987）ほとんど減量する必要はないと考えられる（5）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": true
   },
   {
     "name": "サントニン原末 ［内］",
@@ -8018,7 +8277,8 @@
         "dose": "減量の必要なし（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "サンドスタチン皮下注用 ［注］",
@@ -8048,7 +8308,8 @@
         "dose": "減量の必要なし（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "サンピロ点眼液 ［外］",
@@ -8078,7 +8339,8 @@
         "dose": "減量の必要なし（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "サンリズムカプセル ［内］，サンリズム注射液 ［注］",
@@ -8119,7 +8381,8 @@
         "dose": "25mg/日から開始",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "サーカネッテン配合錠 ［内］",
@@ -8149,7 +8412,8 @@
         "dose": "透析患者の投与方法に言及した文献ないがおそらく減量の必要はない（5）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "サークリサ点滴静注 ［注］",
@@ -8174,7 +8438,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "サーティカン錠 ［内］",
@@ -8204,7 +8469,8 @@
         "dose": "減量の必要はないと思われる（5）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "サーバリックス ［注］",
@@ -8234,7 +8500,8 @@
         "dose": "通常用量（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ザイアジェン錠 ［内］",
@@ -8264,7 +8531,8 @@
         "dose": "減量の必要なし（12, HIV 感染患者透析医療ガイドライン 2010, サンフォード感染症治療ガイド, Izzedine H, et al: Nephron 89: 62-7, 2001 PMID: 11528234）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ザイザル錠 ［内］",
@@ -8309,7 +8577,8 @@
         "dose": "Ccr 10mL/min 未満では禁忌（1）",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ザイティガ錠 ［内］",
@@ -8339,7 +8608,8 @@
         "dose": "減量の必要なし（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ザイボックス注射液・リネゾリド点滴静注液 ［注］・ザイボックス錠 ［内］",
@@ -8370,7 +8640,8 @@
         "dose": "600mg×2/日で開始し，血小板数のモニターの上，必要時 600mg/日に減量（5） 腎機能低下によっても AUC の増大，t1/2 の延長は大きくないため減量の必要はない（1）透析により 30%除去されるため透析日には透析後に投与する．…",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": true
   },
   {
     "name": "ザイヤフレックス注射用 ［注］",
@@ -8395,7 +8666,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ザイロリック錠，アロプリノール錠 ［内］",
@@ -8425,7 +8697,8 @@
         "dose": "1 日 1 回 50mg または HD 後に 1 回 100mg×週 2～3 回（5）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ザガーロカプセル ［内］",
@@ -8455,7 +8728,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ザグラス配合錠 ［内］",
@@ -8480,7 +8754,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ザジテンカプセル ［内］",
@@ -8510,7 +8785,8 @@
         "dose": "減量の必要なし．ただし透析患者の投与方法に言及した文献なし（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ザジテン点眼液 ［外］",
@@ -8540,7 +8816,8 @@
         "dose": "常用量(5)",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ザジテン点鼻液 ［外］",
@@ -8570,7 +8847,8 @@
         "dose": "減量の必要なし（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ザノサー点滴静注用 ［注］",
@@ -8600,7 +8878,8 @@
         "dose": "副作用が強くあらわれるおそれがあるため腎障害患者には慎重投与（1）",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ザバクサ配合点滴静注用 ［注］",
@@ -8640,7 +8919,8 @@
         "dose": "初回750mg、以後1回150mg 1日3回",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": true
   },
   {
     "name": "ザビセフタ配合点滴静注用 ［注］",
@@ -8685,7 +8965,8 @@
         "dose": "1回0.9375g 2日に1回（透析日は透析後に投与）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": true
   },
   {
     "name": "ザファテック錠 ［内］",
@@ -8725,7 +9006,8 @@
         "dose": "25mg 週1回（透析日は透析後に投与）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ザラカム配合点眼液 ［外］",
@@ -8755,7 +9037,8 @@
         "dose": "減量の必要なし（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ザルコニン0.025%綿球20 ［外］",
@@ -8780,7 +9063,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ザルティア錠 ［内］",
@@ -8810,7 +9094,8 @@
         "dose": "禁忌（1） 1 回 5mg，週 2 回による改善率 36.6%（Bolat MS, et al: Ren Fail 2017 PMID: 28742406）",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ザルトラップ点滴静注 ［注］",
@@ -8835,7 +9120,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ザロンチンシロップ ［内］",
@@ -8865,7 +9151,8 @@
         "dose": "常用量をHD 後に投与（12）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ザーコリ カプセル ［内］",
@@ -8895,7 +9182,8 @@
         "dose": "慎重投与［安全性未確立］ （1）",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ザーネ軟膏 ［外］",
@@ -8925,7 +9213,8 @@
         "dose": "常用量［大量投与は避ける］ （5）",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ジャディアンス錠 ［内］",
@@ -8964,7 +9253,8 @@
         "dose": "使用経験なし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ジャヌビア錠，グラクティブ錠 ［内］",
@@ -9003,7 +9293,8 @@
         "dose": "12.5mg 1日1回（透析との時間関係を問わない）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "セレコックス錠 ［内］",
@@ -9032,7 +9323,8 @@
         "dose": "慎重投与．残存腎機能への影響に注意．透析患者でもNSAIDsの腎への影響は存在する",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ゼストリル錠・ロンゲス錠，リシノプリル錠 ［内］",
@@ -9066,7 +9358,8 @@
         "dose": "透析で除去される。2.5〜5mgから開始",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ゼフィックス錠",
@@ -9116,7 +9409,8 @@
         "dose": "初回 35mg，以後 10mg/日に減量［腎機能による調整のみでHD，PD による区分は必要ない］ （U,1）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": true
   },
   {
     "name": "ゾビラックス錠，アシクロビル錠 ［内］",
@@ -9166,7 +9460,8 @@
         "dose": "透析日は透析後に投与",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": true
   },
   {
     "name": "タイガシル点滴静注用",
@@ -9196,7 +9491,8 @@
         "dose": "常用量（12,サンフォード感染症治療ガイド）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "タイケルブ錠",
@@ -9226,7 +9522,8 @@
         "dose": "ESKD でも PK は変化しない（Pai SM, et al: J Clin Pharmacol 2019 PMID: 31074516）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "タイサブリ点滴静注",
@@ -9256,7 +9553,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "タガメット錠・注射液",
@@ -9301,7 +9599,8 @@
         "dose": "1回200mg 1日1回（透析後に投与）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "タキソテール点滴静注用",
@@ -9331,7 +9630,8 @@
         "dose": "減量の必要はなく，透析性もない（Janus N, et al: Ann Oncol 2010 PMID: 20118214）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "タキソール注射液",
@@ -9361,7 +9661,8 @@
         "dose": "減量の必要なし（3,12,Janus N, et al: Ann Oncol 2010 PMID: 20118214） 175mg/m^2 が適用できた卵巣癌のHD 患者（Balat O, et al: Eur J Gynaecol Onc…",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "タクザイロ皮下注シリンジ",
@@ -9391,7 +9692,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "タグリッソ錠",
@@ -9421,7 +9723,8 @@
         "dose": "おそらく減量の必要はない（5） PK は同様で 80mg/日が適用できる（Matsunashi A, et al: Invest New Drugs 2020 PMID: 31486987）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "タケキャブ錠・OD錠",
@@ -9451,7 +9754,8 @@
         "dose": "ESRD 患者での AUC は，腎機能正常者の1.3 倍（1）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "タケスリン静注用",
@@ -9481,7 +9785,8 @@
         "dose": "腎外クリランスが 52％低下する（Matzke GR, et al: Antimicrob Agents Chemother 23: 369-373,1983 および Evans WE, ed: Applied Pharmacokineti…",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": true
   },
   {
     "name": "タケプロンOD錠・ランソプラゾールOD錠・タケプロン静注用",
@@ -9511,7 +9816,8 @@
         "dose": "常用量（3,10）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "タケルダ配合錠",
@@ -9541,7 +9847,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "タシグナ カプセル",
@@ -9571,7 +9878,8 @@
         "dose": "設定されていない（1）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "タスフィゴ錠",
@@ -9601,7 +9909,8 @@
         "dose": "設定されていない（1）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "タズベリク錠",
@@ -9631,7 +9940,8 @@
         "dose": "PK からは常用量（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "タゾシン静注用",
@@ -9661,7 +9971,8 @@
         "dose": "1 回 1.25～2.5g を 24 時間おきに（5）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": true
   },
   {
     "name": "タチオン注射用・タチオン錠",
@@ -9691,7 +10002,8 @@
         "dose": "常用量（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "タナトリル錠",
@@ -9726,7 +10038,8 @@
         "dose": "慎重投与",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "タナドーパ顆粒",
@@ -9756,7 +10069,8 @@
         "dose": "常用量（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "タバリス錠",
@@ -9786,7 +10100,8 @@
         "dose": "常用量（1）PK には影響なし（Martin P, et al: Clin Ther 2015 PMID: 26519231）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "タフィンラーカプセル",
@@ -9816,7 +10131,8 @@
         "dose": "腎機能はPK に影響しない（Ouellet D, et al: J Clin Pharmacol 2014 PMID: 24408395）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "タブネオス カプセル",
@@ -9851,7 +10167,8 @@
         "dose": "設定なし（1）常用量（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "タブレクタ錠",
@@ -9881,7 +10198,8 @@
         "dose": "透析で除去されず，腎機能は PK に影響しない（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "タプロス点眼液",
@@ -9911,7 +10229,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "タベジール錠",
@@ -9941,7 +10260,8 @@
         "dose": "設定されいないが，腎不全患者は慎重投与ではない（1）",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "タペンタ錠",
@@ -9971,7 +10291,8 @@
         "dose": "慎重投与（1）",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "タミフルカプセル・ドライシロップ",
@@ -10011,7 +10332,8 @@
         "dose": "推奨用量は確立していない",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "タリオンOD錠",
@@ -10041,7 +10363,8 @@
         "dose": "1/4～1/2 に減量（山田晴生，他: 新薬と臨床 52: 471-6, 2003）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "タリビッド点眼液・眼軟膏・耳科用液・タリビッド錠",
@@ -10071,7 +10394,8 @@
         "dose": "100mg1 日 1 回であるが，レボフロキサシン錠に準じてよい（5）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": true
   },
   {
     "name": "タリージェ錠",
@@ -10111,7 +10435,8 @@
         "dose": "透析後に補充投与を考慮",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "タルグレチン カプセル",
@@ -10141,7 +10466,8 @@
         "dose": "設定されていない（1）PK からは常用量可（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "タルセバ錠",
@@ -10171,7 +10497,8 @@
         "dose": "常用量適用［非小細胞肺癌］ （Togashi Y, et al: J Thorac Oncol 2010 PMID: 20234322）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "タンニン酸アルブミン",
@@ -10201,7 +10528,8 @@
         "dose": "常用量（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "タンボコール錠・静注",
@@ -10236,7 +10564,8 @@
         "dose": "1日100mgを超えない",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ターゼナカプセル",
@@ -10271,7 +10600,8 @@
         "dose": "使用経験が限られるため慎重に判断",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ダイアコート軟膏",
@@ -10301,7 +10631,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ダイアップ坐剤",
@@ -10331,7 +10662,8 @@
         "dose": "常用量（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ダイアニール【N】PD-4腹膜透析液",
@@ -10356,7 +10688,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ダイアモックス錠・末・注射用",
@@ -10386,7 +10719,8 @@
         "dose": "眼圧効果目的に 125mg を週 2～3 回［血中濃度上昇による中枢神経症状の報告があるため TDM 実施］ （5） 血中濃度30μg/mLを超えないように週5回に増量して投与で眼圧コントロールが得られた可能性のあるHD症例 125mg×週…",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ダイアート錠，アゾセミド錠 ［内］",
@@ -10416,7 +10750,8 @@
         "dose": "無尿患者には禁忌（1）",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ダイドロネル錠",
@@ -10446,7 +10781,8 @@
         "dose": "他のビスホスホネートを選択（5）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ダウノマイシン静注用",
@@ -10476,7 +10812,8 @@
         "dose": "Scr 3mg/dL を超える患者では 50%に減量（U）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ダカルバジン注用",
@@ -10506,7 +10843,8 @@
         "dose": "副作用が強くあらわれるおそれがあるため慎重投与（1）",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ダクルインザ錠",
@@ -10536,7 +10874,8 @@
         "dose": "減量の必要なし（Garimella T, et al: Antivir Ther 2015 PMID: 25654812）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ダフクリア錠",
@@ -10566,7 +10905,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": true
   },
   {
     "name": "ダラザレックス点滴静注",
@@ -10596,7 +10936,8 @@
         "dose": "常用量（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ダラシンS注射液・ダラシンカプセル",
@@ -10626,7 +10967,8 @@
         "dose": "常用量（3,6,7,10）腎不全患者では生食 20mL に溶解し 30～60 分点滴も可（5） HD 前投与も可（Solli CN, et al: J Antimicrob Chemother 2023 PMID: 36640129）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": true
   },
   {
     "name": "ダラシンTゲル1%",
@@ -10656,7 +10998,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ダルテパリンNa静注シリンジ",
@@ -10686,7 +11029,8 @@
         "dose": "血液透析開始時 10～20IU/kg､毎時 7.5～10IU/kg 持続（1）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ダルメートカプセル",
@@ -10716,7 +11060,8 @@
         "dose": "減量の必要なし（3,12）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ダントリウムカプセル・ダントリウム静注用",
@@ -10746,7 +11091,8 @@
         "dose": "常用量（5） 透析患者の悪性症候群に適用した症例（Kunishima Y, et al: Int J Urol 2000 PMID: 10710250）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ダン･リッチ",
@@ -10776,7 +11122,8 @@
         "dose": "透析患者の投与方法に言及した文献はないが、減量の必要ないと思われる（5）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ダーブロック錠",
@@ -10806,7 +11153,8 @@
         "dose": "常用量（1） 高用量 ESA からの切り替えではHb 低下しやすいので注意（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "テグレトール錠 ［内］",
@@ -10836,7 +11184,8 @@
         "dose": "常用量（3,6）低用量から開始し，症状やTDM 評価にて修正（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "テネリア錠 ［内］",
@@ -10865,7 +11214,8 @@
         "dose": "常用量（20mg 1日1回）．透析での除去は限定的",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "デパケンR錠 ・シロップ ・細粒 ・錠 ［内］",
@@ -10895,7 +11245,8 @@
         "dose": "常用量（1,3,10,12）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "トポテシン注，イリノテカン塩酸塩点滴静注液 ［注］",
@@ -10925,7 +11276,8 @@
         "dose": "毒性の面から減量を推奨し，50mg/m^2/週から開始［HD 後または非 HD 日に投与］ （Janus N, et al: Ann Oncol 2010 PMID: 20118214）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "トラゼンタ錠 ［内］",
@@ -10954,7 +11306,8 @@
         "dose": "常用量（5mg 1日1回）．透析での除去は限定的",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "トルリシティ皮下注アテオス ［注］",
@@ -10983,7 +11336,8 @@
         "dose": "慎重投与．透析患者での使用経験は限られている．消化器症状に注意",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ナイキサン錠",
@@ -11013,7 +11367,8 @@
         "dose": "常用量（1,3）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ナイスタチン錠",
@@ -11043,7 +11398,8 @@
         "dose": "吸収されないので常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ナウゼリンOD錠，ナウゼリン坐剤",
@@ -11073,7 +11429,8 @@
         "dose": "常用量（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ナゼア注射液・OD錠",
@@ -11103,7 +11460,8 @@
         "dose": "設定されていない（1）短期投与の際には減量の必要なし（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ナゾネックス点鼻液",
@@ -11133,7 +11491,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ナテグリニド錠",
@@ -11163,7 +11522,8 @@
         "dose": "禁忌（1）重篤な低血糖症例が 4 例報告され［内 3 例が死亡］ ，その 4 例中 3 例は透析患者であり 1 例は腎障害患者であったため，透析患者 には投与禁忌（1）活性を有する代謝物の蓄積が低血糖の原因と思われる（Inoue T, et…",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ナディック錠",
@@ -11198,7 +11558,8 @@
         "dose": "10～40mg を週 3 回 HD 後（17）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ナトリックス錠",
@@ -11228,7 +11589,8 @@
         "dose": "無尿の患者には禁忌（1）",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ナノゾラ皮下注",
@@ -11258,7 +11620,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ナパノール錠",
@@ -11288,7 +11651,8 @@
         "dose": "透析患者の投与方法に言及した文献はないが、おそらく減量の必要はないと思われる（5）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ナボバンカプセル",
@@ -11318,7 +11682,8 @@
         "dose": "減量の必要なし（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ナルサス錠",
@@ -11363,7 +11728,8 @@
         "dose": "排泄遅延のため低用量から開始（1）25%に減量（5）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ナルベイン注",
@@ -11393,7 +11759,8 @@
         "dose": "低用量から投与を開始（1）",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ナルラピド錠",
@@ -11428,7 +11795,8 @@
         "dose": "排泄遅延を考慮して使用（1）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ナロキソン塩酸塩静注",
@@ -11458,7 +11826,8 @@
         "dose": "常用量（3,12）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ニコチン酸アミド散",
@@ -11488,7 +11857,8 @@
         "dose": "常用量（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ネシーナ錠 ［内］",
@@ -11527,7 +11897,8 @@
         "dose": "6.25mg 1日1回（透析との時間関係を問わない）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ネスプ注射液プラシリンジ・ダルベポエチンα注",
@@ -11557,7 +11928,8 @@
         "dose": "週 1 回 20μg を静注（1）し，Hb 値に応じて用量設定（1）rhEPO 製剤からの変更比率はおよそ 200：1（1）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ノベルジン錠・顆粒 ［内］",
@@ -11587,7 +11959,8 @@
         "dose": "データはないが，少量から開始し通常用量まで適用可と思われる．ただし，長期投与ではこの限りではない（5） 銅欠乏による貧血に注意（1） 亜鉛補給に伴う銅欠乏による ESA 低反応性貧血の症例（Munie S, et al: Case Rep …",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ハイイータン錠 ［内］",
@@ -11617,7 +11990,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ハイカムチン注射用 ［内］",
@@ -11647,7 +12021,8 @@
         "dose": "データがなくできれば避ける（17）",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ハイカリックRF輸液 ［注］",
@@ -11677,7 +12052,8 @@
         "dose": "常用量投与するが，カリウムとリンが含有されていないため，低 K 血症や低 P 血症の発現に注意し，適宜電解質補正を行う（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ハイグロトン錠 ［内］＜製造中止＞",
@@ -11707,7 +12083,8 @@
         "dose": "避ける（3）",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ハイゼット錠 ・細粒 ［内］",
@@ -11737,7 +12114,8 @@
         "dose": "透析患者の投与法に言及した文献はない（5）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ハイドレアカプセル［内］",
@@ -11767,7 +12145,8 @@
         "dose": "設定されていない（1）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ハイドロサイトプラス　[医療用具]",
@@ -11792,7 +12171,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ハイパジールコーワ錠 ［内］",
@@ -11822,7 +12202,8 @@
         "dose": "おそらく減量の必要がないと思われる（5）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ハイペン錠， オステラック錠［内］",
@@ -11852,7 +12233,8 @@
         "dose": "減量の必要なし（3, Clin Rheumatol 8: S25-S35, 1989）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ハイポエタノール液2% 「ケンエー」［外］",
@@ -11877,7 +12259,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ハイヤスタ錠 ［内］",
@@ -11907,7 +12290,8 @@
         "dose": "設定されていない（1）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ハッカ油 ［外］",
@@ -11932,7 +12316,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ハップスタ－ID70mg ［外］",
@@ -11957,7 +12342,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ハプトグロビン静注2000単位「ベネシス」［注］",
@@ -11987,7 +12373,8 @@
         "dose": "減量の必要なし（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ハベカシン注射液 ［注］",
@@ -12022,7 +12409,8 @@
         "dose": "原則禁忌。TDMにより個別調節",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": true
   },
   {
     "name": "ハラヴェン静注 ［注］",
@@ -12052,7 +12440,8 @@
         "dose": "設定されていない（1）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ハルシオン錠 ［内］",
@@ -12082,7 +12471,8 @@
         "dose": "Cmax は上昇するものの、他のパラメーターには変化ないため正常者と同じ（Kroboth PD, et al: Br J Clin Pharmacol 19: 839-842, 1985 PMID: 2862896）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ハルナールD錠 ［内］",
@@ -12112,7 +12502,8 @@
         "dose": "尿中排泄率が低いため減量の必要はないと思われるが慎重投与（5）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ハルロピテープ ［外］",
@@ -12142,7 +12533,8 @@
         "dose": "禁忌（重度腎機能障害）",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ハンプ注射用 ［注］",
@@ -12172,7 +12564,8 @@
         "dose": "尿量がない場合には十分な効果が期待できない（5）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ハーセプチン注射用 ［注］",
@@ -12202,7 +12595,8 @@
         "dose": "減量の必要なし（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ハーボニー配合錠 ［内］",
@@ -12232,7 +12626,8 @@
         "dose": "禁忌（1）ソホスブビルの活性体 AUC が増大するためである（1） ソホスブビルの full dose 適用は可能と思われる（Sise ME, et al: Nephrol Dial Transplant 2022 PMID: 338483…",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "バイアグラ錠［内］",
@@ -12262,7 +12657,8 @@
         "dose": "活性体の尿中排泄率が低いため減量の必要なし（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "バイアスピリン錠・アスピリン（末） ［内］",
@@ -12292,7 +12688,8 @@
         "dose": "減量の必要なし［通常 81～100mg/日で使用］ （5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "バイカロン錠 ［内］＜製造中止（予定）＞",
@@ -12322,7 +12719,8 @@
         "dose": "無尿の患者には禁忌（1）",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "バイフィル透析剤・バイフィル専用炭酸水素ナトリウム補充液(2L)　[注]",
@@ -12352,7 +12750,8 @@
         "dose": "必要に応じ適用（1）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "バイロテンシン錠 ［内］",
@@ -12382,7 +12781,8 @@
         "dose": "常用量（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "バクシダール錠 ［内］",
@@ -12417,7 +12817,8 @@
         "dose": "200～400mg を 1 日 1 回（5）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": true
   },
   {
     "name": "バクスミー点鼻粉末剤3mg ［外］",
@@ -12442,7 +12843,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "バクタ配合錠 ・配合顆粒，バクタミニ配合錠，バクトラミン配合錠・配合顆粒 ［内］・バクトラミン注 ［注］",
@@ -12478,7 +12880,8 @@
         "dose": "使用は推奨されないが，使用する場合にはT として 5～10mg/kg を 24hr ごと（サンフォード感染症治療ガイド） T として 2.5～5mg/kg を 24hr 毎にiv［HD 日は HD 後］ （17）PCP 予防には 1～2 錠…",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": true
   },
   {
     "name": "バクトロバン鼻腔用軟膏 ［外］",
@@ -12503,7 +12906,8 @@
         "dose": "常用量（減量不要）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "バクニュバンス水性懸濁注シリンジ ［注］",
@@ -12528,7 +12932,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "バスタレルF錠 ［内］",
@@ -12553,7 +12958,8 @@
         "dose": "高齢者，腎機能低下患者で AUC 増大（Nenchev N, et al: Drug Dev Res 2020 PMID: 32128844）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "バソメット錠 ［内］＜製造中止予定＞",
@@ -12583,7 +12989,8 @@
         "dose": "腎疾患による薬物動態の変化はないため，減量する必要はない（3,10,12, Am J Med 23; 80(5B): 94-9,1986）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "バップフォー錠 ［内］",
@@ -12613,7 +13020,8 @@
         "dose": "透析患者への投与法に言及した報告はないが，活性代謝物があるため要注意（5）",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "バナン錠 ［内］",
@@ -12643,7 +13051,8 @@
         "dose": "1 回 100mg を 48hr 毎，効果不十分の場合には1 回 100mg を 24hr 毎［HD 日はHD 後］ （5）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": true
   },
   {
     "name": "バファリン配合錠A330 ［内］",
@@ -12673,7 +13082,8 @@
         "dose": "減量の必要ないが，透析患者の消化管は脆弱なため慎重に投与する（5）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "バフセオ錠 ［内］",
@@ -12703,7 +13113,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "バベンチオ点滴静注 ［注］",
@@ -12728,7 +13139,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "バラクルード錠・エンテカビル錠 ［内］",
@@ -12773,7 +13185,8 @@
         "dose": "0.5mg 7日に1回（透析後に投与）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": true
   },
   {
     "name": "バリキサ錠・バリキサドライシロップ ［内］",
@@ -12818,7 +13231,8 @@
         "dose": "推奨用量は確立していない",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": true
   },
   {
     "name": "バリコンミール ［内］",
@@ -12848,7 +13262,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "バリブライトP[内]",
@@ -12878,7 +13293,8 @@
         "dose": "減量の必要なし（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "バルギンS2号 ［内］",
@@ -12908,7 +13324,8 @@
         "dose": "減量の必要はないが、透析患者は便秘を合併する患者が多いため、通過障害による穿孔を起こすことがまれにあるので、要注意である（5）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "バルデナフィル錠 ［内］",
@@ -12938,7 +13355,8 @@
         "dose": "禁忌（1）",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "バルトレックス錠・顆粒 ［内］",
@@ -12988,7 +13406,8 @@
         "dose": "透析後に投与",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": true
   },
   {
     "name": "バルネチール錠・細粒 ［内］",
@@ -13018,7 +13437,8 @@
         "dose": "設定されていない（1）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "バルバーサ錠 ［内］",
@@ -13048,7 +13468,8 @@
         "dose": "検討されていない（1）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "バレオンカプセル [内]",
@@ -13078,7 +13499,8 @@
         "dose": "1 回 100～200mg を 24hr おきに（5）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": true
   },
   {
     "name": "バロス発泡顆粒 ［内］",
@@ -13103,7 +13525,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "バンコマイシン点滴静注用 ［注］",
@@ -13158,7 +13581,8 @@
         "dose": "LD 25mg/kg，MD 10mg/kg［HD 後］ ，HD 前濃度を 15～20mg/L に保てば，直近 24hr の AUC は 400～600mg･hr/L を達成すると見なす． また HD 中投与ではそれぞれ 1.5 倍量に設定（…",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": true
   },
   {
     "name": "バンコマイシン眼軟膏 ［外］",
@@ -13183,7 +13607,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": true
   },
   {
     "name": "パオスクレー内痔核内注射用［注］",
@@ -13213,7 +13638,8 @@
         "dose": "減量の必要なし（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "パキロビッド パック ［内］",
@@ -13248,7 +13674,8 @@
         "dose": "推奨しない（データ不十分）",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "パシル点滴静注液，パズクロス点滴静注液 [注]",
@@ -13283,7 +13710,8 @@
         "dose": "週 3 回透析後に 300～500mg 投与［週 2 回 HD の例でも週 3 回投与が選択できると思われる］ （5, 古久保 拓: 日化療会誌 56: 462-6, 2008） 体重 60kg 以上なら 1 回 500mg（5）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": true
   },
   {
     "name": "パシーフカプセル［内］",
@@ -13313,7 +13741,8 @@
         "dose": "減量の必要はないが，代謝物による副作用に注意（5）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "パスターゼSA配合顆粒 ［内］＜製造中止＞",
@@ -13343,7 +13772,8 @@
         "dose": "減量の必要なし（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "パタノール点眼液 ［外］",
@@ -13373,7 +13803,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "パドセブ点滴静注用 ［注］",
@@ -13403,7 +13834,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "パドリン注射液［注］＜製造中止＞",
@@ -13433,7 +13865,8 @@
         "dose": "透析患者の投与方法に言及した文献はないが、減量の必要はない（5）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "パナルジン錠 ［内］",
@@ -13463,7 +13896,8 @@
         "dose": "常用量（1,3, J Clin Pharmacol 37: 108-15, 1997）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "パパベリン塩酸塩注 ［注］",
@@ -13493,7 +13927,8 @@
         "dose": "透析患者の投与方法に言及した文献なし（5）血管手術において血管に散布する局所投与法が用いられる（5）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "パピロックミニ点眼液 ［外］",
@@ -13523,7 +13958,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "パミドロン酸二Na点滴静注用 ［注］",
@@ -13553,7 +13989,8 @@
         "dose": "通常用量と同じで文献上では日本の常用量以上を用いている（J Clin Pharmacol 37: 285-90,1997）という報告と投与時間を 2 倍に延長する （3）という報告があり，尿中排泄率データの報告によって異なる",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "パラアミノ馬尿酸ソーダ注射液",
@@ -13583,7 +14020,8 @@
         "dose": "適用されない（1）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "パラプラチン注射液 ［注］",
@@ -13613,7 +14051,8 @@
         "dose": "Calvert 式：推奨投与量=AUC×（GFR＋25）を用いて計算（目標 AUC は別に参照）し，GFR は HD 後投与ならゼロに設定し，非 HD 日 に投与して 12～24hr 後に HD を行う（Janus N, et al: An…",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "パラプロスト配合カプセル ［内］＜2023.3製造中止＞",
@@ -13643,7 +14082,8 @@
         "dose": "透析患者の投与方法に言及した文献ないが，おそらく減量の必要はない（5）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "パラミヂンカプセル ［内］",
@@ -13678,7 +14118,8 @@
         "dose": "透析患者の投与方法に言及した報告はないが，尿中未変化体排泄率が 25%であるため，約 3/4 を目安に減量（5）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "パリエット錠，ラベプラゾールNa錠　[内]",
@@ -13708,7 +14149,8 @@
         "dose": "体内動態への腎障害の影響は認められず，減量の必要なし（1, Keane WF, et al: J Clin Pharmacol 39: 927-33, 1999）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "パルクス注ディスポ，リプルキット注 ［注］",
@@ -13738,7 +14180,8 @@
         "dose": "減量の必要なし（5）HD 終了時に静注するが，血圧低下をきたしやすい例には点滴静注を選択（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "パルナパリンNa透析用，ローヘパ透析用 ［注］",
@@ -13768,7 +14211,8 @@
         "dose": "を参照 適応外を含むが，使用目的別投与量の記載あり（Camporese G, et al: Vasc Health Risk Manag 2009 PMID: 19851520）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "パルミコートタービュヘイラー［外］",
@@ -13798,7 +14242,8 @@
         "dose": "減量の必要なし（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "パルモディア錠・XR錠 ［内］",
@@ -13833,7 +14278,8 @@
         "dose": "低用量から投与を開始するか，投与間隔を延長［最大 1 日 0.2mg］ （1）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "パレプラス輸液 ［注］",
@@ -13863,7 +14309,8 @@
         "dose": "重篤な腎障害のある患者又は高窒素血症の患者には禁忌（1）",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "パロキセチン錠・パキシルCR錠　[内]",
@@ -13893,7 +14340,8 @@
         "dose": "50%に減量（3,17, Cohen LM, et al: Psychosomatics 2004 PMID: 14709759）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "パンクレアチン ［内］",
@@ -13923,7 +14371,8 @@
         "dose": "減量の必要なし",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "パンスポリン静注用 ［注］",
@@ -13953,7 +14402,8 @@
         "dose": "1g/日［HD 日は HD 後］点滴静注（5）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": true
   },
   {
     "name": "パントシン錠 ［内］",
@@ -13983,7 +14433,8 @@
         "dose": "減量の必要なし（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "パントール注射液 ［注］",
@@ -14013,7 +14464,8 @@
         "dose": "常用量（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "パーサビブ静注透析用シリンジ ［注］",
@@ -14043,7 +14495,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "パージェタ点滴静注 ［注］",
@@ -14073,7 +14526,8 @@
         "dose": "減量の必要なし［設定されていない］ （1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "パーロデル錠 ［内］",
@@ -14103,7 +14557,8 @@
         "dose": "常用量（3,4）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ビクトーザ皮下注 ［注］",
@@ -14132,7 +14587,8 @@
         "dose": "慎重投与．透析患者への使用経験は限られている．消化器症状に注意",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ビルタサ懸濁用散分包 ［内］",
@@ -14162,7 +14618,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ピモベンダン錠 ［内］",
@@ -14197,7 +14654,8 @@
         "dose": "初回1.25mg～2.5mg/日から開始し，2～3 週間後に 5mg に増量．運動耐用能の改善により 2.5mg/日に減量（松井 豊, 他: Pharma Medica 15: 159-70,1997）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ピレノキシン懸濁性点眼液 ［外］",
@@ -14227,7 +14685,8 @@
         "dose": "常用量（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "フェブリク錠 ［内］",
@@ -14256,7 +14715,8 @@
         "dose": "慎重投与．10mg/日から開始し慎重に増量．透析患者での使用経験は限られるが使用可能",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "フォシーガ錠 ［内］",
@@ -14290,7 +14750,8 @@
         "dose": "新規開始非推奨（臨床試験未実施）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "フラジール内服錠 ［内］，アネメトロ点滴静注液 ［注］，フラジール膣錠 ［外］",
@@ -14327,7 +14788,8 @@
         "dose": "50%に減量［常用量は 7.5mg/kg を 6hr 毎］ （サンフォード感染症治療ガイド）注射剤では水，Na 過剰に注意（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": true
   },
   {
     "name": "プラザキサカプセル ［内］",
@@ -14366,7 +14828,8 @@
         "dose": "禁忌．腎排泄率が高く（約80%），透析患者には禁忌",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "プログラフカプセル・プログラフ注射液",
@@ -14396,7 +14859,8 @@
         "dose": "常用量（1,3）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ベクルリー点滴静注用 ［注］",
@@ -14430,7 +14894,8 @@
         "dose": "投与可能（腎機能モニタリング推奨）",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ベネトリンシロップ ［内］，ベネトリン吸入液，サルタノールインヘラー［外］",
@@ -14461,7 +14926,8 @@
         "dose": "経口剤は少量から開始（5）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ホスレノールチュアブル錠・OD錠・顆粒分包・炭酸ランタンOD錠",
@@ -14491,7 +14957,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ボカブリア錠 ［内］，ボカブリア水懸濁注 ［注］",
@@ -14522,7 +14989,8 @@
         "dose": "PK は検討されていない（1）常用量（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ボルタレン錠・SR・坐剤，ジクロフェナクNa錠 ［内・外］",
@@ -14552,7 +15020,8 @@
         "dose": "慎重投与．消化管出血・残存腎機能低下に注意．やむを得ない場合は短期間にとどめる",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "マイコスポールクリーム",
@@ -14582,7 +15051,8 @@
         "dose": "減量の必要なし（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "マイザー軟膏",
@@ -14612,7 +15082,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "マイスタン錠",
@@ -14642,7 +15113,8 @@
         "dose": "常用量（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "マイスリー錠",
@@ -14672,7 +15144,8 @@
         "dose": "常用量（11）5mg/日から開始（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "マイテラーゼ錠",
@@ -14702,7 +15175,8 @@
         "dose": "データなし（1）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "マイトマイシン注用",
@@ -14732,7 +15206,8 @@
         "dose": "腎機能正常者の 75%に減量，投与間隔は腎機能正常者と同じ（3,4,6,10）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "マクサルト錠、RPD錠",
@@ -14762,7 +15237,8 @@
         "dose": "AUC が44%増加するので禁忌（1）",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "マグコロール散68%分包",
@@ -14792,7 +15268,8 @@
         "dose": "腎不全患者では Mg の排泄障害があるため慎重投与（1）",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "マグネスコープシリンジ",
@@ -14822,7 +15299,8 @@
         "dose": "重篤な腎障害のある患者は原則禁忌（1）",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "マグネビスト静注シリンジ",
@@ -14852,7 +15330,8 @@
         "dose": "NSF のリスクとなるため原則禁忌（1）",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "マスーレッド錠",
@@ -14882,7 +15361,8 @@
         "dose": "75mg/日から開始（1）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "マックメット懸濁用配合DS",
@@ -14912,7 +15392,8 @@
         "dose": "長期投与によりアルミニウム脳症，アルミニウム骨症，貧血等があらわれることがあるため禁忌（1）",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "マドパー配合錠",
@@ -14942,7 +15423,8 @@
         "dose": "ベンセラシドについては透析患者の投与方法に言及した文献ないが，レボドパは減量する必要なし（3）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "マブキャンパス点滴静注",
@@ -14972,7 +15454,8 @@
         "dose": "設定されていない（1）常用量（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "マブリン散、ブスルフェクス点滴静注用",
@@ -15002,7 +15485,8 @@
         "dose": "常用量（3）腎障害のある患者には副作用が強くあらわれるおそれがある（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "マラロン配合錠",
@@ -15032,7 +15516,8 @@
         "dose": "予防の目的で投与する場合のみ，重度の腎障害のある患者ではプログアニルの排泄が遅延し，血中濃度が上昇する可能性があるため禁忌，治 療目的の場合は慎重投与（1） データなし（サンフォード感染症治療ガイド）",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "マリゼブ錠",
@@ -15067,7 +15552,8 @@
         "dose": "12.5mg 週1回（透析との時間関係を問わない）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "マルタミン注射用",
@@ -15097,7 +15583,8 @@
         "dose": "減量の必要はないが、ビタミン A の蓄積に注意（5）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "マンジャロ皮下注アテオス",
@@ -15127,7 +15614,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "マンニットT注",
@@ -15157,7 +15645,8 @@
         "dose": "無尿の患者には投与しない（5）",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "マヴィレット配合錠",
@@ -15187,7 +15676,8 @@
         "dose": "常用量（1, サンフォード感染症治療ガイド） PD，CRRT ではデータなし（サンフォード感染症治療ガイド）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "マーカイン注脊麻用",
@@ -15217,7 +15707,8 @@
         "dose": "抗凝血薬投与中の患者は出血に注意して投与（1）",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "マーズレンS配合顆粒、配合錠ES",
@@ -15247,7 +15738,8 @@
         "dose": "常用量（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "マーデュオックス軟膏",
@@ -15277,7 +15769,8 @@
         "dose": "活性型ビタミン D を含有するため要注意（1）",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ミカルディス錠 ［内］",
@@ -15306,7 +15799,8 @@
         "dose": "常用量．胆汁排泄型のため腎機能の影響を受けない．透析中の血圧低下に注意",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ミネブロ錠 ［内］",
@@ -15345,7 +15839,8 @@
         "dose": "禁忌．高カリウム血症のリスクが高い",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ムコソルバン錠 ・L錠，アンブロキソール塩酸塩錠 ［内］",
@@ -15375,7 +15870,8 @@
         "dose": "常用量（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ムコダイン錠 ・細粒 ・シロップ［内］",
@@ -15405,7 +15901,8 @@
         "dose": "常用量（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "メトグルコ錠，メトホルミン塩酸塩錠 ［内］",
@@ -15444,7 +15941,8 @@
         "dose": "禁忌．乳酸アシドーシスのリスクが高い．透析患者には使用しない",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "モニラック・シロップ，ラグノスNF経口ゼリー",
@@ -15474,7 +15972,8 @@
         "dose": "常用量（Lin CJ, et al: J Food Drug Anal 2016 PMID: 28911627）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ヤクバンテープ ［外］",
@@ -15504,7 +16003,8 @@
         "dose": "常用量（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ヤーボイ点滴静注液 ［注］",
@@ -15534,7 +16034,8 @@
         "dose": "腎機能はPK に影響しない（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ライゾデグ配合注フレックスタッチ",
@@ -15564,7 +16065,8 @@
         "dose": "血糖に応じて投与（1）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ライブリバント点滴静注",
@@ -15589,7 +16091,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ラキソベロン液・錠",
@@ -15619,7 +16122,8 @@
         "dose": "常用量（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ラクテックD輸液",
@@ -15649,7 +16153,8 @@
         "dose": "必要量（5）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ラクトリンゲル液，ラクテック輸液",
@@ -15679,7 +16184,8 @@
         "dose": "必要量（5）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ラゲブリオ錠・カプセル",
@@ -15709,7 +16215,8 @@
         "dose": "透析例での PK 試験は未実施（1）PK からは常用量が適用可能と思われるが効果は限定的（5） 1 日 2 回投与のうち，HD 日の 1 回は HD 後となるように設定する（5） 救急受診頻度が減少し，早期開始にてウイルス消失が早まる（Ch…",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ラコールNF配合経腸用液",
@@ -15739,7 +16246,8 @@
         "dose": "腎不全用の処方ではないため，高度腎障害患者には禁忌（1）",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ラシックス錠，ラシックス注",
@@ -15769,7 +16277,8 @@
         "dose": "無尿の患者には禁忌（1）",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ラジカット注，ラジカット内用懸濁液",
@@ -15799,7 +16308,8 @@
         "dose": "腎機能障害の増悪が表れることがあるため禁忌（1）であるが，無尿患者には通常量の投与が可能かもしれない（5）",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ラジレス錠",
@@ -15829,7 +16339,8 @@
         "dose": "減量の必要なし（1）ただし，健常成人に比べHD 患者での Cmax は 1.2 倍，AUC は 1.6 倍上昇（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ラステットSカプセル，ラステット注",
@@ -15864,7 +16375,8 @@
         "dose": "Ccr 15～50mL/min で 75%に減量（U）とあるため透析患者ではさらに減量（50%程度に）する必要あり（5）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ラスビック錠，ラスビック点滴静注キット",
@@ -15894,7 +16406,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": true
   },
   {
     "name": "ラスリテック点滴静注用",
@@ -15924,7 +16437,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ラックビー微粒N・ビオフェルミン錠剤",
@@ -15954,7 +16468,8 @@
         "dose": "常用量（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ラツーダ錠",
@@ -15994,7 +16509,8 @@
         "dose": "慎重投与",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ラニチジン錠・注射液",
@@ -16024,7 +16540,8 @@
         "dose": "■内服：1 日 75mg 寝る前（1）過量投与により見当識障害、意識障害、痙攣などの精神神経症状や顆粒球減少症が腎不全では発症しやすい （5）■注射：50mg を 24hr 毎［HD 日は HD 後］ （17）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ラニラピッド錠・メチルジゴキシン錠",
@@ -16054,7 +16571,8 @@
         "dose": "1 回 0.05mg を週 3～4 回服用（5）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ラパリムス錠",
@@ -16084,7 +16602,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ラビジェル（手指消毒用）・手ピカジェル",
@@ -16109,7 +16628,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ラピアクタ点滴用",
@@ -16154,7 +16674,8 @@
         "dose": "具体的には設定されておらず，慎重に投与量を調節［HD 日はHD 後］ （1）",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ラピフォートワイプ",
@@ -16184,7 +16705,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ラボナール注射用",
@@ -16214,7 +16736,8 @@
         "dose": "75%に減量（3,4,6,10）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ラマトロバン錠",
@@ -16244,7 +16767,8 @@
         "dose": "常用量（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ラミクタール錠",
@@ -16274,7 +16798,8 @@
         "dose": "常用量（3）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ラミシールクリーム・外用液",
@@ -16304,7 +16829,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ラミシール錠",
@@ -16334,7 +16860,8 @@
         "dose": "常用量（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ランタス注ソロスター・XR注ソロスター・インスリングラルギンBS注ミリオペン",
@@ -16364,7 +16891,8 @@
         "dose": "血糖値に応じて投与（5）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ランダ注",
@@ -16394,7 +16922,8 @@
         "dose": "腎障害の悪化および重篤な副作用が発現するため重篤な腎障害では禁忌（1）",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ランデル錠",
@@ -16424,7 +16953,8 @@
         "dose": "常用量（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ランプレンカプセル",
@@ -16449,7 +16979,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ランマーク HI 皮下注",
@@ -16479,7 +17010,8 @@
         "dose": "重篤な腎障害患者には慎重投与（1）Ccr 30mL/min 未満の患者では使用経験がない（1）",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "リクシアナ錠・OD錠 ［内］",
@@ -16523,7 +17055,8 @@
         "dose": "禁忌．高度の腎機能障害（Ccr 15未満）には禁忌",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "リピトール錠，アトルバスタチン錠 ［内］",
@@ -16553,7 +17086,8 @@
         "dose": "常用量（11, J Clin Pharmacol 1997 PMID: 9549635, Lins RL, et al: Nephrol Dial Transplant 2003 PMID: 12686673）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "リボトリール錠・ランドセン錠",
@@ -16583,7 +17117,8 @@
         "dose": "常用量（3,10）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "レニベース錠，エナラプリルマレイン酸塩錠 ［内］",
@@ -16622,7 +17157,8 @@
         "dose": "2.5mg/日から開始し慎重投与．血液透析で除去される．透析後の補充投与を考慮",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "レミッチOD錠，ナルフラフィン塩酸塩OD錠",
@@ -16652,7 +17188,8 @@
         "dose": "常用量（1）夕食後もしくは就寝前などに投与し，HD 前には服用しない（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ロキソニン錠・細粒，ロキソプロフェンNa錠 ［内］",
@@ -16686,7 +17223,8 @@
         "dose": "慎重投与．残存腎機能の低下・消化管出血リスクに注意．やむを得ず使用する場合は短期間にとどめる",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ロゼレム錠，ラメルテオン錠",
@@ -16716,7 +17254,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ワイテンス錠 ［内］",
@@ -16746,7 +17285,8 @@
         "dose": "常用量（3,4,10,12）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ワイパックス錠 ［内］",
@@ -16776,7 +17316,8 @@
         "dose": "常用量（3） グルクロン酸抱合体の血中濃度は高くなるがある程度透析で除去できる（Verbeeck R, et al: Br J Clin Pharmacol 1976 PMID: 22216526）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ワゴスチグミン注 ［注］，ワゴスチグミン散 ［内］",
@@ -16807,7 +17348,8 @@
         "dose": "1/3 に減量するか投与間隔を3 倍に延長する（5）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ワソラン錠 ［内］，ワソラン静注 ［注］",
@@ -16838,7 +17380,8 @@
         "dose": "120mg/日以下から開始して血圧，脈拍により必要量を決定（1）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ワントラム錠 ［内］",
@@ -16868,7 +17411,8 @@
         "dose": "高度な腎障害患者では高い血中濃度が持続し，作用及び副作用が増強するおそれがあるため禁忌（1）",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "ワーファリン錠 ［内］",
@@ -16898,7 +17442,8 @@
         "dose": "PT-INR により決定（12）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "三黄瀉心湯エキス顆粒（113）［ツムラ］ ［内］",
@@ -16928,7 +17473,8 @@
         "dose": "減量の必要なし（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "乾燥水酸化アルミニウムゲル細粒・アルミゲル細粒99% ［内］",
@@ -16958,7 +17504,8 @@
         "dose": "禁忌［長期投与によりアルミニウム脳症，骨症，貧血があらわれることがある］ （1）",
         "status": "contraindicated"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "亜鉛華デンプン ［外］",
@@ -16983,7 +17530,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "亜鉛華軟膏 [外]",
@@ -17008,7 +17556,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "人工涙液マイティア点眼液",
@@ -17033,7 +17582,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "八味地黄丸エキス顆粒（7）［ツムラ］ ［内］",
@@ -17063,7 +17613,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "加味帰脾湯エキス顆粒（137）［ツムラ］ ［内］",
@@ -17088,7 +17639,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "加味逍遙散エキス顆粒（24）［ツムラ］ ［内］",
@@ -17118,7 +17670,8 @@
         "dose": "減量の必要なし（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "半夏瀉心湯エキス顆粒（14）［ツムラ］ ［内］",
@@ -17148,7 +17701,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "単シロップ",
@@ -17173,7 +17727,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "塩酸バンコマイシン散 ［内］",
@@ -17203,7 +17758,8 @@
         "dose": "減量の必要なし［1 回 0.125～0.5g を 1 日 4 回経口投与］ （1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": true
   },
   {
     "name": "塩酸モルヒネ，MSコンチン錠 ［内］，アンペック坐剤 ［外］，モルヒネ塩酸塩注射液 ［注］",
@@ -17245,7 +17801,8 @@
         "dose": "腎不全では代謝物の抱合体が蓄積し，傾眠，意識障害が現れることがあるためやや減量（透析会誌 28: 357-61,1995）",
         "status": "reduce"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "大建中湯エキス顆粒（100）[ツムラ]",
@@ -17275,7 +17832,8 @@
         "dose": "減量の必要なし（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "大柴胡湯エキス顆粒（8）[ツムラ]",
@@ -17305,7 +17863,8 @@
         "dose": "減量の必要なし（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "大黄牡丹皮湯エキス顆粒（33）[ツムラ]",
@@ -17335,7 +17894,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "大黄甘草湯エキス顆粒（84）[ツムラ]",
@@ -17365,7 +17925,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "柴朴湯エキス顆粒（96）［ツムラ］ ［内］",
@@ -17395,7 +17956,8 @@
         "dose": "減量の必要なし（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "柴胡加竜骨牡蛎湯エキス顆粒（12）［ツムラ］ ［内］",
@@ -17425,7 +17987,8 @@
         "dose": "減量の必要なし（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "柴胡桂枝乾姜湯エキス顆粒（11）（ツムラ） ［内］",
@@ -17455,7 +18018,8 @@
         "dose": "減量の必要なし（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "柴胡桂枝湯エキス顆粒（10）［ツムラ］ ［内］",
@@ -17485,7 +18049,8 @@
         "dose": "減量の必要なし（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "柴苓湯エキス顆粒（114）［ツムラ］ ［内］",
@@ -17515,7 +18080,8 @@
         "dose": "減量の必要なし（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "沈降破傷風トキソイド「生研」 ［注］",
@@ -17545,7 +18111,8 @@
         "dose": "腎疾患患者は接種要注意者（1）",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "注射用サイメリン ［注］",
@@ -17575,7 +18142,8 @@
         "dose": "腎障害患者では副作用が強く発現するおそれがあり慎重投与（1）",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "注射用タゴシッド",
@@ -17620,7 +18188,8 @@
         "dose": "透析では除去されない",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": true
   },
   {
     "name": "炭酸水素ナトリウム・炭酸水素ナトリウム錠",
@@ -17650,7 +18219,8 @@
         "dose": "通常は透析液にてアルカリ補充されるため投与の必要はない（5）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "白色ワセリン ［外］",
@@ -17680,7 +18250,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "硫酸Mg補正液1mEq/mL",
@@ -17710,7 +18281,8 @@
         "dose": "Mg の排泄障害があるため注意（1）血中Mg 濃度をみながら投与する（5）",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "葛根湯エキス顆粒（1）［ツムラ］ ［内］",
@@ -17740,7 +18312,8 @@
         "dose": "減量の必要なし（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "薬用炭 ［内］",
@@ -17765,7 +18338,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "薬用石けん ［外］＜中止＞",
@@ -17790,7 +18364,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "酸化マグネシウム錠, 重質酸化マグネシウム ［内］",
@@ -17820,7 +18395,8 @@
         "dose": "腎不全患者では Mg の排泄障害があるため慎重投与（1）",
         "status": "caution"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "酸棗仁湯エキス顆粒（103）［ツムラ］ ［内］",
@@ -17850,7 +18426,8 @@
         "dose": "減量の必要なし（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "麦門冬湯エキス顆粒（29）［ツムラ］ ［内］",
@@ -17880,7 +18457,8 @@
         "dose": "常用量（1）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "麻子仁丸エキス顆粒（126）",
@@ -17910,7 +18488,8 @@
         "dose": "透析患者の便秘治療に有用（前田陽一郎, 他: 第 58 回日本透析医学会 2013）",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "麻杏よく甘湯エキス顆粒（78）ツムラ",
@@ -17935,7 +18514,8 @@
         "dose": "データなし",
         "status": "unknown"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "麻杏甘石湯エキス顆粒（55）ツムラ",
@@ -17965,7 +18545,8 @@
         "dose": "減量の必要なし（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "麻黄湯エキス顆粒（27）",
@@ -17995,7 +18576,8 @@
         "dose": "常用量（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   },
   {
     "name": "麻黄附子細辛湯エキス顆粒（127）",
@@ -18025,6 +18607,7 @@
         "dose": "減量の必要なし（5）",
         "status": "normal"
       }
-    ]
+    ],
+    "isAntibiotic": false
   }
 ]

@@ -26,15 +26,20 @@ export default function Home() {
     <div className="flex flex-col min-h-full bg-gray-900 text-gray-100">
       {/* Header */}
       <header className="bg-gray-800 text-white px-4 py-3 sticky top-0 z-10 shadow-md border-b border-gray-700">
-        <div className="flex items-center gap-2">
-          <Image
-            src="/icon-192.png"
-            alt="KidneyRx"
-            width={32}
-            height={32}
-            className="rounded-lg"
-          />
-          <h1 className="text-lg font-bold">KidneyRx</h1>
+        <div className="flex items-center justify-between">
+          <div className="flex items-center gap-2">
+            <Image
+              src="/icon-192.png"
+              alt="KidneyRx"
+              width={32}
+              height={32}
+              className="rounded-lg"
+            />
+            <h1 className="text-lg font-bold">KidneyRx</h1>
+          </div>
+          <Link href="/about" className="text-xs text-gray-400 hover:text-blue-400">
+            製作者
+          </Link>
         </div>
 
         {/* Route Tabs */}
@@ -123,14 +128,7 @@ export default function Home() {
             </div>
           )}
 
-          <div className="flex items-center justify-center gap-3 pt-2">
-            <Link
-              href="/about"
-              className="text-blue-400 hover:text-blue-300"
-            >
-              製作者情報
-            </Link>
-            <span className="text-gray-600">|</span>
+          <div className="flex items-center justify-center pt-2">
             <span className="text-gray-500">最終更新: 2025年5月</span>
           </div>
         </div>

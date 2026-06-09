@@ -84,7 +84,7 @@ export default function DrugList({
   return (
     <>
       {/* Search */}
-      <div className="sticky top-[52px] z-10 bg-gray-900 px-4 pt-3 pb-2 shadow-sm border-b border-gray-800">
+      <div className="sticky top-[52px] z-10 bg-gray-900 px-4 pt-3 pb-2 shadow-sm border-b border-gray-800 max-w-3xl mx-auto">
         <div className="relative">
           <input
             type="text"
@@ -135,7 +135,7 @@ export default function DrugList({
       </div>
 
       {/* Legend */}
-      <div className="px-4 pt-2 pb-1 flex items-center gap-3 text-[10px]">
+      <div className="max-w-3xl mx-auto px-4 pt-2 pb-1 flex items-center gap-3 text-[10px]">
         <span className="text-gray-500">{filtered.length}件</span>
         <span className="text-gray-600">|</span>
         <span className="text-gray-500">HD=透析</span>
@@ -143,7 +143,7 @@ export default function DrugList({
       </div>
 
       {/* Drug list */}
-      <ul className="px-4 space-y-1 pb-4">
+      <ul className="max-w-3xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-1 pb-4">
         {filtered.map((drug) => {
           const idx = allDrugs.indexOf(drug);
           const ds = STATUS_BADGE[drug.status.dialysis];

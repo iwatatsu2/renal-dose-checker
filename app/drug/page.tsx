@@ -75,14 +75,16 @@ function DrugDetailContent() {
     <div className="flex flex-col min-h-full bg-gray-900 text-gray-100">
       {/* Header */}
       <header className="bg-gray-800 px-4 py-3 sticky top-0 z-10 border-b border-gray-700">
-        <Link href="/" className="text-blue-400 text-sm">← 一覧に戻る</Link>
-        <h1 className="text-base font-bold mt-1">{drug.name}</h1>
-        {drug.genericName && (
-          <p className="text-xs text-gray-400 mt-0.5">{drug.genericName}</p>
-        )}
+        <div className="max-w-3xl mx-auto">
+          <Link href="/" className="text-blue-400 text-sm">← 一覧に戻る</Link>
+          <h1 className="text-base font-bold mt-1">{drug.name}</h1>
+          {drug.genericName && (
+            <p className="text-xs text-gray-400 mt-0.5">{drug.genericName}</p>
+          )}
+        </div>
       </header>
 
-      <main className="flex-1 px-4 py-3 space-y-3">
+      <main className="flex-1 max-w-3xl mx-auto w-full px-4 py-3 space-y-3">
         {/* Antibiotic Link Banner */}
         {drug.isAntibiotic && (
           <a
@@ -153,7 +155,7 @@ function DrugDetailContent() {
 
       {/* Footer */}
       <footer className="bg-gray-800 border-t border-gray-700 px-4 py-3">
-        <p className="text-[11px] text-gray-500 text-center">
+        <p className="max-w-3xl mx-auto text-[11px] text-gray-500 text-center">
           出典：PMDA添付文書情報等を基に作成。実際の処方は最新の添付文書を確認してください。
         </p>
       </footer>

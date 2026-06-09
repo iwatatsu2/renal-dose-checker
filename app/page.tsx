@@ -26,7 +26,7 @@ export default function Home() {
     <div className="flex flex-col min-h-full bg-gray-900 text-gray-100">
       {/* Header */}
       <header className="bg-gray-800 text-white px-4 py-3 sticky top-0 z-10 shadow-md border-b border-gray-700">
-        <div className="flex items-center justify-between">
+        <div className="max-w-3xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Image
               src="/icon-192.png"
@@ -46,7 +46,7 @@ export default function Home() {
         </div>
 
         {/* Route Tabs */}
-        <div className="flex gap-1 mt-2">
+        <div className="max-w-3xl mx-auto flex gap-1 mt-2">
           {TABS.map((tab) => (
             <button
               key={tab.key}
@@ -70,7 +70,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="bg-gray-800 border-t border-gray-700 px-4 py-4">
-        <div className="space-y-3 text-xs text-gray-400">
+        <div className="max-w-3xl mx-auto space-y-3 text-xs text-gray-400">
           {/* Status legend */}
           <div className="flex flex-wrap gap-2 justify-center">
             <span className="px-2 py-0.5 rounded bg-red-900/60 text-red-300 border border-red-700/50">
